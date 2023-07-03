@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.landing_container{
+    background: url(../assets/copia-de-moodboard-final-celeste-1.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.menu_landing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.75rem;
+    margin-left: 8.62rem;
+    align-items: flex-start;
+}
+
+.menu_link{
+    font-size: 2.44125rem;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: var(--neutro-7, #fff);
+    cursor: pointer;
+}
+
+.menu_link:hover{
+    color: #eae9e9;
+}
+
+.social_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social{
+    width: auto;
+    display: flex;
+    gap: 1.69rem;
+    margin-top: 8.75rem;
+    margin-right: 7.12rem;
+    justify-content: flex-end;
+}
+
+.social_link img{
+    width: 3.3125rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-right: 7.12rem;
+    margin-bottom: 8.62rem;
+    align-self: flex-end;
+}
+
+.name h1{
+    color: #FFF;
+    font-size: 4.375rem;
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.75rem;
+    text-align: right;
+}
+
+.libros_container{
+    height: 100vh;
+    /* padding: 7.81rem; */
+    background: url('../assets/moodboard-final-celeste-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mancha{
+    position: absolute;
+    z-index: 0;
+    left: 2rem;
+}
+
+.titulo_libros{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 7.81rem;
+    padding-top: 7.81rem;
+}
+
+.titulo_libros h2{
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+}
+
+.titulo_libros span{
+    flex-grow: 1;
+    height: 0.25rem;
+    background: #000;
+    z-index: 1;
+}
+
+.galeria{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.galeria img{
+    height: 12rem;
+    transition: .8s ease;
+}
+
+.galeria img:hover{
+    transform: scale(2.3);
+    cursor: pointer;
+}
+
+.biografia_container{
+    height: 120vh;
+    /* padding-top: 7.81rem; */
+    background: url('../assets/moodboard-final-celeste-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titulo_biografia{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    /* padding-right: 7.81rem; */
+    margin-bottom: 8.37rem;
+    padding-right: 8.95rem;
+    /* border: 2px solid black; */
+}
+
+.titulo_biografia h2{
+    display: flex;
+    width: 13.1875rem;
+    height: 3.625rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 2.44125rem;
+    font-family: Fira Mono;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #121212;
+}
+
+.titulo_biografia span{
+    width: 74.937rem;
+    height: 0.25rem;
+    background: #000;
+}
+
+.biografia_content{
+    display: flex;
+    gap: 2.31rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia_content img{
+    width: 23.75rem;
+    height: 24.0625rem;
+    
+}
+
+.biografia_content p{
+    display: flex;
+    width: 48.75rem;
+    height: 17.875rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem;
+    justify-content: center;
+}
+
+footer{
+    background-color:#5C5D66;
+    height: 18rem;
+    padding: 7rem 0;
+}
+
+.footer_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_footer{
+    border-right: 2px solid #fff;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.social_footer img{
+    width: 3.3125rem;
+}
+
+.textos_footer{
+    padding-left: 40px;
+    color: #fff;
+    font-family: Laila;
+    font-weight: 400;
+}

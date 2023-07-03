@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detalles_container{
+    background: url('../assets/moodboard-final-celeste-2.png');
+    height: auto;
+    padding-bottom: 10rem;
+}
+
+.detalles_titulo{
+    display: flex;
+    align-items: center;
+    gap: 2.05rem;
+    padding-right: 7.81rem;
+    padding-top: 7.81rem;
+    margin-bottom: 4.12rem;
+}
+
+.detalles_titulo span{
+    width: 64.88088rem;
+    height: 0.25rem;
+    background: #121212;
+}
+
+.detalles_titulo h2{
+    color: #1b1a1a;
+    text-align: right;
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detalles_content{
+    display: flex;
+    justify-content: center;
+    gap: 10.62rem;
+}
+
+.detalles_imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.detalles_imagen img{
+    width: 30rem;
+    height: 37.0625rem;
+    
+}
+
+.detalles_textos{
+    width: 36.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.88rem;
+    text-align: center;
+}
+
+.resena{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.resena p{
+    color: #1b1a1a;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
+    font-size: 1.625rem;
+    font-family: Fira Sans;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.resena h3{
+    color: #1b1a1a;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
