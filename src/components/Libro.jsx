@@ -33,7 +33,9 @@ function Libro() {
       </div>
       <div className={styles.detalles_content}>
         <div className={styles.detalles_imagen}>
-          <img src={imagenPortada} alt="" />
+          <div className={styles.framelibro}>
+            <img src={imagenPortada} alt="" />
+          </div>
           <p>(Año 2005)</p>
         </div>
         <div className={styles.detalles_textos}>

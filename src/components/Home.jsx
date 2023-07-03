@@ -53,13 +53,14 @@ function Home() {
             <a href="/libros"><img src={libro4} alt="" /></a>
             <a href="/libros"><img src={libro5} alt="" /></a>
             <a href="/libros"><img src={libro6} alt="" /></a>
-            <a href="/libros"><img src={libro7} alt="" /></a>
-            <a href="/libros"><img src={libro8} alt="" /></a>
+            {/* <a href="/libros"><img src={libro7} alt="" /></a> */}
+            {/* <a href="/libros"><img src={libro8} alt="" /></a> */}
           </div>
         </div>
       </section>
       <section id="biografia">
           <div className={styles.biografia_container}>
+            <img src={mancha} alt="" className={styles.manchabio} />
             <div className={styles.titulo_biografia}>
               <span className={styles.linea}></span>
               <h2>BIOGRAFÍA</h2>
