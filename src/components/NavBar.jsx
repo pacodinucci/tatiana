@@ -1,32 +1,51 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '../styles/NavBar.module.css';
-import menuIcon from '../assets/menuh.svg';
-import closeIcon from '../assets/cerrar.svg';
+import ig from '../assets/igverde.svg';
+import tw from '../assets/twverde.svg';
 
-const NavBar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+function NavBar() {
 
-  const toggleMenu = () => {
-    setMenuOpen(prevState => !prevState);
-  };
+    const handleClick = (event, target) => {
+        event.preventDefault();
+        const element = document.querySelector(target);
+        if (element) {
+          window.scrollTo({
+            top: element.offsetTop,
+            behavior: 'smooth',
+          });
+        }
+    };
 
-  return (
-    <nav>
-      {/* {menuOpen ? ( */}
-        <div className={styles.menu}>
-          <img src={menuIcon} alt="" onClick={toggleMenu} />
-          <ul className={styles.menu_links}>
-            <li>BIO</li>
-            <li>LIBROS</li>
-            <li>OTRAS COSAS</li>
-            <li>PRENSA</li>
-          </ul>
-        </div>
-      {/* ) : ( */}
-        {/* <img src={menuIcon} alt="" onClick={toggleMenu} /> */}
-      {/* )} */}
-    </nav>
-  );
-};
+    return (
+        <nav>
+            <div className={styles.nav_container}>
+                <div className={styles.menu_container}>
+                    <ul className={styles.menu_horizontal}>
+                        <li className={styles.menu_item}>
+                            <a href="./#biografia">BIO</a>
+                        </li>
+                        <li className={styles.menu_item}>
+                            <a href="#libros">LIBROS</a>
+                        </li>
+                        <li className={styles.menu_item}>
+                            <a href="#">OTRAS COSAS</a>
+                        </li>
+                        <li className={styles.menu_item}>
+                            <a href="#">PRENSA</a>
+                        </li>
+                        <li className={styles.menu_item}>
+                            <a href="#footer">CONTACTO</a>
+                        </li>
+                        
+                    </ul>
+                    <div className={styles.social}>
+                        <li><img src={tw} alt="" /></li>
+                        <li><img src={ig} alt="" /></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    )
+}
 
 export default NavBar;

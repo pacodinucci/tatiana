@@ -18,7 +18,7 @@ html{
     background-size: cover;
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: calc(100vh - 11.4375rem);
     justify-content: space-between;
 }
 
@@ -48,7 +48,7 @@ html{
 
 .social_name{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
 }
 
@@ -85,7 +85,7 @@ html{
 }
 
 .libros_container{
-    height: 100vh;
+    height: 130vh;
     /* padding: 7.81rem; */
     background: url('../assets/moodboard-final-celeste-2.png');
     background-repeat: no-repeat;
@@ -93,49 +93,33 @@ html{
     position: relative;
 }
 
-.mancha{
-    position: absolute;
-    z-index: 0;
-    transform: rotate(180deg);
-    overflow: visible;
-    top: 0;
-    left: -33%;
-    /* border: 2px solid black; */
-    clip-path: polygon(0 0, 66.67% 0, 66.67% 100%, 0 100%);
-}
-
 .titulo_libros{
     display: flex;
+    height: 13.9375rem;
+    padding: 4.875rem 0rem 4.8125rem 0rem;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding-left: 7.81rem;
-    padding-top: 7.81rem;
+    flex-shrink: 0;
+    background: var(--primario-principal-5, #34ABA7);
 }
 
 .titulo_libros h2{
+    color: #FFF;
     font-size: 2.44125rem;
-    font-family: Fira Mono;
+    font-family: Fira Sans;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
-    z-index: 1;
-}
-
-.titulo_libros span{
-    flex-grow: 1;
-    height: 0.25rem;
-    background: #000;
-    z-index: 1;
 }
 
 .galeria{
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: .5rem;
     justify-content: space-evenly;
     align-items: center;
-    height: 70%;
-    margin: 0 8.13rem;
+    height: 50%;
+    margin: 0 12rem;
 }
 
 .galeria img{
@@ -160,16 +144,6 @@ html{
     overflow-y: visible;
 }
 
-.manchabio{
-    position: absolute;
-    z-index: 0;
-    /* transform: rotate(180deg); */
-    top: -120px; 
-    right: -33%;
-    /* border: 2px solid black; */
-    clip-path: polygon(0 0, 66.67% 0, 66.67% 100%, 0 100%);
-}
-
 .titulo_biografia{
     display: flex;
     align-items: center;
@@ -180,32 +154,21 @@ html{
     /* border: 2px solid black; */
 }
 
-.titulo_biografia h2{
-    display: flex;
-    width: 13.1875rem;
-    height: 3.625rem;
-    flex-direction: column;
-    flex-shrink: 0;
-    font-size: 2.44125rem;
-    font-family: Fira Mono;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #121212;
-    z-index: 1;
-}
-
-.titulo_biografia span{
-    width: 74.937rem;
-    height: 0.25rem;
-    background: #000;
-}
 
 .biografia_content{
     display: flex;
     gap: 2.31rem;
     justify-content: center;
     align-items: center;
+    margin-top: 17.44rem;
+}
+
+.biografia_content h2{
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .biografia_content img{
