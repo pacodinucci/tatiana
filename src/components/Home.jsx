@@ -27,7 +27,7 @@ function Home() {
             <a href="" className={styles.menu_link}>PRENSA</a>
             <a href="" className={styles.menu_link}>CONTACTO</a> */}
            </div>
-          <div className={styles.social_name}>
+          
             {/* <div className={styles.social}>
                 <a href="" className={styles.social_link}><img src={tw} alt="" /></a>
                 <a href="" className={styles.social_link}><img src={ig} alt="" /></a>
@@ -36,7 +36,7 @@ function Home() {
               <h1>TATIANA</h1>
               <h1>GORANSKY</h1>
             </div>
-          </div>
+          
         </div>
       </section>
       <section id="biografia">

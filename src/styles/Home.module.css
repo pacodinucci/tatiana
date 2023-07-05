@@ -46,11 +46,7 @@ html{
     color: #eae9e9;
 }
 
-.social_name{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-}
+
 
 .social{
     width: auto;
@@ -70,7 +66,7 @@ html{
     display: flex;
     flex-direction: column;
     margin-right: 7.12rem;
-    margin-bottom: 8.62rem;
+    margin-bottom: 5.75rem;
     align-self: flex-end;
 }
 
@@ -169,6 +165,7 @@ html{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    color: var(--neutro-7, #1f1f1f);
 }
 
 .biografia_content img{
@@ -184,7 +181,7 @@ html{
     flex-direction: column;
     flex-shrink: 0;
     overflow: hidden;
-    color: #000;
+    color: var(--neutro-7, #1f1f1f);
     text-overflow: ellipsis;
     font-size: 1rem;
     font-family: Fira Sans;

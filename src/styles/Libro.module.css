@@ -49,6 +49,24 @@
     gap: 1.19rem;
 }
 
+.resena p{
+    font-size: 1.625rem;
+    font-family: Fira Sans;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--neutro-7, #1f1f1f);
+}
+
+.resena h3{
+    font-size: 1rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--neutro-7, #1f1f1f);
+}
+
 footer{
     background-color:#5C5D66;
     height: 18rem;
