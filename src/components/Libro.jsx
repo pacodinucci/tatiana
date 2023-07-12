@@ -30,15 +30,20 @@ function Libro() {
     <div className={styles.detalles_container}>
       <NavBar/>
       <div className={styles.detalles_content}>
-        
-        <div className={styles.detalles_imagen}>
-          <img src={imagenPortada} alt="" />
+        <div className={styles.detalles_principal}>
+          <div className={styles.detalles_titulo}>
+              <h2>LULÚPE MARÍA T.</h2>
+          </div>
+          <div className={styles.detalles_imagen}>
+            <img src={imagenPortada} alt="" />
+          </div>
         </div>
         <div className={styles.detalles_resenas}>
-            <div className={styles.detalles_titulo}>
-              <h2>LULÚPE MARÍA T.</h2>
-            </div>
             <div className={styles.detalles_textos}>
+              <div className={styles.resena}>
+                  <p>“Nada parecido en el mundo literario como para establecer comparaciones y, por eso mismo, un libro recomendable”.</p>
+                  <h3>Rolling Stone</h3>
+              </div>
               <div className={styles.resena}>
                 <p>“Lulúpe María T es una rareza en la nueva narrativa Argentina digna de destacar.”</p>
                 <h3>Rayando los Confines. Argentina.</h3>
@@ -60,7 +65,27 @@ function Libro() {
                     atractiva en su ambigüedad.”.</p>
                 <h3>Suplemento Cultura, Diario Perfil. Argentina.</h3>
               </div>
+            </div>
+            <div className={styles.sinopsis}>
+              <h2>SINOPSIS</h2>
+              <p>En el comienzo el planteo narrativo parece simple: el libro promete la vida de Lulú en cálidas
+                viñetas y un humor ligero sin excluir alguna que otra cuota de violencia. 
+                Rápidamente, sin
+                embargo, Tatiana Goransky enrarece forma y contenido haciéndolos dialogar y fusionarse. 
+                Lulú,
+                después de un trágico inicio sexual y habiendo probado el mecanismo de la venganza,
+                emprenderá un viaje arbitrario que se repetirá en paralelo con la persecución de Benito, su
+                atípico pretendiente. Mientras tanto la promesa de un avance cronológico en la vida de Lulú
+                empezara resquebrajarse para luego simplemente estallar.</p>
             </div> 
+            <div className={styles.links}>
+              <h2>RESEÑAS</h2>
+              <div className={styles.links_container}>
+                <a href="">http://rayandolosconfines.com/critica_sexyfant.html</a>
+                <a href="">https://www.pagina12.com.ar/diario/suplementos/libros/10-2017-2006-04- 04.html</a>
+                <a href="">http://elremiseroabsoluto.blogspot.com.ar/2006/02/diferentes-matices-del-rojo.html</a>
+              </div>
+            </div>
         </div>
       </div>
       <footer className={styles.footer} id="footer">

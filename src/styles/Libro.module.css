@@ -14,58 +14,144 @@
 
 .detalles_content{
     display: flex;
-    justify-content: space-evenly;
-    gap: 14.31rem;
-    margin: 8.25rem 12.69rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.detalles_principal .detalles_titulo{
+    text-align: center;
+    /* font-style: italic; */
+    line-height: normal;
+    margin-top: 5.31rem;
+}
+
+.detalles_principal .detalles_titulo h2{
+    font-weight: 400;
+    font-family: Fira Sans;
+    font-size: 2.44125rem;
+    color: var(--primario-6, #257A77);
+}
+
+.detalles_principal .detalles_imagen{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.88rem;
+    margin-bottom: 4.94rem;
 }
 
 .detalles_resenas{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.detalles_titulo h2{
-    color: var(--primario-7, #164948);
-    font-size: 2.44125rem;
+.detalles_resenas .detalles_textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.detalles_textos .resena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 64.375rem;
+}
+
+.detalles_textos .resena p{
+    color: #000;
+    text-align: center;
     font-family: Fira Sans;
+    font-size: 1.625rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detalles_textos .resena h3{
+    color: #000;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.sinopsis{
+    margin-top: 6.94rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64.625rem;
+}
+
+.sinopsis h2{
+    font-family: Fira Sans;
+    font-size: 2.44125rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
 }
 
-.detalles_textos{
-    margin-top: 4.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.resena{
+.sinopsis p{
+    color: #000;
     text-align: center;
-    margin-bottom: 6.88rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.19rem;
-}
-
-.resena p{
-    font-size: 1.625rem;
     font-family: Fira Sans;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-    color: var(--neutro-7, #1f1f1f);
-}
-
-.resena h3{
-    font-size: 1rem;
-    font-family: Fira Sans;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: var(--neutro-7, #1f1f1f);
+    letter-spacing: 0.03rem;
 }
+
+.links{
+    margin-top: 4.62rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.62rem;
+}
+
+.links h2{
+    font-family: Fira Sans;
+    font-size: 2.44125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.links_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14.87rem;
+    gap: 2.25rem;
+}
+
+.links a{
+    font-family: Fira Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+
 
 footer{
     background-color:#5C5D66;
