@@ -21,17 +21,10 @@ function Home() {
       <section>
         <div className={styles.landing_container}>
           <div className={styles.menu_landing}>
-            {/* <a href="#biografia" className={styles.menu_link}>BIO</a>
-            <a href="#libros" className={styles.menu_link}>LIBROS</a>
-            <a href="" className={styles.menu_link}>OTRAS COSAS</a>
-            <a href="" className={styles.menu_link}>PRENSA</a>
-            <a href="" className={styles.menu_link}>CONTACTO</a> */}
+           
            </div>
           
-            {/* <div className={styles.social}>
-                <a href="" className={styles.social_link}><img src={tw} alt="" /></a>
-                <a href="" className={styles.social_link}><img src={ig} alt="" /></a>
-            </div> */}
+           
             <div className={styles.name}>
               <h1>TATIANA</h1>
               <h1>GORANSKY</h1>
@@ -58,12 +51,12 @@ function Home() {
             <h2>LIBROS</h2>
           </div>
           <div className={styles.galeria}>
-            <a href="/libros"><img src={libro1} alt="" /></a>
-            <a href="/libros"><img src={libro2} alt="" /></a>
-            <a href="/libros"><img src={libro3} alt="" /></a>
-            <a href="/libros"><img src={libro4} alt="" /></a>
-            <a href="/libros"><img src={libro5} alt="" /></a>
-            <a href="/libros"><img src={libro6} alt="" /></a>
+            <a href="/libros/1"><img src={libro1} alt="" /></a>
+            <a href="/libros/2"><img src={libro2} alt="" /></a>
+            <a href="/libros/3"><img src={libro3} alt="" /></a>
+            <a href="/libros/4"><img src={libro4} alt="" /></a>
+            <a href="/libros/5"><img src={libro5} alt="" /></a>
+            <a href="/libros/6"><img src={libro6} alt="" /></a>
             {/* <a href="/libros"><img src={libro7} alt="" /></a> */}
             {/* <a href="/libros"><img src={libro8} alt="" /></a> */}
           </div>
