@@ -51,12 +51,12 @@ function Home() {
             <h2>LIBROS</h2>
           </div>
           <div className={styles.galeria}>
-            <a href="/libros/1"><img src={libro1} alt="" /></a>
-            <a href="/libros/2"><img src={libro2} alt="" /></a>
-            <a href="/libros/3"><img src={libro3} alt="" /></a>
-            <a href="/libros/4"><img src={libro4} alt="" /></a>
-            <a href="/libros/5"><img src={libro5} alt="" /></a>
-            <a href="/libros/6"><img src={libro6} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/1"><img src={libro1} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/2"><img src={libro2} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/3"><img src={libro3} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/4"><img src={libro4} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/5"><img src={libro5} alt="" /></a>
+            <a href="https://tatianagoransky.onrender.com/libros/6"><img src={libro6} alt="" /></a>
             {/* <a href="/libros"><img src={libro7} alt="" /></a> */}
             {/* <a href="/libros"><img src={libro8} alt="" /></a> */}
           </div>
