@@ -35,7 +35,7 @@
 }
 
 .detalles_principal .detalles_titulo h2{
-    font-weight: 400;
+    font-weight: 300;
     font-family: Fira Sans;
     font-size: 2.44125rem;
     color: var(--primario-6, #257A77);
@@ -46,7 +46,8 @@
     display: flex;
     justify-content: center;
     margin-top: 3.88rem;
-    margin-bottom: 4.94rem;
+    margin-bottom: 5.19rem;
+    gap: 1.5rem;
 }
 
 .detalles_resenas{
@@ -90,12 +91,20 @@
     line-height: normal;
 }
 
-.sinopsis{
+.sinopsis_container{
+    background: var(--primario-6, #257A77);
     margin-top: 6.94rem;
+    width: 100vw;
+    padding: 4.62rem 0;
+}
+
+.sinopsis{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 64.625rem;
+    color: #FFF;
 }
 
 .sinopsis h2{
@@ -107,7 +116,6 @@
 }
 
 .sinopsis p{
-    color: #000;
     text-align: center;
     font-family: Fira Sans;
     font-size: 1.25rem;
