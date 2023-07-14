@@ -4,12 +4,11 @@ import ig from '../assets/instagram.svg';
 import tw from '../assets/vector.svg';
 import libro1 from '../assets/libro1.png';
 import libro2 from '../assets/libro2.png';
-import libro3 from '../assets/libro3.png';
-import libro4 from '../assets/libro4.png';
-import libro5 from '../assets/libro5.png';
-import libro6 from '../assets/libro6.png';
-import libro7 from '../assets/libro7.png';
-import libro8 from '../assets/libro8.png';
+import libro3 from '../assets/dondelagua.png';
+import libro4 from '../assets/ballboy.png';
+import libro5 from '../assets/fadeout.png';
+import libro6 from '../assets/mujerpocoprobable.png';
+import libro7 from '../assets/quisieraamartemenos.png';
 import imagenBio from '../assets/foto-1.png';
 import mancha from '../assets/manchaturquesa.svg';
 import NavBar from './NavBar';
@@ -50,19 +49,34 @@ function Home() {
           <div className={styles.titulo_libros}>
             <h2>LIBROS</h2>
           </div>
-          <div className={styles.galeria}>
-            <a href="/libros/1"><img src={libro1} alt="" /></a>
-            <a href="/libros/2"><img src={libro2} alt="" /></a>
-            <a href="/libros/3"><img src={libro3} alt="" /></a>
-            <a href="/libros/4"><img src={libro4} alt="" /></a>
-            <a href="/libros/5"><img src={libro5} alt="" /></a>
-            <a href="/libros/6"><img src={libro6} alt="" /></a>
-            {/* <a href="/libros"><img src={libro7} alt="" /></a> */}
-            {/* <a href="/libros"><img src={libro8} alt="" /></a> */}
+          <div className={styles.galeria_container}>
+            <div className={styles.galeria}>
+              <a href="/libros/4"><img src={libro4} alt="" /></a>
+              <a href="/libros/5"><img src={libro5} alt="" /></a>
+              <a href="/libros/6"><img src={libro6} alt="" /></a>
+              <a href="/libros/7"><img src={libro7} alt="" /></a>
+            </div>
+            <div className={styles.galeria}>
+              <a href="/libros/3"><img src={libro3} alt="" /></a>
+              <a href="/libros/2"><img src={libro2} alt="" /></a>
+              <a href="/libros/1"><img src={libro1} alt="" /></a>
+            </div>
           </div>
         </div>
       </section>
-      {/* <section>PRENSA</section> */}
+      <section id="contacto" className={styles.contacto}>
+        <div className={styles.contacto_container}>
+            <div className={styles.titulo_contacto}>
+              <h2>CONTACTO</h2>
+            </div>
+            <form action="" className={styles.form}>
+                <input className={styles.input} type="text" name="" id="" placeholder="Nombre"/>
+                <input className={styles.input} type="email" name="" id="" placeholder="Email"/>
+                <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input className={styles.input} type="submit" value="Enviar"/>
+            </form>
+        </div>
+      </section>
       <footer className={styles.footer} id="footer">
           <div className={styles.footer_container}>
               <div className={styles.social_footer}>

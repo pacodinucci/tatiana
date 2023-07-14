@@ -34,7 +34,7 @@ function NavBar() {
                             <a href="#">PRENSA</a>
                         </li>
                         <li className={styles.menu_item}>
-                            <a href="#footer">CONTACTO</a>
+                            <a href="#contacto">CONTACTO</a>
                         </li>
                         
                     </ul>

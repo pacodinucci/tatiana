@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
 
 *{
     margin: 0;
@@ -66,15 +67,15 @@ html{
 .name{
     display: flex;
     flex-direction: column;
-    margin-right: 7.12rem;
-    margin-bottom: 5.75rem;
+    margin-right: 12.63rem;
+    margin-bottom: 9.06rem;
     align-self: flex-end;
 }
 
 .name h1{
     color: #FFF;
     font-size: 3.875rem;
-    font-family: 'Laila';
+    font-family: 'Noto Music';
     font-style: normal;
     font-weight: 400;
     line-height: 3.75rem;
@@ -82,8 +83,8 @@ html{
 }
 
 .libros_container{
-    height: 130vh;
-    /* padding: 7.81rem; */
+    height: 180vh;
+    /* border: 2px solid red; */
     background: url('../assets/moodboard-final-celeste-2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,6 +110,13 @@ html{
     line-height: normal;
 }
 
+.galeria_container{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
 .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +125,7 @@ html{
     align-items: center;
     height: 50%;
     margin: 0 12rem;
+    /* border: 2px solid red; */
 }
 
 .galeria img{
@@ -191,6 +200,90 @@ html{
     line-height: 2.1875rem;
     justify-content: center;
 }
+
+/* .contacto{
+    background: #fff;
+    padding: 100px 30px;
+} */
+
+.contacto_container{
+    background: url('../assets/moodboard-final-celeste-2.png');
+    padding-bottom: 8rem;
+}
+
+.titulo_contacto{
+    display: flex;
+    height: 13.9375rem;
+    padding: 4.875rem 0rem 4.8125rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--primario-principal-5, #34ABA7);
+}
+
+.titulo_contacto h2{
+    color: #FFF;
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width: 60%;
+}
+
+.input{
+    background: transparent;
+    border: 2px solid  #34ABA7;
+    /* border-radius: 8px; */
+    color: #34ABA7;
+    outline: none;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: #34ABA7;
+    font-family: 'Fira Sans';
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+    font-family: 'Fira Sans';
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #fff;
+    background:#34ABA7;
+}
+
+/* .contacto h2{
+    margin-left: 50px;
+    color: #34ABA7;
+    font-family: 'Satoshi';
+    font-weight: 400;
+} */
 
 footer{
     background-color:#5C5D66;
