@@ -94,7 +94,7 @@
 .sinopsis_container{
     background: var(--primario-6, #257A77);
     margin-top: 6.94rem;
-    width: 100vw;
+    width: 98.9vw;
     padding: 4.62rem 0;
 }
 
@@ -145,6 +145,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
     margin-bottom: 14.87rem;
     gap: 2.25rem;
 }
@@ -155,8 +156,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: none;
-    color: #000;
+    /* text-decoration: none; */
+    color: #257A77;
 }
 
 

@@ -55,7 +55,7 @@ function Libro() {
               <div className={styles.links_container}>
                 {libro.links && libro.links.length > 0 ? (
                   libro.links.map((enlace, index) => (
-                    <a href={enlace.link} key={index}>
+                    <a href={enlace.link} target="_blank" rel="noopener noreferrer" key={index}>
                       {enlace.titulo}
                     </a>
                   ))
