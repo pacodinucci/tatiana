@@ -51,10 +51,10 @@ function Home() {
           </div>
           <div className={styles.galeria_container}>
             <div className={styles.galeria}>
-              <a href="/libros/4"><img src={libro4} alt="" /></a>
-              <a href="/libros/5"><img src={libro5} alt="" /></a>
-              <a href="/libros/6"><img src={libro6} alt="" /></a>
               <a href="/libros/7"><img src={libro7} alt="" /></a>
+              <a href="/libros/6"><img src={libro6} alt="" /></a>
+              <a href="/libros/5"><img src={libro5} alt="" /></a>
+              <a href="/libros/4"><img src={libro4} alt="" /></a>
             </div>
             <div className={styles.galeria}>
               <a href="/libros/3"><img src={libro3} alt="" /></a>
