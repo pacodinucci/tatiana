@@ -87,7 +87,7 @@ html{
 .libros_container{
     height: auto;
     /* border: 2px solid red; */
-    background: url('../assets/moodboard-final-celeste-2.png');
+    /* background: url('../assets/moodboard-final-celeste-2.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -145,7 +145,7 @@ html{
 .biografia_container{
     height: 100vh;
     /* padding-top: 7.81rem; */
-    background: url('../assets/moodboard-final-celeste-2.png');
+    /* background: url('../assets/moodboard-final-celeste-2.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -213,7 +213,7 @@ html{
 } */
 
 .contacto_container{
-    background: url('../assets/moodboard-final-celeste-2.png');
+    /* background: url('../assets/moodboard-final-celeste-2.png'); */
     padding-bottom: 8rem;
 }
 
