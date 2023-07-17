@@ -22,7 +22,7 @@ function NavBar() {
                 <div className={styles.menu_container}>
                     <ul className={styles.menu_horizontal}>
                         <li className={styles.menu_item}>
-                            <a href="/#biografia">BIO</a>
+                            <a href="/#biografia" translate='no'>BIO</a>
                         </li>
                         <li className={styles.menu_item}>
                             <a href="/#libros">LIBROS</a>

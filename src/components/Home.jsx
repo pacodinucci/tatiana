@@ -25,8 +25,8 @@ function Home() {
           
            
             <div className={styles.name}>
-              <h1>TATIANA</h1>
-              <h1>GORANSKY</h1>
+              <h1 translate='no'>TATIANA</h1>
+              <h1 translate='no'>GORANSKY</h1>
             </div>
           
         </div>
