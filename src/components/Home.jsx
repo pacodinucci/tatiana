@@ -34,7 +34,7 @@ function Home() {
       <section id="libros" className={styles.libros}>
           <div className={styles.galeria_container}>
             <div className={styles.ultimos}>
-              <h2>Últimos libros</h2>
+              <h2>ÚLTIMOS LIBROS</h2>
             </div>
             <div className={styles.galeria}>
               <a href="/libros/7"><img src={libro7} alt="" /></a>
