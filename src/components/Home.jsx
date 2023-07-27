@@ -10,7 +10,7 @@ import libro5 from '../assets/fadeout.png';
 import libro6 from '../assets/mujerpocoprobable.png';
 import libro7 from '../assets/quisieraamartemenos.png';
 import imagenBio from '../assets/foto-1.png';
-import mancha from '../assets/manchaturquesa.svg';
+import bandera from '../assets/bandera.svg';
 import NavBar from './NavBar';
 
 function Home() {
@@ -31,35 +31,43 @@ function Home() {
           
         </div>
       </section>
-      <section id="biografia">
-          <div className={styles.biografia_container}>
-            <div className={styles.biografia_content}>
-              <img src={imagenBio} alt="" />
-              <div className={styles.textosBio}>
-                <h2>BIOGRAFÍA</h2>
-                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera Amarte Menos (2020) y La mujer poco probable (2021).
-                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la antología Barcelona / Buenos Aires, Once Mil kilómetros, un puente entre ambas ciudades.
-                  Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, Uruguay, España y los Estados Unidos.</p>
-              </div>
-            </div>
-          </div>
-      </section>
-      <section id="libros">
-        <div className={styles.libros_container}>
-          <div className={styles.titulo_libros}>
-            <h2>LIBROS</h2>
-          </div>
+      <section id="libros" className={styles.libros}>
           <div className={styles.galeria_container}>
+            <div className={styles.ultimos}>
+              <h2>Últimos libros</h2>
+            </div>
             <div className={styles.galeria}>
               <a href="/libros/7"><img src={libro7} alt="" /></a>
               <a href="/libros/6"><img src={libro6} alt="" /></a>
               <a href="/libros/5"><img src={libro5} alt="" /></a>
-              <a href="/libros/4"><img src={libro4} alt="" /></a>
+              {/* <a href="/libros/4"><img src={libro4} alt="" /></a> */}
             </div>
-            <div className={styles.galeria}>
+            {/* <div className={styles.galeria}>
               <a href="/libros/3"><img src={libro3} alt="" /></a>
               <a href="/libros/2"><img src={libro2} alt="" /></a>
               <a href="/libros/1"><img src={libro1} alt="" /></a>
+            </div> */}
+            <div className={styles.vermasbtn}>
+              <a href="#">VER MÁS</a>
+            </div>
+          </div>
+          
+      </section>
+      <section id="biografia">
+        <div className={styles.libros_container}>
+          <div className={styles.titulo_bio}>
+            <h2>BIOGRAFÍA</h2>
+          </div>
+          <div className={styles.biografia_container}>
+            <div className={styles.biografia_content}>
+              <img src={imagenBio} alt="" />
+              <div className={styles.textosBio}>
+                {/* <h2>BIOGRAFÍA</h2> */}
+                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera Amarte Menos (2020) y La mujer poco probable (2021).<br />
+                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la antología Barcelona / Buenos Aires, Once Mil kilómetros, un puente entre ambas ciudades.<br />
+                  Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, Uruguay, España y los Estados Unidos.</p>
+                <img src={bandera} alt="" />  
+              </div>
             </div>
           </div>
         </div>
