@@ -78,6 +78,39 @@ nav{
     
 }
 
+.menu_vertical a:hover::after,
+.menu_vertical a:focus::after{
+    opacity: 0;
+}
+
+.menu_item{
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --cliph: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.menu_item:hover > .menu_vertical{
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --cliph: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.menu_vertical{
+    transition: clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    list-style: none;
+    width: 15%;
+    padding: 15px;
+    background-color: #fff;
+    margin-left: -6px;
+    box-shadow: -1px -1px 5px -4px rgba(144,138,138,0.55) inset;
+}
+
+.menu_vertical li{
+    padding: 2px;
+}
+
+
+
 .social{
     display: flex;
     list-style: none;
