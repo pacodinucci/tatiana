@@ -98,10 +98,10 @@ nav{
     clip-path: var(--clip);
     position: absolute;
     list-style: none;
-    width: 15%;
+    width: 18%;
     padding: 15px;
     background-color: #fff;
-    margin-left: -6px;
+    margin-left: -16px;
     box-shadow: -1px -1px 5px -4px rgba(144,138,138,0.55) inset;
 }
 
@@ -109,7 +109,9 @@ nav{
     padding: 2px;
 }
 
-
+/* .menu_vertical a{
+    font-size: 1vw;
+} */
 
 .social{
     display: flex;
