@@ -217,7 +217,7 @@ html{
     flex-shrink: 0;
     overflow: hidden;
     color: var(--neutro-7, #1f1f1f);
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     font-size: 2vh;
     font-family: Fira Sans;
     font-style: normal;
