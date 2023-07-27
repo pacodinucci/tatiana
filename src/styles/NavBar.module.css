@@ -100,7 +100,7 @@ nav{
     list-style: none;
     width: 18%;
     padding: 15px;
-    background-color: #fff;
+    background-color: rgba(255,255,255, .9);
     margin-left: -16px;
     box-shadow: -1px -1px 5px -4px rgba(144,138,138,0.55) inset;
 }
