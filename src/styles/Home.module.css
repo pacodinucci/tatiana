@@ -322,8 +322,8 @@ input[type="submit"]:hover{
     font-weight: 400;
 } */
 
-footer{
-    background-color:#5C5D66;
+.footer{
+    background-color:#212121;
     height: 18rem;
     padding: 7rem 0;
 }
