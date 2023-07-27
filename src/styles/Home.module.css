@@ -186,8 +186,9 @@ html{
     justify-content: center;
     align-items: center;
     /* margin-top: 17.44rem; */
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 50vh;
+    width: auto;
 }
 
 .textosBio{
@@ -215,7 +216,7 @@ html{
 
 .textosBio p{
     display: flex;
-    width: 38vw;
+    /* width: 38vw; */
     height: auto;
     flex-direction: column;
     flex-shrink: 0;
