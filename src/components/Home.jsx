@@ -54,7 +54,7 @@ function Home() {
           
       </section>
       <section id="biografia">
-        <div className={styles.libros_container}>
+        <div className={styles.bio_container}>
           <div className={styles.titulo_bio}>
             <h2>BIOGRAFÍA</h2>
           </div>
