@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Libro from './components/Libro';
 import Musica from './components/Musica';
 import Lecturas from './components/Lecturas';
+import Fantasma from './components/Fantasma';
 
 function App() {
   
@@ -15,7 +16,7 @@ function App() {
         <Route path='/libros/:id' element={<Libro/>} />
         <Route path='/musica' element={<Musica/>} />
         <Route path='/lecturas' element={<Lecturas/>}/>
-        <Route path='/fantasma' />
+        <Route path='/fantasma' element={<Fantasma/>}/>
       </Routes>
     </BrowserRouter>
   )
