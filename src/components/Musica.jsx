@@ -20,7 +20,6 @@ function Musica() {
                         <img src={yt} alt="" />
                         <h4>VER MÁS</h4>
                     </a>
-                    
                 </div>
             </section>
         </>
