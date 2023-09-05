@@ -1,0 +1,106 @@
+.titulo{
+    display: flex;
+    height: 15vh;
+    padding: 4.875rem 0rem 4.8125rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--primario-principal-5, #34ABA7);
+}
+
+.titulo h2{
+    color: #FFF;
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.galeria_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    height: 130vh;
+}
+
+.galeria_container_b{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+.galeria{
+    display: flex;
+    gap: 2rem;
+}
+
+.galeria img{
+    width: 30vh;
+    transition: .8s ease;
+    box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+    -webkit-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+    -moz-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+}
+
+.galeria img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.vermasbtn{
+    background: var(--primario-principal-4, #54CBC7);
+    padding: 2vh 1.6vw;
+    border-radius: 0.9375rem;
+}
+
+.vermasbtn a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer{
+    background-color:#212121;
+    height: 18rem;
+    padding: 7rem 0;
+}
+
+.footer_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_footer{
+    border-right: 2px solid #fff;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.social_footer img{
+    width: 3.3125rem;
+}
+
+.textos_footer{
+    padding-left: 40px;
+    color: #fff;
+    font-family: Laila;
+    font-weight: 400;
+}

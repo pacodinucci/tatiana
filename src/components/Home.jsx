@@ -49,7 +49,7 @@ function Home() {
               <a href="/libros/1"><img src={libro1} alt="" /></a>
             </div> */}
             <div className={styles.vermasbtn}>
-              <a href="#">VER TODOS</a>
+              <a href="/libros">VER TODOS</a>
             </div>
           </div>
           

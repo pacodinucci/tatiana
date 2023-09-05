@@ -10,6 +10,7 @@ import fadeout2 from './fadeout.png';
 import mujer from './mujerpocoprobable.png';
 import quisiera1 from './quisieraamartemenos.png';
 import quisiera2 from './quisieraamartemenos2.png';
+import notaquisiera from './nota-quisiera.png';
 
 const librosMock = [
     {
@@ -484,7 +485,10 @@ const librosMock = [
                 titulo: 'Grafografxs',
                 link: 'http://grafografxs.uaemex.mx/vista/numeros/pdf/Grafografxs_5.pdf',
             }
-        ]
+        ],
+        nota: {
+            imagen: [notaquisiera]
+        }
     }
 ]
 

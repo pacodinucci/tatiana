@@ -149,6 +149,7 @@ html{
 
 .bio_container{
     height: 100vh;
+    margin-top: 7%;
 }
 
 .titulo_bio{
@@ -189,7 +190,7 @@ html{
     gap: 2.31rem;
     justify-content: center;
     align-items: center;
-    margin-top: 16vh;
+    margin-top: 20vh;
     /* border: 2px solid red; */
     height: 50vh;
     width: auto;
@@ -255,7 +256,7 @@ html{
 .contacto_container{
     /* background: url('../assets/moodboard-final-celeste-2.png'); */
     padding-bottom: 8rem;
-    margin-top: 2rem;
+    margin-top: 15vh;
 }
 
 .titulo_contacto{

@@ -125,6 +125,41 @@
     letter-spacing: 0.03rem;
 }
 
+.disponible{
+    display: flex;
+    justify-content: center;
+    gap: 8vh;
+    margin-top: 10vh;
+}
+
+.disponible span{
+    width: 9.9375rem;
+    height: 3.375rem;
+    border-radius: 0.9375rem;
+    background: var(--primario-6, #16726F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disponible p{
+    width: 70%;
+    color: var(--intermedio, #FFF);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
 .links{
     margin-top: 4.62rem;
     display: flex;

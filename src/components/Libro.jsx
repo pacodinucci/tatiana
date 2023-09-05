@@ -50,6 +50,15 @@ function Libro() {
                 <p>{libro.sinopsis}</p>
               </div> 
             </div>
+            <div className={styles.disponible}>
+              <span><p>DISPONIBLE EN PAPEL</p></span>
+              <span><p>DISPONIBLE EN E-BOOK</p></span>
+            </div>
+            {libro.nota ? (
+                <div className={styles.nota}>
+                  <img src={libro.nota.imagen[0]} alt="" />
+                </div>
+            ) : null}
             <div className={styles.links}>
               <h2>RESEÑAS</h2>
               <div className={styles.links_container}>

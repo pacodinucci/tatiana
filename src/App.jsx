@@ -5,6 +5,7 @@ import Musica from './components/Musica';
 import Lecturas from './components/Lecturas';
 import Fantasma from './components/Fantasma';
 import EnglishBio from './components/EnglishBio';
+import LibrosPage from './components/LibrosPage';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path='/lecturas' element={<Lecturas/>}/>
         <Route path='/fantasma' element={<Fantasma/>}/>
         <Route path='/english' element={<EnglishBio/>}/>
+        <Route path='/libros' element={<LibrosPage/>}/>
       </Routes>
     </BrowserRouter>
   )

@@ -14,7 +14,6 @@ function EnglishBio() {
           <div className={styles.titulo_bio}>
             <h2>BIOGRAFÍA</h2>
           </div>
-          <div className={styles.biografia_container}>
             <div className={styles.biografia_content}>
               <img src={imagenBio} alt="" />
               {/* <h2>BIOGRAFÍA</h2> */}
@@ -43,7 +42,6 @@ function EnglishBio() {
                   Quisiera amarte menos is currently being adapted to the screen.</p>
               </div>
             </div>
-          </div>
         </div>
       </section>
       <footer className={styles.footer} id="footer">
