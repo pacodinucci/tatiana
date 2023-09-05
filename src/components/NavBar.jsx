@@ -32,8 +32,8 @@ function NavBar() {
                             <ul className={styles.menu_vertical}>
                                 <li><a href="/musica">Música</a></li>
                                 <li><a href="/lecturas">Lecturas</a></li>
-                                <li><a href="/fantasma">Escritora Fantasma</a></li>
-                                <li><a href="">Otros</a></li>
+                                <li><a href="/fantasma">Fantasma</a></li>
+                                <li><a href="">Talleres</a></li>
                             </ul>
                         </li>
                         <li className={styles.menu_item}>
