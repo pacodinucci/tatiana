@@ -4,6 +4,7 @@ import Libro from './components/Libro';
 import Musica from './components/Musica';
 import Lecturas from './components/Lecturas';
 import Fantasma from './components/Fantasma';
+import EnglishBio from './components/EnglishBio';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
         <Route path='/musica' element={<Musica/>} />
         <Route path='/lecturas' element={<Lecturas/>}/>
         <Route path='/fantasma' element={<Fantasma/>}/>
+        <Route path='/english' element={<EnglishBio/>}/>
       </Routes>
     </BrowserRouter>
   )

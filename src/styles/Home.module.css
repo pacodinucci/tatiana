@@ -120,6 +120,9 @@ html{
 .galeria img{
     width: 30vh;
     transition: .8s ease;
+    box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+-webkit-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+-moz-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
 }
 
 .galeria img:hover{
@@ -128,9 +131,9 @@ html{
 }
 
 .vermasbtn{
-    background: linear-gradient(180deg, #16726F 0%, #1E3434 100%);
-    padding: 1.2vh 1.8vw;
-    border-radius: 6px;
+    background: var(--primario-principal-4, #54CBC7);
+    padding: 2vh 1.6vw;
+    border-radius: 0.9375rem;
 }
 
 .vermasbtn a{
@@ -168,13 +171,13 @@ html{
 }
 
 .biografia_container{
-    height: 85vh;
+    /* min-height: 85vh; */
     /* padding-top: 7.81rem; */
     /* background: url('../assets/moodboard-final-celeste-2.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* overflow-y: visible; */
     display: flex;
     justify-content: center;
@@ -186,7 +189,7 @@ html{
     gap: 2.31rem;
     justify-content: center;
     align-items: center;
-    /* margin-top: 17.44rem; */
+    margin-top: 16vh;
     /* border: 2px solid red; */
     height: 50vh;
     width: auto;
@@ -219,9 +222,10 @@ html{
     display: flex;
     /* width: 38vw; */
     height: auto;
+    /* max-height: 100vh; */
     flex-direction: column;
     flex-shrink: 0;
-    overflow: hidden;
+    /* overflow: auto; */
     color: var(--neutro-7, #1f1f1f);
     /* text-overflow: ellipsis; */
     font-size: 2vh;
@@ -231,6 +235,10 @@ html{
     line-height: 4.5vh;
     justify-content: center;
     /* border: 2px solid yellow; */
+}
+
+.textosBio a{
+    align-self: flex-end;
 }
 
 .textosBio img{
@@ -247,6 +255,7 @@ html{
 .contacto_container{
     /* background: url('../assets/moodboard-final-celeste-2.png'); */
     padding-bottom: 8rem;
+    margin-top: 2rem;
 }
 
 .titulo_contacto{

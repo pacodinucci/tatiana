@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from '../styles/Home.module.css';
 import ig from '../assets/instagram.svg';
 import tw from '../assets/vector.svg';
@@ -6,7 +6,7 @@ import libro1 from '../assets/libro1.png';
 import libro2 from '../assets/libro2.png';
 import libro3 from '../assets/dondelagua.png';
 import libro4 from '../assets/ballboy.png';
-import libro5 from '../assets/fadeout.png';
+import libro5 from '../assets/fade-out-1.png';
 import libro6 from '../assets/mujerpocoprobable.png';
 import libro7 from '../assets/quisieraamartemenos.png';
 import imagenBio from '../assets/foto-1.png';
@@ -14,6 +14,7 @@ import bandera from '../assets/bandera.svg';
 import NavBar from './NavBar';
 
 function Home() {
+
   return (
     <>
       <NavBar/>
@@ -48,7 +49,7 @@ function Home() {
               <a href="/libros/1"><img src={libro1} alt="" /></a>
             </div> */}
             <div className={styles.vermasbtn}>
-              <a href="#">VER MÁS</a>
+              <a href="#">VER TODOS</a>
             </div>
           </div>
           
@@ -61,13 +62,13 @@ function Home() {
           <div className={styles.biografia_container}>
             <div className={styles.biografia_content}>
               <img src={imagenBio} alt="" />
-              <div className={styles.textosBio}>
                 {/* <h2>BIOGRAFÍA</h2> */}
-                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera Amarte <br /> Menos (2020) y La mujer poco probable (2021).<br />
-                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a <br /> 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la <br /> antología Barcelona / Buenos Aires, Once Mil kilómetros, un puente entre ambas <br /> ciudades.<br />
-                  Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, <br /> Uruguay, España y los Estados Unidos.</p>
-                <img src={bandera} alt="" />  
-              </div>
+                <div className={styles.textosBio}>
+                  <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera Amarte <br /> Menos (2020) y La mujer poco probable (2021).<br />
+                    En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a <br /> 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la <br /> antología Barcelona / Buenos Aires, Once Mil kilómetros, un puente entre ambas <br /> ciudades.<br />
+                    Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, <br /> Uruguay, España y los Estados Unidos.</p>
+                    <a href="/english"><img src={bandera} alt="" /></a> 
+                </div>
             </div>
           </div>
         </div>
