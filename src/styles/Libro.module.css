@@ -47,7 +47,34 @@
     justify-content: center;
     margin-top: 3.88rem;
     margin-bottom: 5.19rem;
-    gap: 1.5rem;
+    gap: 4vw;
+}
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+    cursor: pointer;
+}
+
+.playlist img{
+    width: 1.6875rem;
+    height: 1.6875rem;
+}
+
+.playlist p{
+    width: 5.125rem;
+    height: 0.625rem;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #282828;
+    text-align: center;
 }
 
 .detalles_resenas{
@@ -102,6 +129,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    gap: 4vh;
     align-items: center;
     width: 64.625rem;
     color: #FFF;

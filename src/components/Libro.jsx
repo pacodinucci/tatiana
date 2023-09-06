@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import imagenPortada from '../assets/libro1.png';
 import ig from '../assets/instagram.svg';
 import tw from '../assets/vector.svg';
+import sp from '../assets/spotify.png';
 import librosMock from '../assets/mock';
 
 function Libro() {
@@ -35,6 +36,12 @@ function Libro() {
             ))}
           </div>
         </div>
+        {libro.spotify ? (
+            <div className={styles.playlist}>
+              <img src={sp} alt="" />
+              <p>PLAYLIST</p>
+            </div>
+          ) : null}
         <div className={styles.detalles_resenas}>
             <div className={styles.detalles_textos}>
               {libro.resenas.map((resena, index) => (
@@ -50,10 +57,13 @@ function Libro() {
                 <p>{libro.sinopsis}</p>
               </div> 
             </div>
-            <div className={styles.disponible}>
-              <span><p>DISPONIBLE EN PAPEL</p></span>
-              <span><p>DISPONIBLE EN E-BOOK</p></span>
+            {libro.disponible ? (
+              <div className={styles.disponible}>
+                {libro.disponible.papel ? (<span><p>DISPONIBLE EN PAPEL</p></span>) : null}
+                {libro.disponible.ebook ? (<span><p>DISPONIBLE EN E-BOOK</p></span>) : null}
+                {libro.disponible.descarga ? (<span><p style={{fontSize: "1rem"}}>DESCARGAR LIBRO GRATIS</p></span>) : null}
             </div>
+            ) : null}
             {libro.nota ? (
                 <div className={styles.nota}>
                   <img src={libro.nota.imagen[0]} alt="" />

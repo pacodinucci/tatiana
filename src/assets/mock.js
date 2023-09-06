@@ -3,14 +3,22 @@ import cantante1 from './libro2.png';
 import cantante2 from './libro2b.png';
 import cantante3 from './libro2c.png';
 import cantante4 from './libro2d.png';
+import cantante5 from './libro2e.png';
 import agua1 from './dondelagua.png';
+import agua2 from './libro3.png';
 import ballboy from './ballboy.png';
+import ballboy2 from './libro4.png';
 import fadeout1 from './libro6.png';
 import fadeout2 from './fadeout.png';
 import mujer from './mujerpocoprobable.png';
 import quisiera1 from './quisieraamartemenos.png';
 import quisiera2 from './quisieraamartemenos2.png';
 import notaquisiera from './nota-quisiera.png';
+import mujer2 from './mujer2.png';
+import barcelona1 from './barcelona1.png';
+import barcelona2 from './barcelona2.png';
+import barbaros from './barbaros.png';
+import impecables from './libro5.png';
 
 const librosMock = [
     {
@@ -53,7 +61,12 @@ const librosMock = [
                 titulo: 'El remisero Absoluto',
                 link: 'http://elremiseroabsoluto.blogspot.com.ar/2006/02/diferentes-matices-del-rojo.html'
             }
-        ]
+        ],
+        disponible: {
+            papel: true,
+            ebook: false,
+            descarga: false
+        }
     },
     {
         id: 2,
@@ -62,7 +75,7 @@ const librosMock = [
         resenas: [
             {
                 cita: '“¿Quién mató a la Cantante de Jazz? es un libro inspirado, inteligente y divertido Goransky inventó el policial jazzero, un género que es, sobre todo lo demás, el mapa de una pasión”.',
-                medio: 'Gabriela Cabezón Cáamara.'
+                medio: 'Gabriela Cabezón Cámara.'
             },
             {
                 cita: '“Una novela enorme a pesar de su breve extensión”.',
@@ -139,12 +152,17 @@ const librosMock = [
                 titulo: 'Editorial Universitaria, México.',
                 link: 'http://editorialuniversitaria.uanl.mx/index.php/2019/10/07/tatiana-goransky-cantante-de-jazz/'
             }
-        ]
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        }
     },
     {
         id: 3,
         titulo: 'Don del agua',
-        imagen: [agua1],
+        imagen: [agua2, agua1],
         resenas: [
             {
                 cita: '“La historia de Don del agua no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale para narrarla de los diarios de viaje o de las novelas de enigma; del discurso de investigación del periodismo, de la magia difusa de las fábulas o de la precisión racional de los estudios antropológicos. Las supersticiones y los métodos conviven y se disputan en una historia que transcurre tanto en la realidad reconocible como en el mundo fantástico de los tesoros escondidos. Porque lo narrado se multiplica en las formas de narrar y la literatura al fin de cuentas es lo único que importa”.',
@@ -189,12 +207,17 @@ const librosMock = [
                 titulo: 'Solo Tempestad',
                 link: 'http://www.solotempestad.com/goranskyxvidal/'
             }
-        ]
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        }
     },
     {
         id: 4,
         titulo: 'Ball Boy',
-        imagen: [ballboy],
+        imagen: [ballboy2, ballboy],
         resenas: [
             {
                 cita: '“A lo largo de los diecisiete días que atraviesa esta crónica imaginaria, acompañando los avatares del Roland Garros del 2009 y compartiendo paso a paso, con el lector, el descenso al infierno de Manuel, Tatiana Goransky nos muestra –con un implacable sentido de la disposición narrativa y un dominio absoluto del desarrollo argumental– lo que sucede cuando colapsa el mundo de un obsesivo.”',
@@ -227,7 +250,12 @@ const librosMock = [
                 titulo: 'Revista Kundra',
                 link: 'https://revistakundra.wordpress.com/2014/04/30/ball-boy-tg/'
             }
-        ]
+        ],
+        disponible: {
+            papel: false,
+            ebook: false,
+            descarga: true
+        }
     },
     {
         id: 5,
@@ -301,12 +329,18 @@ const librosMock = [
                 titulo: 'La Fábrica',
                 link: 'https://www.lafabrica.com/festivalene/actualidad/fade-out-de-tatiana-goransky-una-lectura-de-franco-chiaravalloti/'
             }
-        ]
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        },
+        spotify: true
     },
     {
         id: 6,
         titulo: 'La mujer poco probable',
-        imagen: [mujer],
+        imagen: [mujer, mujer2],
         resenas: [
             {
                 cita: '“Goransky consigue imprimir realidad a sus personajes con una narrativa reflexiva, serena y pausada, alejada de estridencias, demostrando que la sencillez y la sensibilidad son las mejores armas de la autora. Una novela breve, potente, que demuestra el talento de Goransky para conmovernos una vez más”.',
@@ -379,7 +413,12 @@ const librosMock = [
                 titulo: 'Critico Estado, España',
                 link: 'http://www.criticoestado.es/secretos-de-familia/'
             }
-        ]
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        }
     },
     {
         id: 7,
@@ -482,13 +521,114 @@ const librosMock = [
                 link: 'http://grafografxs.uaemex.mx/?p=e_tatiana',
             },
             {
-                titulo: 'Grafografxs',
+                titulo: 'Grafógrafxs',
                 link: 'http://grafografxs.uaemex.mx/vista/numeros/pdf/Grafografxs_5.pdf',
             }
         ],
         nota: {
             imagen: [notaquisiera]
+        },
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
         }
+    },
+    {
+        id: 8,
+        titulo: 'Barcelona, Buenos Aires / Once mil kilómetros',
+        imagen: [barcelona1, barcelona2],
+        resenas: [
+            {
+                cita: '“Este libro no es una guía turística ni un ejercicio de literatura comparada. Es la bitácora de un viaje de ida y vuelta ―once mil kilómetros, veintidós escritores, mil kilómetros por escritor―; un inventario de lo que dejamos atrás cuando emigramos, el deber y haber de lo que dejamos de ser y de aquello en lo que nos convertimos, porteños y barceloneses en tránsito perpetuo. Es también la descripción alucinada, más cerca del sueño que del costumbrismo, de dos ciudades que se escriben cartas de presentación. La sospecha de que la ciudad que se imagina, sin haber pisado sus calles, no es tan distinta de aquella que se reconstruye desde la añoranza. Una herida que florece”.',
+                medio: 'Juan Pablo Villalobos'
+            }
+        ],
+        sinopsis: 'La Reina del Plata y la Ciudad Condal están hermanadas por la humedad, que en verano sofoca y en invierno cala hasta los huesos. Por las oleadas migratorias, que les dan a ambas ciudades un carácter inquieto, temerario y audaz. Y por su grandiosa tradición literaria. Quizás no haya en el mundo otras dos urbes tan alejadas en lo geográfico y tan unidas en lo cultural como Barcelona y Buenos Aires. Esos once mil kilómetros se trazan y desaparecen en los veintidós cuentos de este volumen, narraciones escritas por celebrados autores y autoras que residen a ambos lados del charco, voces contemporáneas que ofrecen su singular visión sobre las ciudades de Pepe Carvalho y La plaza del Diamante o de Emilio Renzi y El Aleph. Paseo de Gracia se cruza con la Nueve de Julio, la Rambla termina en Plaza de Mayo, y lo fantástico, lo procaz, lo furibundo, lo amoroso, lo entrañable y lo melancólico confluyen en este mismo punto mágico donde las distancias se borran.',
+        links: [
+            {
+                titulo: 'Télam',
+                link: 'https://www.telam.com.ar/notas/201903/342018-feria-del-libro-barcelona.html'
+            },
+            {
+                titulo: 'InfoBae',
+                link: ' https://www.infobae.com/grandes-libros/2019/04/27/un-puente-literario-une-barcelona-y-buenos-aires/'
+            },
+            {
+                titulo: 'Pliego Suelto',
+                link: ' http://www.pliegosuelto.com/?p=27303'
+            },
+            {
+                titulo: 'Somos Berlin',
+                link: 'https://somos.berlin/2020/01/06/barcelona-buenosaires/'
+            },
+            {
+                titulo: 'Grafógrafxs',
+                link: 'http://grafografxs.uaemex.mx/vista/numeros/pdf/Grafografxs_5.pdf'
+            }
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        }
+    },
+    {
+        id: 9,
+        titulo: 'Revista los Bárbaros (Edición Noir)',
+        imagen: [barbaros],
+        resenas: [
+            {
+                cita: '“En Los Bárbaros cada uno de los estilos de estos 43 cuentos marcan el paso de una narrativa sólida y elocuente, que converge entre los márgenes más oscuros y los más cálidos de un género que —por su versatilidad— emerge desde las cenizas más violentas, más oscuras y sórdidas y, justamente, por eso atrapa”.',
+                medio: 'Somos Berlin, Alemania'
+            }
+        ],
+        links: [
+            {
+                titulo: 'Propera Parada Cultura',
+                link: 'http://properaparadacultura.blogspot.com/2019/02/entrevista-tatiana-goransky.html'
+            },
+            {
+                titulo: 'InfoBae',
+                link: ' https://www.infobae.com/grandes-libros/2018/10/30/43-historias-negras-sobre-nueva-york/'
+            },
+            {
+                titulo: 'Somos Berlin',
+                link: 'https://somos.berlin/2019/05/07/los-barbaros/'
+            },
+            {
+                titulo: 'El país de la bruma',
+                link: 'https://elpaisdelabruma.blogspot.com/2018/10/los-barbaros-noir.html'
+            }
+        ]
+    },
+    {
+        titulo: 'Los impecables',
+        imagen: [impecables],
+        sinopsis: 'Un ball boy de veinte años que sueña con Roger Federer y dos hermanos con un extraño don buscando tesoros en alta mar, Los impecables se construye sobre la intriga en torno a sus protagonistas. El joven Manuel, encerrado en una rutina segura y reconfortante, se ve amenazado por una compañera más joven con la que rivaliza para ir al Roland Garros, mientras Juan y Abel, dos hermanos a la caza de tesoros perdidos, experimentan frente a su tripulación la peligrosidad de las aguas, sin que los meses traigan la ansiada recompensa. «Esta historia no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale del discurso de investigación, de la magia difusa de las fábulas o de la precisión antropológica», destaca Martín Kohan. Un libro «atravesado no sólo por la tragedia, sino por una serie de lenguajes y discursos que lo agrandan y lo convierten en una historia emocionante», en palabras de Ezequiel Acuña. Ya sea en el agua o sobre polvo de ladrillo, el terreno en que se mueve los impecables es uno minado de obsesiones y rivalidades que dan lugar una y otra vez a situaciones límite.',
+        links: [
+            {
+                titulo: 'El Mundo',
+                link: 'https://www.elmundo.es/cultura/2016/07/11/5783afec468aeb207d8b45b5.html'
+            },
+            {
+                titulo: 'Diario de Cultura',
+                link: 'https://www.diariodecultura.com.ar/columnas/bajo-el-karma-de-la-perfeccion/'
+            },
+            {
+                titulo: 'Editorial Comba',
+                link: ' https://www.editorialcomba.com/wp-content/uploads/2020/07/Los-imopecables-por-Flavia-.jpeg'
+            },
+            {
+                titulo: 'Rumiar, La biblioteca',
+                link: 'http://rumiarlabiblioteca.blogspot.com/2016/06/tatiana-goransky-y-el-relato-como.html'
+            }
+        ],
+        disponible: {
+            papel: true,
+            ebook: true,
+            descarga: false
+        } 
     }
 ]
 
