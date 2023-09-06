@@ -8,7 +8,7 @@
 }
 
 .detalles_container{
-    background: url('../assets/moodboard-final-celeste-2.png');
+    background: #F9F9F9;
     height: auto;
 }
 
@@ -31,32 +31,33 @@
     text-align: center;
     /* font-style: italic; */
     line-height: normal;
-    margin-top: 5.31rem;
+    margin-top: 40vh
 }
 
 .detalles_principal .detalles_titulo h2{
     font-weight: 300;
     font-family: Fira Sans;
-    font-size: 2.44125rem;
+    font-size: 5.5vh;
     color: var(--primario-6, #257A77);
 }
 
 .detalles_principal .detalles_imagen{
-    width: 25rem;
+    width: 25vw;
     display: flex;
     justify-content: center;
-    margin-top: 3.88rem;
-    margin-bottom: 5.19rem;
+    margin-top: 8vh;
+    margin-bottom: 23vh;
     gap: 4vw;
 }
 
 .playlist{
+    height: 6vh;
     display: flex;
     flex-direction: column;
     gap: 1vh;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6vh;
+    margin: 5vh;
     cursor: pointer;
 }
 
@@ -88,7 +89,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4.5rem;
+    gap: 4vh;
 }
 
 .detalles_textos .resena{
@@ -146,11 +147,27 @@
 .sinopsis p{
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1.25rem;
+    font-size: 2.8vh;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
     letter-spacing: 0.03rem;
+    line-height: 1.2;
+}
+
+.sinopsis .nominada{
+    font-size: 3vh;
+    display: flex;
+    gap: 0.5vw;
+    font-family: Fira Sans;
+}
+
+.sinopsis .nominada p{
+    font-size: 3vh;
+    display: flex;
+    gap: 0.5vw;
+    font-family: Fira Sans;
+    font-style: italic;
 }
 
 .disponible{
@@ -161,8 +178,8 @@
 }
 
 .disponible span{
-    width: 9.9375rem;
-    height: 3.375rem;
+    width: 8.5vw;
+    height: 6vh;
     border-radius: 0.9375rem;
     background: var(--primario-6, #16726F);
     display: flex;
@@ -175,7 +192,7 @@
     color: var(--intermedio, #FFF);
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1.15rem;
+    font-size: 2vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -189,16 +206,16 @@
 }
 
 .links{
-    margin-top: 4.62rem;
+    margin-top: 8vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.62rem;
+    gap: 2vh;
 }
 
 .links h2{
     font-family: Fira Sans;
-    font-size: 2.44125rem;
+    font-size: 5vh;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -208,14 +225,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 14.87rem;
-    gap: 2.25rem;
+    margin-top: 5vh;
+    margin-bottom: 35vh;
+    gap: 4vh;
 }
 
 .links a{
     font-family: Fira Sans;
-    font-size: 1.25rem;
+    font-size: 3vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

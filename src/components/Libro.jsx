@@ -41,7 +41,7 @@ function Libro() {
               <img src={sp} alt="" />
               <p>PLAYLIST</p>
             </div>
-          ) : null}
+          ) : (<div className={styles.playlist}/>)}
         <div className={styles.detalles_resenas}>
             <div className={styles.detalles_textos}>
               {libro.resenas.map((resena, index) => (
@@ -55,6 +55,7 @@ function Libro() {
               <div className={styles.sinopsis}>
                 <h2>SINOPSIS</h2>
                 <p>{libro.sinopsis}</p>
+                {libro.nominada ? (<span className={styles.nominada}><p>{libro.nominada.slice(0,8)}</p>{libro.nominada.slice(9)}</span>) : null}
               </div> 
             </div>
             {libro.disponible ? (
@@ -70,7 +71,7 @@ function Libro() {
                 </div>
             ) : null}
             <div className={styles.links}>
-              <h2>RESEÑAS</h2>
+              <h2>ALGUNAS RESEÑAS</h2>
               <div className={styles.links_container}>
                 {libro.links && libro.links.length > 0 ? (
                   libro.links.map((enlace, index) => (

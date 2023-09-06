@@ -335,7 +335,8 @@ const librosMock = [
             ebook: true,
             descarga: false
         },
-        spotify: true
+        spotify: true,
+        nominada: 'Fade Out estuvo nominada a Mejor Novela Argentina del año 2016.'
     },
     {
         id: 6,
