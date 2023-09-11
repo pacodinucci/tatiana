@@ -2,8 +2,7 @@ import React from 'react'
 import NavBar from './NavBar';
 import styles from '../styles/EnglishBio.module.css';
 import imagenBio from '../assets/foto-1.png';
-import ig from '../assets/instagram.svg';
-import tw from '../assets/vector.svg';
+import Footer from './Footer';
 
 function EnglishBio() {
   return (
@@ -44,18 +43,7 @@ function EnglishBio() {
             </div>
         </div>
       </section>
-      <footer className={styles.footer} id="footer">
-          <div className={styles.footer_container}>
-              <div className={styles.social_footer}>
-                  <a href=""><img src={tw} alt=""/></a>
-                  <a href=""><img src={ig} alt=""/></a>
-              </div>
-              <div className={styles.textos_footer}>
-                  <h3>Tatiana Goransky</h3>
-                  <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-          </div>
-      </footer>
+      <Footer />
     </>
   )
 }

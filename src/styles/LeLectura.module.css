@@ -1,0 +1,23 @@
+.content{
+    background: url('../assets/moodboard-final-celeste-2.png');
+}
+
+.lecture{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 15vh 20vw;
+    font-family: Fira Sans;
+}
+
+.titulo p{
+    font-style: italic;
+    margin-top: .5vh;
+    font-size: 2.5vh;
+}
+
+.texto p{
+    margin-bottom: 4vh;
+    font-size: large;
+    letter-spacing: .03vw;
+}

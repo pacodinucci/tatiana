@@ -47,7 +47,7 @@ const librosMock = [
                 medio: 'Suplemento Cultura, Diario Perfil'
             }
         ],
-        sinopsis: 'En el comienzo el planteo narrativo parece simple: el libro promete la vida de Lulú en cálidas viñetas y un humor ligero sin excluir alguna que otra cuota de violencia. Rápidamente, sin embargo, Tatiana Goransky enrarece forma y contenido haciéndolos dialogar y fusionarse. Lulú, después de un trágico inicio sexual y habiendo probado el mecanismo de la venganza, emprenderá un viaje arbitrario que se repetirá en paralelo con la persecución de Benito, su atípico pretendiente. Mientras tanto la promesa de un avance cronológico en la vida de Lulú empezara resquebrajarse para luego simplemente estallar.',
+        sinopsis: 'En el comienzo el planteo narrativo parece simple: el libro promete la vida de Lulú en cálidas viñetas y un humor<br /> ligero sin excluir alguna que otra cuota de violencia.<br /> Rápidamente, sin embargo, Tatiana Goransky enrarece forma y contenido haciéndolos dialogar y fusionarse.<br /> Lulú, después de un trágico inicio sexual y habiendo probado el mecanismo de la venganza, emprenderá un viaje<br /> arbitrario que se repetirá en paralelo con la persecución de Benito, su atípico pretendiente. Mientras tanto la<br /> promesa de un avance cronológico en la vida de Lulú empezara resquebrajarse para luego simplemente estallar.',
         links: [
             {
                 titulo: 'Rayando los Confines',
@@ -74,7 +74,7 @@ const librosMock = [
         imagen: [cantante1, cantante2, cantante3, cantante4],
         resenas: [
             {
-                cita: '“¿Quién mató a la Cantante de Jazz? es un libro inspirado, inteligente y divertido Goransky inventó el policial jazzero, un género que es, sobre todo lo demás, el mapa de una pasión”.',
+                cita: '“¿Quién mató a la Cantante de Jazz? es un libro inspirado, inteligente y divertido. Goransky inventó el policial jazzero, un género que es, sobre todo lo demás, el mapa de una pasión”.',
                 medio: 'Gabriela Cabezón Cámara.'
             },
             {
@@ -94,7 +94,7 @@ const librosMock = [
                 medio: 'Néstor Ponce, Variaciones sobre una historia policial. Acerca de “¿Quién mató a la cantante de jazz?” (2008) de Tatiana Goransky. Hispanistes. Francia.'
             }
         ],
-        sinopsis: 'La Cantante de Jazz ha muerto, y no de muerte natural. Su asesinato le dará vida. Acrecentará su fama, la convertirá en amante de todos los hombres que la escucharon cantar. Sus temas inéditos serán tesoros, y las anécdotas de sus conciertos se magnificarán hasta convertirla en mito. Su partida, también, sacará del letargo a un viejo músico que encerró su mejor nota en una caja para convertirse en el investigador de este caso. Martínez, el policía, hará su lista de sospechosos seguro de una cosa: si hubiesen matado a un bandoneonista, en una semana tendrían al culpable engayolado, pero como la víctima es una intérprete de ”música tan poco ciudadana”, la realidad es otra. Esta es la introducción a la novela en papel, pero Tatiana Goransky cuenta otra historia que transciende el formato y genera la necesidad de leer su texto escuchando jazz. Goransky, con voz de cantante y pulso de escritora, maneja con soltura los dos mundos, nos dice qué música leer y qué historia escuchar con el tono, la luz y la precisión que el relato necesita.',
+        sinopsis: 'La Cantante de Jazz ha muerto, y no de muerte natural. Su asesinato le dará vida. Acrecentará su fama, la convertirá<br /> en amante de todos los hombres que la escucharon cantar. Sus temas inéditos serán tesoros, y las anécdotas de<br /> sus conciertos se magnificarán hasta convertirla en mito. Su partida, también, sacará del letargo a un viejo músico<br /> que encerró su mejor nota en una caja para convertirse en el investigador de este caso. Martínez, el policía, hará su<br /> lista de sospechosos seguro de una cosa: si hubiesen matado a un bandoneonista, en una semana tendrían al<br /> culpable engayolado, pero como la víctima es una intérprete de ”música tan poco ciudadana”, la realidad es otra.<br /> Esta es la introducción a la novela en papel, pero Tatiana Goransky cuenta otra historia que transciende el formato<br /> y genera la necesidad de leer su texto escuchando jazz. Goransky, con voz de cantante y pulso de escritora, maneja<br /> con soltura los dos mundos, nos dice qué música leer y qué historia escuchar con el tono,<br /> la luz y la precisión que el relato necesita.',
         links: [
             {
                 titulo: 'El Mundo, España.',
@@ -157,7 +157,8 @@ const librosMock = [
             papel: true,
             ebook: true,
             descarga: false
-        }
+        },
+        nominada: 'Seleccionada por la CONABIP para ser distribuida en más de mil bibliotecas populares.'
     },
     {
         id: 3,
@@ -185,7 +186,7 @@ const librosMock = [
                 medio: 'Sebastián Chilano'
             }
         ],
-        sinopsis: 'Don del agua narra la historia de una saga maldita, la de un rabdomante albino y sus dos hijos varones: un capitán de barco empecinado en dominar la respiración subacuática y un buzo obsesionadopor encontrar un tesoro imposible. La autora entreteje con maestría varios registros discursivos que van desde la novela de misterio y el cuaderno de bitácora, hasta la crónica periodística y el género fantástico. Situadas entre la física y la superstición, estas páginas se expanden con pulso firme y certero. Goransky traza un universo masculino de conquistadores acuáticos que se valen de todo para tener el don del agua.',
+        sinopsis: 'Don del agua narra la historia de una saga maldita, la de un rabdomante albino y sus dos hijos varones: un<br /> capitán de barco empecinado en dominar la respiración subacuática y un buzo obsesionado por<br /> encontrar un tesoro imposible.<br /> La autora entreteje con maestría varios registros discursivos que van desde la novela de misterio y el cuaderno<br /> de bitácora, hasta la crónica periodística y el género fantástico. Situadas entre la física y la superstición, estas<br /> páginas se expanden con pulso firme y certero.<br /> Goransky traza un universo masculino de conquistadores acuáticos que<br /> se valen de todo para tener el don del agua.',
         links: [
             {
                 titulo: 'Página 12, Argentina',
@@ -236,7 +237,7 @@ const librosMock = [
                 medio: 'Golosina Canibal'
             }
         ],
-        sinopsis: 'Todos los viernes a la noche desde hace dos meses y medio Manuel sueña con Federer. Federer va 5-3 arriba 40-30 en el último set de la final del Roland Garros. Manuel le alcanza una pelota para el saque. Federer sirve a la derecha con slice, el saque es afortunado. Ace... Manuel nunca quiso ser tenista. “Tenista puede ser cualquiera”, pero “para ser el mejor ball boy hay que dejar el ego de lado y convertirse en un ser invisible e impecable”, ésas son sus máximas. La historia de Manuel, una suerte de negativo fotográfico del Bartleby el escribiente de Melville, que prefiere hacerlo mejor, siempre mejor, y por eso sustituye la competición deportiva por el tardío oficio de recogepelotas, porque ese humilde arte sí le permitiría acaso alcanzar la perfección. Una historia que, conviene decirlo, su autora, Tatiana Goransky, resuelve con la contundencia y la eficacia de un jugador de Grand Slam.',
+        sinopsis: 'Todos los viernes a la noche desde hace dos meses y medio Manuel sueña con Federer. Federer va 5-3 arriba 40-30<br /> en el último set de la final del Roland Garros. Manuel le alcanza una pelota para el saque. Federer sirve a la derecha con<br /> slice, el saque es afortunado. Ace... Manuel nunca quiso ser tenista. “Tenista puede ser cualquiera”, pero “para ser el<br /> mejor ball boy hay que dejar el ego de lado y convertirse en un ser invisible e impecable”, ésas son sus máximas.<br /> La historia de Manuel, una suerte de negativo fotográfico del Bartleby el escribiente de Melville, que prefiere hacerlo<br /> mejor, siempre mejor, y por eso sustituye la competición deportiva por el tardío oficio de recogepelotas, porque ese<br /> humilde arte sí le permitiría acaso alcanzar la perfección. Una historia que, conviene decirlo, su autora, Tatiana<br /> Goransky, resuelve con la contundencia y la eficacia de un jugador de Grand Slam.',
         links: [
             {
                 titulo: 'Suburbano',
@@ -275,7 +276,7 @@ const librosMock = [
                 medio: 'Dentro del Monolito, España.'
             }
         ],
-        sinopsis: 'Desde su nacimiento los oídos de Kumiku emiten música. «Vino al mundo con el poder del sonido, con la habilidad de producir ondas melódicas y rítmicas. Kumiku nació cajita de música infinita.» También su hija Renata, y de distinta forma Ester, la nieta, en una línea genética que Tatiana Goransky narra a partir de diarios íntimos y de ambiguas observaciones de un negro literario. Temas de Caetano Veloso, Stevie Wonder o Charly García, entre otros, dan el tono a las páginas de Fade out, apasionante novela en que tres generaciones de mujeres trazan su vida a través de la música y la búsqueda del silencio. El amor es una constante también que las protagonistas habrán de resolver entre las ciudades de Buenos Aires, San Juan y Barcelona. Fade out estuvo nominada a la Mejor Novela Argentina del año 2016.',
+        sinopsis: 'Desde su nacimiento los oídos de Kumiku emiten música. «Vino al mundo con el poder del sonido, con la<br /> habilidad de producir ondas melódicas y rítmicas. Kumiku nació cajita de música infinita.» También su hija<br /> Renata, y de distinta forma Ester, la nieta, en una línea genética que Tatiana Goransky narra a partir de diarios<br /> íntimos y de ambiguas observaciones de un negro literario. Temas de Caetano Veloso, Stevie Wonder o Charly<br /> García, entre otros, dan el tono a las páginas de Fade out, apasionante novela en que tres generaciones de<br /> mujeres trazan su vida a través de la música y la búsqueda del silencio.<br /> El amor es una constante también que las protagonistas habrán de resolver entre las ciudades de Buenos Aires,<br /> San Juan y Barcelona. Fade out estuvo nominada a la Mejor Novela Argentina del año 2016.',
         links: [
             {
                 titulo: 'Literal Magazine',
@@ -372,7 +373,7 @@ const librosMock = [
                 medio: 'Dentro del Monolito, España.'
             }
         ],
-        sinopsis: 'Martina y Leo celebran sus veinticinco años de casados con un viaje en busca de sus orígenes. Será un vuelo vertiginoso, crucial, que pondrá en peligro sus vidas y los empujará a examinar el pasado y el presente de su relación. Si estuviéramos a punto de morir, ¿cómo nos contaríamos nuestra propia historia? ¿Volveríamos a elegir a la persona que tenemos al lado? ¿Seríamos capaces de revelar nuestros secretos a los que más queremos? Y, sobre todo, ¿de qué nos arrepentiríamos? Una novela ágil y cautivadora que nos invita a reflexionar sobre las decisiones que construyen y condicionan nuestra vida.',
+        sinopsis: 'Martina y Leo celebran sus veinticinco años de casados con un viaje en busca de sus orígenes.<br /> Será un vuelo vertiginoso, crucial, que pondrá en peligro sus vidas y los empujará a examinar el pasado y el<br /> presente de su relación. Si estuviéramos a punto de morir, ¿cómo nos contaríamos nuestra propia historia?<br /> ¿Volveríamos a elegir a la persona que tenemos al lado? ¿Seríamos capaces de revelar nuestros secretos a los<br /> que más queremos? Y, sobre todo, ¿de qué nos arrepentiríamos? Una novela ágil y cautivadora que nos invita a<br /> reflexionar sobre las decisiones que construyen y condicionan nuestra vida.',
         links: [
             {
                 titulo: 'Radio Mitre',
@@ -459,7 +460,7 @@ const librosMock = [
                 medio: 'Página 12, Argentina.'
             }
         ],
-        sinopsis: 'Detrás de un deseo, un cuerpo; detrás del cuerpo, un relato. Detrás del amor, en ocasiones, el odio. ¿Se puede amar sin conocer? ¿Cómo construimos al otro? ¿Hay alguna fuerza más poderosa que la del deseo? Julia, Clara, Juan, la Turca, Vera y Ricardo narran sus propias historias y al hacerlo cuentan las de los demás. Seis personajes enredados en una trama polifónica, violenta, amorosa, sexual. Con humor ácido e irreverencia, Tatiana Goransky construye una novela brutal y polémica que rompe con cualquier estereotipo sobre la sexualidad, y que muestra cuán fácilmente ese territorio de placer que es el cuerpo puede convertirse en un campo de batalla.',
+        sinopsis: 'Detrás de un deseo, un cuerpo; detrás del cuerpo, un relato. Detrás del amor, en ocasiones, el odio. ¿Se puede<br /> amar sin conocer? ¿Cómo construimos al otro? ¿Hay alguna fuerza más poderosa que la del deseo? Julia, Clara,<br /> Juan, la Turca, Vera y Ricardo narran sus propias historias y al hacerlo cuentan las de los demás. Seis personajes<br /> enredados en una trama polifónica, violenta, amorosa, sexual.<br /> Con humor ácido e irreverencia, Tatiana Goransky construye una novela brutal y polémica que rompe con<br /> cualquier estereotipo sobre la sexualidad, y que muestra cuán fácilmente ese territorio de placer que es el<br /> cuerpo puede convertirse en un campo de batalla.',
         links: [
             {
                 titulo: 'Ril Editores',
@@ -533,7 +534,8 @@ const librosMock = [
             papel: true,
             ebook: true,
             descarga: false
-        }
+        },
+        english: true
     },
     {
         id: 8,
@@ -545,7 +547,7 @@ const librosMock = [
                 medio: 'Juan Pablo Villalobos'
             }
         ],
-        sinopsis: 'La Reina del Plata y la Ciudad Condal están hermanadas por la humedad, que en verano sofoca y en invierno cala hasta los huesos. Por las oleadas migratorias, que les dan a ambas ciudades un carácter inquieto, temerario y audaz. Y por su grandiosa tradición literaria. Quizás no haya en el mundo otras dos urbes tan alejadas en lo geográfico y tan unidas en lo cultural como Barcelona y Buenos Aires. Esos once mil kilómetros se trazan y desaparecen en los veintidós cuentos de este volumen, narraciones escritas por celebrados autores y autoras que residen a ambos lados del charco, voces contemporáneas que ofrecen su singular visión sobre las ciudades de Pepe Carvalho y La plaza del Diamante o de Emilio Renzi y El Aleph. Paseo de Gracia se cruza con la Nueve de Julio, la Rambla termina en Plaza de Mayo, y lo fantástico, lo procaz, lo furibundo, lo amoroso, lo entrañable y lo melancólico confluyen en este mismo punto mágico donde las distancias se borran.',
+        sinopsis: 'La Reina del Plata y la Ciudad Condal están hermanadas por la humedad, que en verano sofoca y en invierno cala <br /> hasta los huesos. Por las oleadas migratorias, que les dan a ambas ciudades un carácter inquieto, temerario y<br /> audaz. Y por su grandiosa tradición literaria.<br /> Quizás no haya en el mundo otras dos urbes tan alejadas en lo geográfico y tan unidas en lo cultural como Barcelona<br /> y Buenos Aires. Esos once mil kilómetros se trazan y desaparecen en los veintidós cuentos de este<br /> volumen, narraciones escritas por celebrados autores y autoras que residen a ambos lados del charco, voces<br /> contemporáneas que ofrecen su singular visión sobre las ciudades de Pepe Carvalho y La plaza del Diamante o de<br /> Emilio Renzi y El Aleph. Paseo de Gracia se cruza con la Nueve de Julio, la Rambla termina en Plaza de Mayo, y lo<br /> fantástico, lo procaz, lo furibundo, lo amoroso, lo entrañable y lo melancólico confluyen en<br /> este mismo punto mágico donde las distancias se borran.',
         links: [
             {
                 titulo: 'Télam',
@@ -604,9 +606,10 @@ const librosMock = [
         ]
     },
     {
+        id: 10,
         titulo: 'Los impecables',
         imagen: [impecables],
-        sinopsis: 'Un ball boy de veinte años que sueña con Roger Federer y dos hermanos con un extraño don buscando tesoros en alta mar, Los impecables se construye sobre la intriga en torno a sus protagonistas. El joven Manuel, encerrado en una rutina segura y reconfortante, se ve amenazado por una compañera más joven con la que rivaliza para ir al Roland Garros, mientras Juan y Abel, dos hermanos a la caza de tesoros perdidos, experimentan frente a su tripulación la peligrosidad de las aguas, sin que los meses traigan la ansiada recompensa. «Esta historia no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale del discurso de investigación, de la magia difusa de las fábulas o de la precisión antropológica», destaca Martín Kohan. Un libro «atravesado no sólo por la tragedia, sino por una serie de lenguajes y discursos que lo agrandan y lo convierten en una historia emocionante», en palabras de Ezequiel Acuña. Ya sea en el agua o sobre polvo de ladrillo, el terreno en que se mueve los impecables es uno minado de obsesiones y rivalidades que dan lugar una y otra vez a situaciones límite.',
+        sinopsis: 'Un ball boy de veinte años que sueña con Roger Federer y dos hermanos con un extraño don buscando tesoros en<br /> alta mar, Los impecables se construye sobre la intriga en torno a sus protagonistas. El joven Manuel, encerrado en<br /> una rutina segura y reconfortante, se ve amenazado por una compañera más joven con la que rivaliza para ir al<br /> Roland Garros, mientras Juan y Abel, dos hermanos a la caza de tesoros perdidos, experimentan frente a su<br /> tripulación la peligrosidad de las aguas, sin que los meses traigan la ansiada recompensa. «Esta historia<br /> no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale del discurso de investigación,<br /> de la magia difusa de las fábulas o de la precisión antropológica», destaca Martín Kohan. Un libro «atravesado no<br /> sólo por la tragedia, sino por una serie de lenguajes y discursos que lo agrandan y lo convierten en una historia<br /> emocionante», en palabras de Ezequiel Acuña. Ya sea en el agua o sobre polvo de ladrillo, el terreno en que se mueve<br /> los impecables es uno minado de obsesiones y rivalidades que dan lugar una y otra vez a situaciones límite.',
         links: [
             {
                 titulo: 'El Mundo',

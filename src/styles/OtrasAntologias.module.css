@@ -1,0 +1,49 @@
+.titulo{
+    display: flex;
+    height: 15vh;
+    padding: 4.875rem 0rem 4.8125rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--primario-principal-5, #34ABA7);
+}
+
+.titulo h2{
+    color: #FFF;
+    font-size: 2.44125rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.content {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 130vh; /* Ajusta la altura a la ventana */
+  margin-top: 12vh;
+  margin-bottom: 30vh;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas igualmente distribuidas */
+    gap: 10vh; /* Espacio entre filas y columnas */
+}
+
+.antologia {
+    text-align: center;
+}
+
+.antologia img {
+    max-width: 100%;
+    box-shadow: 2px 5px 5px 0px rgba(164,164,164,0.75);
+    -webkit-box-shadow: 2px 5px 5px 0px rgba(164,164,164,0.75);
+    -moz-box-shadow: 2px 5px 5px 0px rgba(164,164,164,0.75);
+}
+
+.antologia p {
+    margin: 2vh 0;
+    font-family: Fira Sans;
+}

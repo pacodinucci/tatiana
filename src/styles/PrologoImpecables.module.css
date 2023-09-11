@@ -1,0 +1,23 @@
+.content{
+    background: url('../assets/moodboard-final-celeste-2.png');
+}
+
+.prologo{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 15vh 20vw;
+    font-family: Fira Sans;
+}
+
+.titulo p{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.texto p{
+    margin-bottom: 4vh;
+    font-size: large;
+    letter-spacing: .03vw;
+}
+

@@ -11,8 +11,7 @@ import libro1 from '../assets/libro1.png';
 import barcelona from '../assets/barcelona.png';
 import barbaros from '../assets/barbaros.png';
 import impecables from '../assets/libro5.png';
-import ig from '../assets/instagram.svg';
-import tw from '../assets/vector.svg';
+import Footer from './Footer';
 
 function LibrosPage() {
   return (
@@ -46,11 +45,11 @@ function LibrosPage() {
                     </div>
                     <div className={styles.galeria_container_b}>
                         <div className={styles.galeria}>
-                            <a href="#"><img src={barcelona} alt="" /></a>
-                            <a href="#"><img src={barbaros} alt="" /></a>
+                            <a href="/libros/8"><img src={barcelona} alt="" /></a>
+                            <a href="/libros/9"><img src={barbaros} alt="" /></a>
                         </div>
                         <div className={styles.vermasbtn}>
-                            <a href="#">VER MÁS</a>
+                            <a href="/otrasant">VER MÁS</a>
                         </div>
                     </div>
                 
@@ -63,26 +62,15 @@ function LibrosPage() {
                     </div>
                     <div className={styles.galeria_container_b}>
                         <div className={styles.galeria}>
-                            <a href="#"><img src={impecables} alt="" /></a>
+                            <a href="/libros/10"><img src={impecables} alt="" /></a>
                         </div>
                         <div className={styles.vermasbtn}>
-                            <a href="#">LEER PRÓLOGO</a>
+                            <a href="/prologoimp">LEER PRÓLOGO</a>
                         </div>
                     </div>
             </div>
         </section>
-        <footer className={styles.footer} id="footer">
-          <div className={styles.footer_container}>
-              <div className={styles.social_footer}>
-                  <a href=""><img src={tw} alt=""/></a>
-                  <a href=""><img src={ig} alt=""/></a>
-              </div>
-              <div className={styles.textos_footer}>
-                  <h3>Tatiana Goransky</h3>
-                  <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-          </div>
-      </footer>
+        <Footer />
     </>
   )
 }

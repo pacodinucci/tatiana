@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url('../assets/fondotalleres.png'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2 {
+    font-weight: 300;
+    font-family: Fira Sans;
+    font-size: 5.5vh;
+    color: var(--primario-6, #16726F);
+}
+
+.form_container {
+    background-color: #F8F8F8;
+    padding-bottom: 30vh;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    width: 60%;
+    /* border: 2px solid blue; */
+    margin-top: 15vh;
+}
+
+.titulo h2 {
+    color: var(--primario-6, #16726F);
+    font-family: Fira Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2vh;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+.input{
+    background: transparent;
+    border: 2px solid  #16726F;
+    /* border-radius: 8px; */
+    color: #16726F;
+    outline: none;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: #16726F;
+    font-family: 'Fira Sans';
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+    font-family: 'Fira Sans';
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #fff;
+    background:#16726F;
+}
+
+

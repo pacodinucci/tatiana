@@ -1,41 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header {
-    background: url(../assets/portadamusica.png), rgb(9, 9, 9) 50%;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    height: 85vh;
-    justify-content: space-between;
+.content { 
+    background: #F9F9F9;
 }
 
-.titulo {
+.entrevista {
     display: flex;
-    height: 6vh;
-    width: 45%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 16vh;
-    margin-bottom: 4vh;
-    background: var(--primario-principal-5, #34ABA7);
+    flex-direction: column;
+}
+
+.titulo{
+    text-align: center;
+    /* font-style: italic; */
+    line-height: normal;
+    margin-top: 10vh
 }
 
 .titulo h2{
-    color: #FFF;
-    font-size: 3vh;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    font-family: Fira Sans;
+    font-size: 5.5vh;
+    color: var(--primario-6, #257A77);
 }
 
 .video {
@@ -77,3 +66,49 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.galeria {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.primera {
+    display: flex;
+    width: 50%;
+}
+
+.primeraizq img {
+    height: 50vh;
+}
+
+.primeramedio {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeramedio img {
+    height: 25vh;
+}
+
+.primerader img {
+    height: 48.5vh;
+}
+
+.galeria h4 {
+    text-align: end;
+    font-family: Fira Sans;
+}
+
+.segunda {
+    display: flex;
+    margin-bottom: 40vh;
+}
+
+.segunda img {
+    width: 27vw;
+}
+
+

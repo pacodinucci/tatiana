@@ -1,17 +1,12 @@
 import React, {useState} from 'react';
 import styles from '../styles/Home.module.css';
-import ig from '../assets/instagram.svg';
-import tw from '../assets/vector.svg';
-import libro1 from '../assets/libro1.png';
-import libro2 from '../assets/libro2.png';
-import libro3 from '../assets/dondelagua.png';
-import libro4 from '../assets/ballboy.png';
 import libro5 from '../assets/fade-out-1.png';
 import libro6 from '../assets/mujerpocoprobable.png';
 import libro7 from '../assets/quisieraamartemenos.png';
 import imagenBio from '../assets/foto-1.png';
 import bandera from '../assets/bandera.svg';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 function Home() {
 
@@ -86,18 +81,7 @@ function Home() {
             </form>
         </div>
       </section>
-      <footer className={styles.footer} id="footer">
-          <div className={styles.footer_container}>
-              <div className={styles.social_footer}>
-                  <a href=""><img src={tw} alt=""/></a>
-                  <a href=""><img src={ig} alt=""/></a>
-              </div>
-              <div className={styles.textos_footer}>
-                  <h3>Tatiana Goransky</h3>
-                  <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-          </div>
-      </footer>
+      <Footer />
     </>
   )
 }

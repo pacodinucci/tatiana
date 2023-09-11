@@ -34,16 +34,34 @@
     /* height: 50%; */
 }
 
-.biografia_content p{
+/* .biografia_content p{
     overflow: hidden;
     color: var(--neutro-7, #121212);
     text-overflow: ellipsis;
-    /* whitespace: nowrap; */
     font-family: Fira Sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 2.1875rem; /* 218.75% */
+    line-height: 2.1875rem; 
+} */
+
+.biografia_content p{
+    display: flex;
+    /* width: 38vw; */
+    height: auto;
+    /* max-height: 100vh; */
+    flex-direction: column;
+    flex-shrink: 0;
+    /* overflow: auto; */
+    color: var(--neutro-7, #1f1f1f);
+    /* text-overflow: ellipsis; */
+    font-size: 2vh;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5vh;
+    justify-content: center;
+    /* border: 2px solid yellow; */
 }
 
 .footer{

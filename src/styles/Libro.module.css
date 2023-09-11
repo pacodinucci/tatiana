@@ -31,7 +31,7 @@
     text-align: center;
     /* font-style: italic; */
     line-height: normal;
-    margin-top: 40vh
+    margin-top: 10vh
 }
 
 .detalles_principal .detalles_titulo h2{
@@ -76,6 +76,32 @@
     line-height: normal;
     color: #282828;
     text-align: center;
+}
+
+.english{
+    display: flex;
+    gap: 3vw;
+    margin-top: 3vh;
+    width: 70%;
+    height: 10vh;
+}
+
+.english span {
+    height: 4vh;
+    width: 5.2vw;
+    background-color: #54CBC7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.english p {
+    text-align: center;
+    color: var(--intermedio, #FFF);
+    font-family: Fira Sans;
+    font-size: 2vh;
 }
 
 .detalles_resenas{
@@ -147,7 +173,7 @@
 .sinopsis p{
     text-align: center;
     font-family: Fira Sans;
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
@@ -162,12 +188,12 @@
     font-family: Fira Sans;
 }
 
-.sinopsis .nominada p{
+.sinopsis .nominada{
     font-size: 3vh;
     display: flex;
     gap: 0.5vw;
     font-family: Fira Sans;
-    font-style: italic;
+    font-weight: 400;
 }
 
 .disponible{

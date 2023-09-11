@@ -20,7 +20,8 @@
     align-items: center;
 }
 
-.header p {
+.header span {
+    width: 70%;
     color: var(--primario-1, #E7F8F7);
     text-align: center;
     font-family: Fira Mono;
@@ -33,12 +34,21 @@
     background-color: transparent; */
 }
 
+.negrita {
+    font-weight: bold;
+    display: inline;
+}
+
 .fantasma_content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 140vh;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 15vh;
 }
 
 .fantasma_content p {
@@ -46,6 +56,46 @@
     text-align: center;
     font-family: Fira Sans;
     font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 800px;
+    margin: 0 auto;
+    gap: 1vh;
+}
+
+.titulovideo {
+    align-self: flex-start;
+    font-family: Fira Sans;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--primario-7, #164948);
+}
+
+.reproductor {
+    border-radius: 24px;
+}
+
+.btn {
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.btn h4 {
+    color: var(--neutro-7, #121212);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

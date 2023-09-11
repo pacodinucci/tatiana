@@ -33,14 +33,14 @@ function NavBar() {
                                 <li><a href="/musica">Música</a></li>
                                 <li><a href="/lecturas">Lecturas</a></li>
                                 <li><a href="/fantasma">Fantasma</a></li>
-                                <li><a href="">Talleres</a></li>
+                                <li><a href="/talleres">Talleres</a></li>
                             </ul>
                         </li>
                         <li className={styles.menu_item}>
-                            <a href="#">PRENSA</a>
+                            <a href="/prensa">PRENSA</a>
                         </li>
                         <li className={styles.menu_item}>
-                            <a href="#contacto">CONTACTO</a>
+                            <a href="/#contacto">CONTACTO</a>
                         </li>
                         
                     </ul>
