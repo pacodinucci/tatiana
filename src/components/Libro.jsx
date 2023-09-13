@@ -37,7 +37,7 @@ function Libro() {
           </div>
           <div className={styles.detalles_imagen}>
             {libro.imagen.map((portada, index) => (
-              <img src={portada} alt="" />
+              <img src={portada} key={index} alt="" style={{ width: '18vw', height: 'auto' }} />
             ))}
           </div>
         </div>
@@ -76,7 +76,7 @@ function Libro() {
             <div className={styles.disponible}>
               {libro.disponible.papel ? (<span><p>DISPONIBLE EN PAPEL</p></span>) : null}
               {libro.disponible.ebook ? (<span><p>DISPONIBLE EN E-BOOK</p></span>) : null}
-              {libro.disponible.descarga ? (<span><p style={{ fontSize: "1rem" }}>DESCARGAR LIBRO GRATIS</p></span>) : null}
+              {libro.disponible.descarga ? (<span><p style={{ fontSize: "2vh" }}>DESCARGAR LIBRO GRATIS</p></span>) : null}
             </div>
           ) : null}
           {libro.nota ? (

@@ -132,7 +132,7 @@ html{
 
 .vermasbtn{
     background: var(--primario-principal-4, #FFF);
-    padding: 2vh 1.6vw;
+    padding: 1.4vh 1.2vw;
     border: 1px solid #54CBC7;
     border-radius: 0.9375rem;
     transition: background 0.3s ease, color 0.3s ease;
@@ -144,7 +144,7 @@ html{
     color: #54CBC7;
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1rem;
+    font-size: 2vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -161,7 +161,7 @@ html{
 
 .bio_container{
     height: 100vh;
-    margin-top: 7%;
+    margin-top: 10vh;
 }
 
 .titulo_bio{

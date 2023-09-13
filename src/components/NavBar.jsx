@@ -25,7 +25,7 @@ function NavBar() {
                             <a href="/#biografia" translate='no'>BIO</a>
                         </li>
                         <li className={styles.menu_item}>
-                            <a href="/#libros">LIBROS</a>
+                            <a href="/libros">LIBROS</a>
                         </li>
                         <li className={styles.menu_item}>
                             <a href="#">OTRAS COSAS</a>

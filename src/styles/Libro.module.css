@@ -22,16 +22,19 @@
 .detalles_principal{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2vh 0;
     align-items: center;
-    height: 85vh;
+    height: 75vh;
+    width: 80vw;
+    /* border: 2px solid blue; */
 }
 
 .detalles_principal .detalles_titulo{
-    text-align: center;
-    /* font-style: italic; */
-    line-height: normal;
-    margin-top: 3vh
+    /* text-align: center; */
+    /* line-height: normal; */
+    /* margin-top: 3vh */
+    /* border: 2px solid blue; */
 }
 
 .detalles_principal .detalles_titulo h2{
@@ -42,12 +45,19 @@
 }
 
 .detalles_principal .detalles_imagen{
-    width: 25vw;
+    width: 40vw;
     display: flex;
     justify-content: center;
-    margin-top: 8vh;
+    /* margin-top: 8vh; */
     /* margin-bottom: 1vh; */
     gap: 4vw;
+    /* border: 2px solid red; */
+}
+
+.detalles_principal .detalles_imagen img {
+    box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
 }
 
 .playlist{
@@ -81,10 +91,16 @@
 
 .english{
     display: flex;
+    align-items: center;
     gap: 3vw;
-    margin-top: 3vh;
+    /* margin-top: 4vh; */
     width: 70%;
-    height: 5vh;
+    height: 10vh;
+    /* border: 2px solid red; */
+}
+
+.english img {
+    height: 4vh;
 }
 
 .english span {
@@ -132,7 +148,7 @@
     color: #000;
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1.25rem;
+    font-size: 2.2vh;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -142,16 +158,17 @@
     color: #000;
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1.25rem;
+    font-size: 2.2vh;
     font-weight: bold;
     line-height: normal;
 }
 
 .sinopsis_container{
-    background: var(--primario-6, #257A77);
-    margin-top: 6.94rem;
+    background: var(--primario-6, #4C9A97);
+    margin-top: 12vh;
     width: 98.9vw;
     padding: 4.62rem 0;
+    /* border: 2px solid blue; */
 }
 
 .sinopsis{
@@ -160,15 +177,16 @@
     flex-direction: column;
     gap: 4vh;
     align-items: center;
-    width: 64.625rem;
+    width: 70vw;
     color: #FFF;
+    /* border: 2px solid red; */
 }
 
 .sinopsis h2{
     font-family: Fira Sans;
-    font-size: 2.44125rem;
+    font-size: 5vh;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     line-height: normal;
 }
 
@@ -179,7 +197,7 @@
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
-    letter-spacing: 0.03rem;
+    letter-spacing: .01vw;
     line-height: 1.2;
 }
 
