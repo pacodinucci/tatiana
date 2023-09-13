@@ -302,7 +302,7 @@ html{
 .input{
     background: transparent;
     border: 2px solid  #34ABA7;
-    /* border-radius: 8px; */
+    border-radius: 8px;
     color: #34ABA7;
     outline: none;
     padding: 20px 10px;
