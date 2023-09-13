@@ -131,20 +131,32 @@ html{
 }
 
 .vermasbtn{
-    background: var(--primario-principal-4, #54CBC7);
+    background: var(--primario-principal-4, #FFF);
     padding: 2vh 1.6vw;
+    border: 1px solid #54CBC7;
     border-radius: 0.9375rem;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 .vermasbtn a{
     text-decoration: none;
-    color: #FFF;
+    color: #54CBC7;
     text-align: center;
     font-family: Fira Sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.vermasbtn:hover {
+    background: var(--primario-principal-4, #54CBC7);
+}
+
+.vermasbtn:hover a {
+    color: #FFF;
 }
 
 .bio_container{
@@ -294,6 +306,7 @@ html{
     color: #34ABA7;
     outline: none;
     padding: 20px 10px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .input::placeholder{

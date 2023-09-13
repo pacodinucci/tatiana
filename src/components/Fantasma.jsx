@@ -22,7 +22,7 @@ function Fantasma() {
                 </span>
                 <div className={styles.video} style={{marginTop: "-10vh", marginBottom: "10vh"}}>
                     <iframe width="800" height="450" src="https://www.youtube.com/embed/ir0HcuiEyRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
-                    <a className={styles.btn}>
+                    <a className={styles.btn} href="https://www.youtube.com/@tatianagoransky" target="_blank">
                         <img src={yt} alt="" />
                         <h4>VER MÁS</h4>
                     </a>

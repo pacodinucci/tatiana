@@ -27,8 +27,8 @@ function Libro() {
       <div className={styles.detalles_content}>
         {libro.english ? (
           <div className={styles.english}>
-            <a href="#"><img src={bandera} alt="" /></a>  
-            <span className={styles.btnleermas}><p>LEER MÁS</p></span>
+            <a href="/loveyouless"><img src={bandera} alt="" /></a>  
+            <span className={styles.btnleermas}><a href="/lelectura">LEER MÁS</a></span>
           </div>
         ) : (<div className={styles.english}></div>)}
         <div className={styles.detalles_principal}>

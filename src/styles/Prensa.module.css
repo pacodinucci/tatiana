@@ -87,6 +87,7 @@
 .primeramedio {
     display: flex;
     flex-direction: column;
+    margin-left: -.3vw;
 }
 
 .primeramedio img {
@@ -105,6 +106,10 @@
 .segunda {
     display: flex;
     margin-bottom: 40vh;
+}
+
+.segunda h4 {
+    margin-right: .5vw;
 }
 
 .segunda img {
