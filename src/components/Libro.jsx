@@ -46,6 +46,10 @@ function Libro() {
             <img src={sp} alt="" />
             <p>PLAYLIST</p>
           </div>
+        ) : libro.prologo ? (
+          <div className={styles.btnprologo}>
+            <a href="/prologoimp">LEER PRÓLOGO</a>
+          </div>
         ) : (<div className={styles.playlist} />)}
         <div className={styles.detalles_resenas}>
           <div className={styles.detalles_textos}>

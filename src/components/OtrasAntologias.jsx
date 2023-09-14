@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from './NavBar';
 import espana from '../assets/espana.png';
 import argentina from '../assets/argentina.png';
 import bolivia from '../assets/bolivia.png';
@@ -9,6 +10,7 @@ import Footer from './Footer';
 function OtrasAntologias() {
   return (
     <>
+        <NavBar />
         <div>
             <div className={styles.titulo}>
                 <h2>OTRAS ANTOLOGÍAS</h2>

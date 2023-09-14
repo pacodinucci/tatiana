@@ -122,6 +122,35 @@
     text-decoration: none;
 }
 
+.btnprologo{
+    background: var(--primario-principal-4, #FFF);
+    padding: 2vh 1.6vw;
+    border: 1px solid #54CBC7;
+    border-radius: 0.9375rem;
+    margin: 6vh 0;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.btnprologo a{
+    text-decoration: none;
+    color: #54CBC7;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnprologo:hover {
+    background: var(--primario-principal-4, #54CBC7);
+}
+
+.btnprologo:hover a {
+    color: #FFF;
+}
+
 .detalles_resenas{
     display: flex;
     flex-direction: column;
@@ -167,7 +196,7 @@
     background: var(--primario-6, #4C9A97);
     margin-top: 12vh;
     width: 98.9vw;
-    padding: 4.62rem 0;
+    padding: 10vh 0;
     /* border: 2px solid blue; */
 }
 
@@ -226,22 +255,33 @@
 .disponible span{
     width: 8.5vw;
     height: 6vh;
+    border: 1px solid #16726F;
     border-radius: 0.9375rem;
-    background: var(--primario-6, #16726F);
+    background: var(--primario-6, #F9F9F9);
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 .disponible p{
     width: 70%;
-    color: var(--intermedio, #FFF);
+    color: var(--intermedio, #16726F);
     text-align: center;
     font-family: Fira Sans;
     font-size: 2vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.disponible span:hover {
+    background: var(--primario-6, #16726F);
+}
+
+.disponible span:hover p {
+    color: #FFF;
 }
 
 .nota{

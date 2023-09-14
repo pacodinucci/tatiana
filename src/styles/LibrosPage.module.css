@@ -55,20 +55,31 @@
 }
 
 .vermasbtn{
-    background: var(--primario-principal-4, #54CBC7);
+    background: var(--primario-principal-4, #FFF);
     padding: 2vh 1.6vw;
     border-radius: 0.9375rem;
+    border: 1px solid #54CBC7;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 .vermasbtn a{
     text-decoration: none;
-    color: #FFF;
+    color: #54CBC7;
     text-align: center;
     font-family: Fira Sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.vermasbtn:hover {
+    background: var(--primario-principal-4, #54CBC7);
+}
+
+.vermasbtn:hover a {
+    color: #FFF;
 }
 
 .footer{
