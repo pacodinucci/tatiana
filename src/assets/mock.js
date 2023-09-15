@@ -71,7 +71,7 @@ const librosMock = [
     {
         id: 2,
         titulo: '¿Quién mató a la cantante de jazz?',
-        imagen: [cantante1, cantante2, cantante3, cantante4],
+        imagen: [cantante1, cantante2, cantante3, cantante4, cantante5],
         resenas: [
             {
                 cita: '¿Quién mató a la Cantante de Jazz? es un libro inspirado, inteligente y divertido. Goransky inventó el policial jazzero, un género que es, sobre todo lo demás, el mapa de una pasión.',

@@ -35,9 +35,9 @@ function Libro() {
           <div className={styles.detalles_titulo}>
             <h2>{libro.titulo.toUpperCase()}</h2>
           </div>
-          <div className={styles.detalles_imagen}>
+          <div className={libro.imagen.length < 3 ? styles.detalles_imagen : styles.detalles_masdetres}>
             {libro.imagen.map((portada, index) => (
-              <img src={portada} key={index} alt="" style={{ width: '18vw', height: 'auto' }} />
+              <img src={portada} key={index} alt="" />
             ))}
           </div>
         </div>
