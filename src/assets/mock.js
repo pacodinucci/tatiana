@@ -428,11 +428,11 @@ const librosMock = [
         imagen: [quisiera1, quisiera2],
         resenas: [
             {
-                cita: 'Un libro que excita y abofetea, corto como polvo de zaguán, profundo como amor sellado a sangre y saliva, inmenso como nombre gritado en el duermevela.',
+                cita: 'Un libro que excita y abofetea, corto como polvo de zaguán, profundo como amor sellado a<br /> sangre y saliva, inmenso como nombre gritado en el duermevela.',
                 medio: 'Revista de Letras, España.'
             },
             {
-                cita: 'Brutal, explícita, desaforada, en seis monólogos y una confesión la nouvelle “Quisiera amarte menos” cierra una trilogía involuntaria; una tragedia a la vera del policial que interpela la definición de femicidio.',
+                cita: 'Brutal, explícita, desaforada, en seis monólogos y una confesión la nouvelle “Quisiera amarte menos” cierra una<br /> trilogía involuntaria; una tragedia a la vera del policial que interpela la definición de femicidio.',
                 medio: 'La Nación, Argentina.'
             },
             {
@@ -440,23 +440,23 @@ const librosMock = [
                 medio: 'Revista Quimera, España.'
             },
             {
-                cita: 'Goransky exprime las posibilidades del relato coral para ofrecer a los lectores todas las aristas del drama: la pasión, los deseos, la lujuria, la locura, el fracaso. El resultado es esta estupenda nouvelle, debajo de cuya superficie tersa se retrata un verdadero cúmulo de miserias humanas.',
+                cita: 'Goransky exprime las posibilidades del relato coral para ofrecer a los lectores todas las aristas del drama: la pasión,<br /> los deseos, la lujuria, la locura, el fracaso. El resultado es esta estupenda nouvelle, debajo de cuya superficie tersa<br /> se retrata un verdadero cúmulo de miserias humanas.',
                 medio: 'Revista Kundra'
             },
             {
-                cita: 'La autora no usa eufemismos, llama a las cosas por su nombre, el sexo es explícito, el lenguaje directo, la única forma de que la escritura sea auténtica, emocione y nos haga reflexionar.',
+                cita: 'La autora no usa eufemismos, llama a las cosas por su nombre, el sexo es explícito, el lenguaje directo, la única<br /> forma de que la escritura sea auténtica, emocione y nos haga reflexionar.',
                 medio: 'Moon Magazine'
             },
             {
-                cita: 'Siempre que leo un libro de Tatiana Goransky quedo maravillado de su sentido del ritmo, su capacidad por mantener la narración con habilidad y oficio. En poco más de cien páginas, construye un relato sobre el amor y sus complejas variaciones, creando un universo propio de personajes llenos de frustraciones, cansados de su destino y de naturaleza oscura.',
+                cita: 'Siempre que leo un libro de Tatiana Goransky quedo maravillado de su sentido del ritmo, su capacidad por<br /> mantener la narración con habilidad y oficio. En poco más de cien páginas, construye un relato sobre el amor y sus<br /> complejas variaciones, creando un universo propio de personajes llenos de frustraciones,<br /> cansados de su destino y de naturaleza oscura.',
                 medio: 'Fondo de Lectura, España.'
             },
             {
-                cita: 'La textura de la narrativa de Goransky nos transporta a un mundo cruel, intenso y extremadamente nítido donde toda la maquinaria literaria está puesta para que el lector encuentre, en estas voces, un eco: tal vez el de la sociedad, tal vez el del mundo íntimo de muchas mujeres, parejas y amantes.',
+                cita: 'La textura de la narrativa de Goransky nos transporta a un mundo cruel, intenso y extremadamente nítido donde<br /> toda la maquinaria literaria está puesta para que el lector encuentre, en estas voces, un eco: tal vez el de la<br /> sociedad, tal vez el del mundo íntimo de muchas mujeres, parejas y amantes.',
                 medio: 'Somos Berlín, Alemania.'
             },
             {
-                cita: 'Tatiana Goransky escribe descarnado, sin zonas de descanso y al ritmo que exigen los encuentros sexuales (clandestinos, quizás) de zaguán. Un tono duro, al hueso y sin preámbulos podría conformar el mapa de atributos de Quisiera amarte menos, en una fina línea entre lo políticamente incorrecto y la apuesta por un relato erótico que por momentos encuentra destellos en la intención de correrse de los marcos habituales para pensar los vínculos entre amor, sexo y violencia.',
+                cita: 'Tatiana Goransky escribe descarnado, sin zonas de descanso y al ritmo que exigen los encuentros sexuales<br /> (clandestinos, quizás) de zaguán. Un tono duro, al hueso y sin preámbulos podría conformar el mapa de atributos<br /> de Quisiera amarte menos, en una fina línea entre lo políticamente incorrecto y la apuesta por un relato erótico que<br /> por momentos encuentra destellos en la intención de correrse de los marcos<br /> habituales para pensar los vínculos entre amor, sexo y violencia.',
                 medio: 'Página 12, Argentina.'
             }
         ],

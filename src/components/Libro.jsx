@@ -58,7 +58,7 @@ function Libro() {
           <div className={styles.detalles_textos}>
             {libro.resenas?.map((resena, index) => (
               <div className={styles.resena} key={index}>
-                <p>{resena.cita}</p>
+                <p dangerouslySetInnerHTML={{ __html: resena.cita }}></p>
                 <h3>{resena.medio}</h3>
               </div>
             ))}
