@@ -48,7 +48,10 @@ function Libro() {
           </div>
         ) : libro.prologo ? (
           <div className={styles.btnprologo}>
-            <a href="/prologoimp">LEER PRÓLOGO</a>
+            <a href="/prologoimp">
+              <p>LEER</p>
+              <p>PRÓLOGO</p>
+            </a>
           </div>
         ) : (<div className={styles.playlist} />)}
         <div className={styles.detalles_resenas}>
@@ -60,27 +63,29 @@ function Libro() {
               </div>
             ))}
           </div>
-          <div className={styles.sinopsis_container}>
-            <div className={styles.sinopsis}>
-              <h2>SINOPSIS</h2>
-              <p dangerouslySetInnerHTML={{ __html: libro.sinopsis }}></p>
-              {libro.nominada ? (<p className={styles.nominada}>{libro.nominada ? (
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: libro.nominada.replace(
-                      new RegExp(libro.titulo, 'g'),
-                      `<i>${libro.titulo}</i>`
-                    ),
-                  }}
-                />
-              ) : null}</p>) : null}
+          {libro.sinopsis ? (
+            <div className={styles.sinopsis_container}>
+              <div className={styles.sinopsis}>
+                <h2>SINOPSIS</h2>
+                <p dangerouslySetInnerHTML={{ __html: libro.sinopsis }}></p>
+                {libro.nominada ? (<p className={styles.nominada}>{libro.nominada ? (
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: libro.nominada.replace(
+                        new RegExp(libro.titulo, 'g'),
+                        `<i>${libro.titulo}</i>`
+                      ),
+                    }}
+                  />
+                ) : null}</p>) : null}
+              </div>
             </div>
-          </div>
+          ) : null}
           {libro.disponible ? (
             <div className={styles.disponible}>
               {libro.disponible.papel ? (<span><p>DISPONIBLE EN PAPEL</p></span>) : null}
               {libro.disponible.ebook ? (<span><p>DISPONIBLE EN E-BOOK</p></span>) : null}
-              {libro.disponible.descarga ? (<span><p style={{ fontSize: "2vh" }}>DESCARGAR LIBRO GRATIS</p></span>) : null}
+              {libro.disponible.descarga ? (<span><p>DESCARGAR LIBRO GRATIS</p></span>) : null}
             </div>
           ) : null}
           {libro.nota ? (

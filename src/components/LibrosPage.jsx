@@ -48,7 +48,7 @@ function LibrosPage() {
                             <a href="/libros/8"><img src={barcelona} alt="" /></a>
                             <a href="/libros/9"><img src={barbaros} alt="" /></a>
                         </div>
-                        <div className={styles.vermasbtn}>
+                        <div className={styles.vermasbtn} style={{ padding: "1.1vh 1.2vw"}}>
                             <a href="/otrasant">VER MÁS</a>
                         </div>
                     </div>
@@ -64,8 +64,11 @@ function LibrosPage() {
                         <div className={styles.galeria}>
                             <a href="/libros/10"><img src={impecables} alt="" /></a>
                         </div>
-                        <div className={styles.vermasbtn}>
-                            <a href="/prologoimp">LEER PRÓLOGO</a>
+                        <div className={styles.vermasbtn} style={{ padding: ".6vh 1.2vw"}}>
+                            <a href="/prologoimp">
+                                <p>LEER</p>
+                                <p>PRÓLOGO</p>
+                            </a>
                         </div>
                     </div>
             </div>

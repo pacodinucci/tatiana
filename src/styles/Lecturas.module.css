@@ -14,14 +14,15 @@
     background-position: center;
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
 }
 
 .header h2 {
     font-family: Fira Sans;
-    font-size: 6vh;
+    font-size: 5.5vh;
+    text-shadow: 2px 2px 2px rgba(92, 92, 92, 0.6);
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -41,7 +42,7 @@
 
 .titulo_lecturas h2{
     color: #FFF;
-    font-size: 2.44125rem;
+    font-size: 4vh;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 300;

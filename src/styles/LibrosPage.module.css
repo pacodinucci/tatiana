@@ -44,9 +44,9 @@
 .galeria img{
     width: 30vh;
     transition: .8s ease;
-    box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
-    -webkit-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
-    -moz-box-shadow: 1px -1px 3px 0px rgba(93,91,91,0.75);
+    box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
 }
 
 .galeria img:hover{
@@ -56,7 +56,7 @@
 
 .vermasbtn{
     background: var(--primario-principal-4, #FFF);
-    padding: 2vh 1.6vw;
+    padding: .8vh 1.4vw;
     border-radius: 0.9375rem;
     border: 1px solid #54CBC7;
     transition: background 0.3s ease, color 0.3s ease;
