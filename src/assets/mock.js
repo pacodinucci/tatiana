@@ -32,11 +32,11 @@ const librosMock = [
             },
             {
                 cita: 'Lulúpe María T es una rareza en la nueva narrativa argentina digna de destacar.',
-                medio: 'Rayando los Confines.'
+                medio: 'Rayando los Confines'
             },
             {
                 cita: 'La historia de Lulúpe está narrada en la antigua tradición de la novela de aprendizaje que, con un sutil cruce con el género erótico, crea una deforme y seductora prosa.',
-                medio: 'Radar Libros, Página 12.'
+                medio: 'Radar Libros, Página 12'
             },
             {
                 cita: 'Primera obra de esta prometedora escritora novel, esta excelente fábula sin moraleja sobre los deseos –en tanto sexuales y como anhelos-, no hace más que demostrarnos la pobreza de nuestros mundos interiores y de nuestras lúgubres comarcas.',
