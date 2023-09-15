@@ -14,10 +14,11 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 85vh;
     justify-content: center;
     align-items: center;
+    gap: 6vh;
 }
 
 .header span {
@@ -34,6 +35,20 @@
     background-color: transparent; */
 }
 
+.header h4 {
+    width: 70%;
+    color: var(--primario-1, #E7F8F7);
+    text-align: center;
+    font-family: Fira Mono;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: .6vw;
+    justify-content: end;
+}
+
 .negrita {
     font-weight: bold;
     display: inline;
@@ -48,7 +63,7 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    margin: 15vh;
+    margin: 15vh 30vh;
 }
 
 .fantasma_content p {
@@ -59,7 +74,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
 }
 
 .video {

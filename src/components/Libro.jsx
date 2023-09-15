@@ -27,7 +27,7 @@ function Libro() {
       <div className={styles.detalles_content}>
         {libro.english ? (
           <div className={styles.english}>
-            <a href="/loveyouless"><img src={bandera} alt="" /></a>  
+            <a href="/loveyouless"><img src={bandera} alt="" /></a>
             <span className={styles.btnleermas}><a href="/lelectura">LEER MÁS</a></span>
           </div>
         ) : (<div className={styles.english}></div>)}
@@ -47,12 +47,14 @@ function Libro() {
             <p>PLAYLIST</p>
           </div>
         ) : libro.prologo ? (
-          <div className={styles.btnprologo}>
-            <a href="/prologoimp">
-              <p>LEER</p>
-              <p>PRÓLOGO</p>
-            </a>
-          </div>
+          <>
+            <div className={styles.btnprologo}>
+              <a href="/prologoimp">
+                <p>LEER</p>
+                <p>PRÓLOGO</p>
+              </a>
+            </div>
+          </>
         ) : (<div className={styles.playlist} />)}
         <div className={styles.detalles_resenas}>
           <div className={styles.detalles_textos}>
