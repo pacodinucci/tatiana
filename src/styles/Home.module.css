@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.landing_container{
+.landing_container {
     background: url(../assets/fotodeps-1.png), rgb(0, 0, 0) 50%;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ html{
     justify-content: space-between;
 }
 
-.menu_landing{
+.menu_landing {
     display: flex;
     flex-direction: column;
     margin-top: 8.75rem;
@@ -33,7 +33,7 @@ html{
     align-items: flex-start;
 }
 
-.menu_link{
+.menu_link {
     font-size: 2.44125rem;
     font-family: 'Fira Sans';
     font-style: normal;
@@ -45,7 +45,7 @@ html{
     text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.6);
 }
 
-.menu_link:hover{
+.menu_link:hover {
     color: #eae9e9;
 }
 
@@ -65,7 +65,7 @@ html{
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
 } */
 
-.name{
+.name {
     display: flex;
     flex-direction: column;
     margin-right: 12vw;
@@ -74,7 +74,7 @@ html{
     justify-content: space-evenly;
 }
 
-.name h1{
+.name h1 {
     color: #FFF;
     font-size: 8vh;
     font-family: 'Noto Music';
@@ -85,14 +85,14 @@ html{
     padding: .5vh;
 }
 
-.libros{
+.libros {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.galeria_container{
+.galeria_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +102,7 @@ html{
     /* border: 2px solid red; */
 }
 
-.ultimos h2{
+.ultimos h2 {
     color: var(--primario-7, #164948);
     text-align: center;
     font-family: Fira Sans;
@@ -112,25 +112,25 @@ html{
     line-height: normal;
 }
 
-.galeria{
+.galeria {
     display: flex;
     gap: 1rem;
 }
 
-.galeria img{
+.galeria img {
     width: 30vh;
     transition: .8s ease;
-    box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -webkit-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -moz-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    }
+    box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+}
 
-.galeria img:hover{
+.galeria img:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
 
-.vermasbtn{
+.vermasbtn {
     background: var(--primario-principal-4, #FFF);
     padding: 1.4vh 1.2vw;
     border: 1px solid #54CBC7;
@@ -139,7 +139,7 @@ html{
     cursor: pointer;
 }
 
-.vermasbtn a{
+.vermasbtn a {
     text-decoration: none;
     color: #54CBC7;
     text-align: center;
@@ -159,12 +159,12 @@ html{
     color: #FFF;
 }
 
-.bio_container{
+.bio_container {
     height: 100vh;
     margin-top: 10vh;
 }
 
-.titulo_bio{
+.titulo_bio {
     display: flex;
     height: 15vh;
     padding: 4.875rem 0rem 4.8125rem 0rem;
@@ -174,7 +174,7 @@ html{
     background: var(--primario-principal-5, #34ABA7);
 }
 
-.titulo_bio h2{
+.titulo_bio h2 {
     color: #FFF;
     font-size: 2.44125rem;
     font-family: Fira Sans;
@@ -183,7 +183,7 @@ html{
     line-height: normal;
 }
 
-.biografia_container{
+.biografia_container {
     /* min-height: 85vh; */
     /* padding-top: 7.81rem; */
     /* background: url('../assets/moodboard-final-celeste-2.png'); */
@@ -197,7 +197,7 @@ html{
     align-items: center;
 }
 
-.biografia_content{
+.biografia_content {
     display: flex;
     gap: 2.31rem;
     justify-content: center;
@@ -208,7 +208,7 @@ html{
     width: auto;
 }
 
-.textosBio{
+.textosBio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -216,7 +216,7 @@ html{
     height: 100%;
 }
 
-.textosBio h2{
+.textosBio h2 {
     font-size: 6vh;
     font-family: Fira Sans;
     font-style: normal;
@@ -225,13 +225,13 @@ html{
     color: var(--neutro-7, #1f1f1f);
 }
 
-.biografia_content img{
+.biografia_content img {
     /* width: 23.75rem;
     height: 24.0625rem; */
     height: 100%;
 }
 
-.textosBio p{
+.textosBio p {
     display: flex;
     /* width: 38vw; */
     height: auto;
@@ -250,11 +250,11 @@ html{
     /* border: 2px solid yellow; */
 }
 
-.textosBio a{
+.textosBio a {
     align-self: flex-end;
 }
 
-.textosBio img{
+.textosBio img {
     width: 2.5vw;
     align-self: flex-end;
     cursor: pointer;
@@ -265,13 +265,13 @@ html{
     padding: 100px 30px;
 } */
 
-.contacto_container{
+.contacto_container {
     /* background: url('../assets/moodboard-final-celeste-2.png'); */
     padding-bottom: 8rem;
     margin-top: 15vh;
 }
 
-.titulo_contacto{
+.titulo_contacto {
     display: flex;
     height: 15vh;
     padding: 4.875rem 0rem 4.8125rem 0rem;
@@ -281,7 +281,7 @@ html{
     background: var(--primario-principal-5, #34ABA7);
 }
 
-.titulo_contacto h2{
+.titulo_contacto h2 {
     color: #FFF;
     font-size: 2.44125rem;
     font-family: Fira Sans;
@@ -290,7 +290,7 @@ html{
     line-height: normal;
 }
 
-.form{
+.form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -299,9 +299,9 @@ html{
     width: 60%;
 }
 
-.input{
+.input {
     background: transparent;
-    border: 2px solid  #34ABA7;
+    border: 2px solid #34ABA7;
     border-radius: 8px;
     color: #34ABA7;
     outline: none;
@@ -309,34 +309,34 @@ html{
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-.input::placeholder{
+.input::placeholder {
     color: #34ABA7;
     font-family: 'Fira Sans';
 }
 
 input[type="text"],
-input[type="email"]{
+input[type="email"] {
     display: inline-block;
     width: 49%;
     margin-bottom: 30px;
 }
 
-.form textarea{
+.form textarea {
     width: 100%;
     margin-bottom: 15px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     width: 120px;
     text-align: center;
     padding: 14px 0;
     font-family: 'Fira Sans';
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     cursor: pointer;
     color: #fff;
-    background:#34ABA7;
+    background: #34ABA7;
 }
 
 /* .contacto h2{
@@ -346,9 +346,31 @@ input[type="submit"]:hover{
     font-weight: 400;
 } */
 
+.slide-in-right {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide-in-right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-in-left {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide-in-left.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 @media (max-width: 1440px) {
-    
-    .textosBio p{
+
+    .textosBio p {
         line-height: 4vh;
     }
 }
