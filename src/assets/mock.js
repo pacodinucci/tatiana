@@ -87,11 +87,11 @@ const librosMock = [
             },
             {
                 cita: 'Como juego cortazariano, la brevísima novela de Tatiana Goransky se lee como se bebe un buen whisky,<br /> paladeándolo; va de atrás a adelante y, libérrima, pasa de la primera persona a la tercera, sin perder en ningún<br /> momento su ritmo, como una buena pieza de jazz, anárquica pero con un melodía interna.',
-                medio: 'José Luis Muñoz, Letralia. España'
+                medio: 'Letralia, España'
             },
             {
                 cita: '¿Quién mató a la Cantante de Jazz?  y los otros libros de Tatiana Goransky operan por transgresión. Cuestionan las<br /> formas de escritura y las formas del relato, manteniendo una mirada aguda y a la vez perpleja de la sociedad<br /> argentina. La propuesta es desafiante y de talla: reflexionar sobre la ficción y sus formas, sobre sus implicancias<br /> tanto locales como universales, interrogarse acerca de los lazos entre la realidad y la escritura. Goransky promueve<br /> el desafío, las formas elípticas, barrocas, espiraladas. Escoge el zapping y la fragmentación como forma narrativa,<br /> pero construye historias sólidas y provocadoras, historias de vida –marcadas por los grandes mitos populares, el<br /> deporte, el jazz, el sueño del viaje a Europa-, grandes y diminutas, historias de todos los días. Las que se<br /> encuentran a cada vuelta de página, sorprendentes.',
-                medio: 'Hispanistes. Francia'
+                medio: 'Hispanistes, Francia'
             }
         ],
         sinopsis: 'La Cantante de Jazz ha muerto, y no de muerte natural. Su asesinato le dará vida. Acrecentará su fama, la convertirá<br /> en amante de todos los hombres que la escucharon cantar. Sus temas inéditos serán tesoros, y las anécdotas de<br /> sus conciertos se magnificarán hasta convertirla en mito. Su partida, también, sacará del letargo a un viejo músico<br /> que encerró su mejor nota en una caja para convertirse en el investigador de este caso. Martínez, el policía, hará su<br /> lista de sospechosos seguro de una cosa: si hubiesen matado a un bandoneonista, en una semana tendrían al<br /> culpable engayolado, pero como la víctima es una intérprete de ”música tan poco ciudadana”, la realidad es otra.<br /> Esta es la introducción a la novela en papel, pero Tatiana Goransky cuenta otra historia que transciende el formato<br /> y genera la necesidad de leer su texto escuchando jazz. Goransky, con voz de cantante y pulso de escritora, maneja<br /> con soltura los dos mundos, nos dice qué música leer y qué historia escuchar con el tono,<br /> la luz y la precisión que el relato necesita.',
