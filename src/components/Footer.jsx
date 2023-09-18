@@ -13,7 +13,23 @@ function Footer() {
                 </div>
                 <div className={styles.textos_footer}>
                     <h3>Tatiana Goransky</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <ul className={styles.links}>
+                        <li><a href="">BIO</a></li>
+                        <li>|</li>
+                        <li><a href="">LIBROS</a></li>
+                        <li>|</li>
+                        <li><a href="">MÚSICA</a></li>
+                        <li>|</li>
+                        <li><a href="">LECTURAS</a></li>
+                        <li>|</li>
+                        <li><a href="">FANTASMA</a></li>
+                        <li>|</li>
+                        <li><a href="">TALLERES</a></li>
+                        <li>|</li>
+                        <li><a href="">PRENSA</a></li>
+                        <li>|</li>
+                        <li><a href="">CONTACTO</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>

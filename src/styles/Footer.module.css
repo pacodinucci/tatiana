@@ -30,3 +30,15 @@
     font-family: Laila;
     font-weight: 400;
 }
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: .5vw;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: Fira Sans;
+}
