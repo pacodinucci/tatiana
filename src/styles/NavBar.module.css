@@ -125,6 +125,11 @@ nav{
 .social img{
     width: 6vh;
     cursor: pointer;
+    transition: .8s ease;
+}
+
+.social img:hover {
+    transform: scale(1.1);
 }
 
 
