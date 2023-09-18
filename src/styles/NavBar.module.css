@@ -109,9 +109,9 @@ nav{
     padding: 2px;
 }
 
-/* .menu_vertical a{
-    font-size: 1vw;
-} */
+.menu_vertical a:hover {
+    color: #1e605e;
+}
 
 .social{
     display: flex;
