@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
-import tw from '../assets/twverde.svg';
+import tw from '../assets/twitterx.svg';
 
 function NavBar() {
 
