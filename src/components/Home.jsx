@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import useIntersection from '../hooks/useIntersection';
 import styles from '../styles/Home.module.css';
 import libro5 from '../assets/fade-out-1.png';
@@ -10,7 +11,30 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 
 
+
 function Home() {
+
+  const [nombre, setNombre] = useState('');
+  const [email, setEmail] = useState('');
+  const [mensaje, setMensaje] = useState('');
+
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm('service_n1cun6u', 'template_lns2nal', form.current, '-ab8SURfwZoUdHMj-')
+    .then((result) => {
+      console.log(result.text);
+      setNombre('');
+      setEmail('');
+      setMensaje('');
+      // setFormularioEnviado(true);
+    })
+    .catch((error) => {
+      console.log(error.text);
+    });
+  };
 
   const [elementoRef, isIntersecting] = useIntersection({
     threshold: 0.5,
@@ -78,10 +102,10 @@ function Home() {
           <div className={styles.titulo_contacto}>
             <h2>CONTACTO</h2>
           </div>
-          <form action="" className={styles.form}>
-            <input className={styles.input} type="text" name="" id="" placeholder="Nombre" />
-            <input className={styles.input} type="email" name="" id="" placeholder="Email" />
-            <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <form action="" className={styles.form} ref={form} onSubmit={sendEmail}>
+            <input className={styles.input} type="text" name="user_name" id="" placeholder="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
+            <input className={styles.input} type="email" name="user_email" id="" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+            <textarea className={styles.input} name="message" id="" cols="30" rows="10" placeholder="Mensaje" value={mensaje} onChange={(e) => setMensaje(e.target.value)} ></textarea>
             <input className={styles.input} type="submit" value="Enviar" />
           </form>
         </div>
