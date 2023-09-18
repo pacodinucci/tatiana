@@ -53,7 +53,7 @@ function NavBar() {
                     <div className={styles.social}>
                         <li>
                             <a href="https://twitter.com/TatianaGoransky" target="_blank" rel="noopener noreferrer">
-                                <img src={tw} alt="Twitter" />
+                                <img src={tw} alt="Twitter" style={{ width: "3vw"}} />
                             </a>
                         </li>
                         <li>
