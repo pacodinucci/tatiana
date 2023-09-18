@@ -17,7 +17,7 @@ import notaquisiera from './nota-quisiera.png';
 import mujer2 from './mujer2.png';
 import barcelona1 from './barcelona1.png';
 import barcelona2 from './barcelona2.png';
-import barbaros from './barbaros.png';
+import barbaros from './barbarosconmarco.png';
 import impecables from './libro5.png';
 
 const librosMock = [

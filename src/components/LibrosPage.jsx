@@ -9,7 +9,7 @@ import libro3 from '../assets/libro4.png';
 import libro2 from '../assets/libro2.png';
 import libro1 from '../assets/libro1.png';
 import barcelona from '../assets/barcelona.png';
-import barbaros from '../assets/barbaros.png';
+import barbaros from '../assets/barbarosconmarco.png';
 import impecables from '../assets/libro5.png';
 import Footer from './Footer';
 
