@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 import ig from '../assets/instagram.svg';
 import tw from '../assets/vector.svg';
 import styles from '../styles/Footer.module.css';
@@ -14,21 +15,29 @@ function Footer() {
                 <div className={styles.textos_footer}>
                     <h3>Tatiana Goransky</h3>
                     <ul className={styles.links}>
-                        <li><a href="">BIO</a></li>
+                        <li>
+                            <HashLink smooth to="/#biografia">
+                                BIO
+                            </HashLink>
+                        </li>
                         <li>|</li>
-                        <li><a href="">LIBROS</a></li>
+                        <li><a href="/libros">LIBROS</a></li>
                         <li>|</li>
-                        <li><a href="">MÚSICA</a></li>
+                        <li><a href="/musica">MÚSICA</a></li>
                         <li>|</li>
-                        <li><a href="">LECTURAS</a></li>
+                        <li><a href="/lecturas">LECTURAS</a></li>
                         <li>|</li>
-                        <li><a href="">FANTASMA</a></li>
+                        <li><a href="/fantasma">FANTASMA</a></li>
                         <li>|</li>
-                        <li><a href="">TALLERES</a></li>
+                        <li><a href="taleres">TALLERES</a></li>
                         <li>|</li>
-                        <li><a href="">PRENSA</a></li>
+                        <li><a href="prensa">PRENSA</a></li>
                         <li>|</li>
-                        <li><a href="">CONTACTO</a></li>
+                        <li>
+                            <HashLink smooth to="/#contacto">
+                                CONTACTO
+                            </HashLink>
+                        </li>
                     </ul>
                 </div>
             </div>
