@@ -75,11 +75,11 @@ const librosMock = [
         resenas: [
             {
                 cita: '¿Quién mató a la Cantante de Jazz? es un libro inspirado, inteligente y divertido. Goransky inventó el policial<br /> jazzero, un género que es, sobre todo lo demás, el mapa de una pasión.',
-                medio: 'Gabriela Cabezón Cámara.'
+                medio: 'Gabriela Cabezón Cámara'
             },
             {
                 cita: 'Una novela enorme a pesar de su breve extensión.',
-                medio: 'Revista Culturamas, España.'
+                medio: 'Revista Culturamas, España'
             },
             {
                 cita: '…la lógica del mundo que presenta Goransky es una lógica musical y no discursiva. Plagada de variaciones, citas<br /> encubiertas, melodías que se repiten y, sobre todo, ritmo.',
@@ -87,11 +87,11 @@ const librosMock = [
             },
             {
                 cita: 'Como juego cortazariano, la brevísima novela de Tatiana Goransky se lee como se bebe un buen whisky,<br /> paladeándolo; va de atrás a adelante y, libérrima, pasa de la primera persona a la tercera, sin perder en ningún<br /> momento su ritmo, como una buena pieza de jazz, anárquica pero con un melodía interna.',
-                medio: 'José Luis Muñoz, Letralia. España.'
+                medio: 'José Luis Muñoz, Letralia. España'
             },
             {
                 cita: '¿Quién mató a la Cantante de Jazz?  y los otros libros de Tatiana Goransky operan por transgresión. Cuestionan las<br /> formas de escritura y las formas del relato, manteniendo una mirada aguda y a la vez perpleja de la sociedad<br /> argentina. La propuesta es desafiante y de talla: reflexionar sobre la ficción y sus formas, sobre sus implicancias<br /> tanto locales como universales, interrogarse acerca de los lazos entre la realidad y la escritura. Goransky promueve<br /> el desafío, las formas elípticas, barrocas, espiraladas. Escoge el zapping y la fragmentación como forma narrativa,<br /> pero construye historias sólidas y provocadoras, historias de vida –marcadas por los grandes mitos populares, el<br /> deporte, el jazz, el sueño del viaje a Europa-, grandes y diminutas, historias de todos los días. Las que se<br /> encuentran a cada vuelta de página, sorprendentes.',
-                medio: 'Néstor Ponce, Variaciones sobre una historia policial. Acerca de “¿Quién mató a la cantante de jazz?” (2008) de Tatiana Goransky. Hispanistes. Francia.'
+                medio: 'Néstor Ponce, Variaciones sobre una historia policial. Acerca de “¿Quién mató a la cantante de jazz?” (2008) de Tatiana Goransky. Hispanistes. Francia'
             }
         ],
         sinopsis: 'La Cantante de Jazz ha muerto, y no de muerte natural. Su asesinato le dará vida. Acrecentará su fama, la convertirá<br /> en amante de todos los hombres que la escucharon cantar. Sus temas inéditos serán tesoros, y las anécdotas de<br /> sus conciertos se magnificarán hasta convertirla en mito. Su partida, también, sacará del letargo a un viejo músico<br /> que encerró su mejor nota en una caja para convertirse en el investigador de este caso. Martínez, el policía, hará su<br /> lista de sospechosos seguro de una cosa: si hubiesen matado a un bandoneonista, en una semana tendrían al<br /> culpable engayolado, pero como la víctima es una intérprete de ”música tan poco ciudadana”, la realidad es otra.<br /> Esta es la introducción a la novela en papel, pero Tatiana Goransky cuenta otra historia que transciende el formato<br /> y genera la necesidad de leer su texto escuchando jazz. Goransky, con voz de cantante y pulso de escritora, maneja<br /> con soltura los dos mundos, nos dice qué música leer y qué historia escuchar con el tono,<br /> la luz y la precisión que el relato necesita.',
@@ -121,7 +121,7 @@ const librosMock = [
                 link: 'https://letralia.com/lecturas/2016/04/16/quien-mato-a-la-cantante-de-jazz-de-tatiana-goransky/'
             },
             {
-                titulo: 'Cultura Más, España.',
+                titulo: 'Cultura Más, España',
                 link: 'http://www.culturamas.es/blog/2016/05/24/quien-mato-a-la-cantante-de-jazz-de-tatiana-goransky/'
             },
             {
@@ -145,11 +145,11 @@ const librosMock = [
                 link: 'http://lasoledaddelcorredordefondo.blogspot.com.ar/2015/02/literatura_21.html?m=0'
             },
             {
-                titulo: 'Hispanistes, Francia.',
+                titulo: 'Hispanistes, Francia',
                 link: 'http://www.hispanistes.org/index.php/component/booklibrary/11718/view_bl/5/chapitre -d-ouvrage/12501/variaciones-sobre-una-historia-policial-acerca-de-quien-mato-a-la- cantante-de-jazz-2008-de-tatiana- goransky?tab=getmybooksTab&amp;is_show_data=1&amp;Itemid=11718 https://www.senalc.com/2020/03/01/scats-y-musica-de-trompeta-en-el-campo-de-batalla-quien-mato-a-la-cantante-de-jazz-de-tatiana-goransky/'
             },
             {
-                titulo: 'Editorial Universitaria, México.',
+                titulo: 'Editorial Universitaria, México',
                 link: 'http://editorialuniversitaria.uanl.mx/index.php/2019/10/07/tatiana-goransky-cantante-de-jazz/'
             }
         ],
@@ -175,11 +175,11 @@ const librosMock = [
             },
             {
                 cita: 'El tempo, el manejo de la cadencia, las estructuras que dan lugar a los solos, los silencios y los textos corales se<br /> entretejen armando melodías y estructuras narrativas, claro ejemplo de escribir explorando el mundo como si se<br /> desentrañara parte de su misteriosa partitura.',
-                medio: 'Diario de Girona, España.'
+                medio: 'Diario de Girona, España'
             },
             {
                 cita: 'Antes que nada, Don del agua es una novela de aventuras, con todas las letras como pide el pueblo y escasea<br /> últimamente, como si la más mínima gota de realismo desencadenara, necesariamente, el gobierno absoluto de la<br /> verosimilitud y el aburrimiento. Acá, sin embargo, hay bastante de maravilloso, pero de la mejor tradición, la de los<br /> cuentos juveniles entre la fantasía y el terror, aunque dejarla en ese lugar sería encasillar una novela que tiene<br /> mucho más para dar, sobre todo porque está atravesada no sólo por la tragedia, esa mezcla de destino divino y<br /> maldición humana, sino por una serie de lenguajes y discursos que suman, la agrandan<br /> y la convierten en una historia emocionante.',
-                medio: 'Página 12, Argentina'
+                medio: 'Página 12'
             },
             {
                 cita: 'Don del agua es una novela hermosa. Húmeda por donde se la lea. Tiene palabras que conjuran el aburrimiento:<br /> rabdomante y zahorí. Aunque Don del agua podría ser la historia de un barco, de una familia o del mar, es la<br /> historia de dos hermanos, de uno que tenía buena suerte y de otro que necesitaba ser supersticioso.',
@@ -189,7 +189,7 @@ const librosMock = [
         sinopsis: 'Don del agua narra la historia de una saga maldita, la de un rabdomante albino y sus dos hijos varones: un<br /> capitán de barco empecinado en dominar la respiración subacuática y un buzo obsesionado por<br /> encontrar un tesoro imposible.<br /> La autora entreteje con maestría varios registros discursivos que van desde la novela de misterio y el cuaderno<br /> de bitácora, hasta la crónica periodística y el género fantástico. Situadas entre la física y la superstición, estas<br /> páginas se expanden con pulso firme y certero.<br /> Goransky traza un universo masculino de conquistadores acuáticos que<br /> se valen de todo para tener el don del agua.',
         links: [
             {
-                titulo: 'Página 12, Argentina',
+                titulo: 'Página 12',
                 link: 'https://www.pagina12.com.ar/diario/suplementos/libros/10-4201-2011-03-13.html'
             },
             {
@@ -197,7 +197,7 @@ const librosMock = [
                 link: 'http://golosinacanibal.blogspot.com.ar/2010/11/presentacion-don-del-agua-de- tatiana.html'
             },
             {
-                titulo: 'InfoBae, Argentina',
+                titulo: 'InfoBae',
                 link: 'https://www.infobae.com/grandes-libros/2018/08/23/una-novela-que-reflexiona-sobre- los-usos-del-agua/'
             },
             {
@@ -226,11 +226,11 @@ const librosMock = [
             },
             {
                 cita: 'Con la publicación de esta nouvelle Tatiana Goransky reafirma que es una de las escritoras más originales de la<br /> narrativa latinoamericana actual. Llena de sorpresas inquietantes y de un humorismo que se baña en lo<br /> perturbador, Ball boy es sin duda un sitcom malvado y una dislocación de las expectativas más tradicionales,<br /> donde la frase «Piensen tenis» se repite constantemente como si no hubiera otra forma de vivir en el mundo concreto.',
-                medio: 'Suburbano, Estados Unidos.'
+                medio: 'Suburbano, Estados Unidos'
             },
             {
                 cita: 'Un relato hiperrealista, sincopado y seco, que se mueve a la velocidad de la pelota en un match de Grand Slam.',
-                medio: 'El Mundo, España.'
+                medio: 'El Mundo, España'
             },
             {
                 cita: 'Ball boy de Tatiana Goransky es una muestra de cómo contar, en pocas páginas, una efectiva historia de<br /> obsesiones en un clima trágico-apocalíptico, sin perder de vista la trama y evitando el costumbrismo.',
@@ -269,11 +269,11 @@ const librosMock = [
             },
             {
                 cita: 'Para Goransky el pudor es todo un tema, es complejo, hasta el punto de terminar el libro con una suerte de<br /> reflexiones sobre la traición que supone escribir, un acto en el que conjuramos toda nuestra memoria. Pero el pudor<br /> no es lo mismo que la confidencialidad. Y de esa línea difusa, permeable, incómoda y musical, trata esta bella<br /> novela que nos trae, una vez más, un descubrimiento desde el otro lado del Atlántico.',
-                medio: 'Cultura Más, España.'
+                medio: 'Cultura Más, España'
             },
             {
                 cita: 'En estos tiempos de música descartable y libros insensibles, la escritora y cantante de jazz Tatiana<br /> Goransky presenta Fade out, una novela que expone el universo femenino desde canciones que atraviesan a la<br /> protagonista, Kumiku, una mujer que nació con el don/maldición de emitir durante las 24 horas temas desde sus<br /> oídos. Las páginas de Fade out pasan con una sonoridad tan particular, uno agarra con dos dedos la hoja y la<br /> pasa, apurado para saber qué sucederá luego, pero disfrutando a la vez el momento, ese ritual tan particular que<br /> se genera con una novela que conmueve mientras uno en la mente procesa las palabras y busca en la banda de<br /> sonido de la vida las canciones que emite Kumiku, los tangos de Renata y ese fade out<br /> entre los temas, el silencio, que tanta falta nos hace a todos en estos días.',
-                medio: 'Dentro del Monolito, España.'
+                medio: 'Dentro del Monolito, España'
             }
         ],
         sinopsis: 'Desde su nacimiento los oídos de Kumiku emiten música. «Vino al mundo con el poder del sonido, con la<br /> habilidad de producir ondas melódicas y rítmicas. Kumiku nació cajita de música infinita.» También su hija<br /> Renata, y de distinta forma Ester, la nieta, en una línea genética que Tatiana Goransky narra a partir de diarios<br /> íntimos y de ambiguas observaciones de un negro literario. Temas de Caetano Veloso, Stevie Wonder o Charly<br /> García, entre otros, dan el tono a las páginas de Fade out, apasionante novela en que tres generaciones de<br /> mujeres trazan su vida a través de la música y la búsqueda del silencio.<br /> El amor es una constante también que las protagonistas habrán de resolver entre las ciudades de Buenos Aires,<br /> San Juan y Barcelona. Fade out estuvo nominada a la Mejor Novela Argentina del año 2016.',
@@ -346,11 +346,11 @@ const librosMock = [
         resenas: [
             {
                 cita: 'Goransky consigue imprimir realidad a sus personajes con una narrativa reflexiva, serena y pausada, alejada de<br /> estridencias, demostrando que la sencillez y la sensibilidad son las mejores armas de la autora.<br /> Una novela breve, potente, que demuestra el talento de Goransky para conmovernos una vez más”.',
-                medio: 'Moon Magazine, España.'
+                medio: 'Moon Magazine, España'
             },
             {
                 cita: 'La obra podría haberse dado por concluida con las cien primeras páginas y hubiera quedado una contundente<br /> novela breve. Sin embargo, la autora va más allá y añade un “Epílogo familiar” que bien podría haberse titulado<br /> “Daños colaterales” y en el que aborda las consecuencias de esa relación a tres que supone el argumento principal<br /> y en cómo afectan a los seres más cercanos que también son familia: padres, hijos, etc… Un epílogo que, según<br /> avanza, se llena de emociones y de sorpresas para constituir, en su conjunto, una novela aparte,<br /> tan contundente y arrebatadora como la primera.',
-                medio: 'Estado Crítico, España.'
+                medio: 'Estado Crítico, España'
             },
             {
                 cita: 'Goransky maneja el tiempo de un relato que apunta al ojo interno, a la introspección, a la abstracción misma. La<br /> mujer poco probable es un libro lleno de vida pese a la tragedia.',
@@ -362,15 +362,15 @@ const librosMock = [
             },
             {
                 cita: 'La mujer poco probable proyecta una prosa ágil y verosímil, el libro no solo complace por la fluidez de sus ciclos,<br /> sino también por la prolijidad con la que autora ata el bucle trágico. Goransky, en este sentido, es sumamente<br /> hábil al exponer y al disimular la crisis amorosa de sus protagonistas, reiterándonos página a página que el<br /> destino, seamos conscientes o no de ello, es en realidad un extraordinario conjunto<br /> de escenarios muy poco probables.',
-                medio: 'Panoptista, Estados Unidos.'
+                medio: 'Panoptista, Estados Unidos'
             },
             {
                 cita: 'Tatiana Goransky es una autora de prosa ágil, que dota a sus historias de gran ritmo y<br /> consigue atrapar al lector desde la primera página. Capítulos cortos, descripciones sugerentes y la justa dosis de<br /> diálogo son los elementos a partir de los cuales se asientan sus historias. En esta ocasión, vuelve sobre uno de los<br /> temas predilectos de su obra, la traición y sus consecuencias en forma de secretos y mentiras.<br />  La mujer poco probable es un libro ágil, provocador y por momentos, reflexivo. La obra se convierte en un relato<br /> notable sobre las decisiones que marcan nuestro devenir y los secretos que nos marcan como individuos.',
-                medio: 'Fondo de Lectura, España.'
+                medio: 'Fondo de Lectura, España'
             },
             {
                 cita: 'Esta es una novela de personajes, ellos son la trama y la atmósfera; lo suponen todo. La autora traza fronteras tan<br /> difusas como realistas entre el amor y el desamor, con sus tiempos, que conllevan soledad, obsesión, violencia,<br /> desespero, felicidad fugaz o absoluta, y fantasía perpetua. Tatiana Goransky, dueña de<br /> su propio estilo que deriva en tsunami.',
-                medio: 'Dentro del Monolito, España.'
+                medio: 'Dentro del Monolito, España'
             }
         ],
         sinopsis: 'Martina y Leo celebran sus veinticinco años de casados con un viaje en busca de sus orígenes.<br /> Será un vuelo vertiginoso, crucial, que pondrá en peligro sus vidas y los empujará a examinar el pasado y el<br /> presente de su relación. Si estuviéramos a punto de morir, ¿cómo nos contaríamos nuestra propia historia?<br /> ¿Volveríamos a elegir a la persona que tenemos al lado? ¿Seríamos capaces de revelar nuestros secretos a los<br /> que más queremos? Y, sobre todo, ¿de qué nos arrepentiríamos? Una novela ágil y cautivadora que nos invita a<br /> reflexionar sobre las decisiones que construyen y condicionan nuestra vida.',
@@ -429,15 +429,15 @@ const librosMock = [
         resenas: [
             {
                 cita: 'Un libro que excita y abofetea, corto como polvo de zaguán, profundo como amor sellado a<br /> sangre y saliva, inmenso como nombre gritado en el duermevela.',
-                medio: 'Revista de Letras, España.'
+                medio: 'Revista de Letras, España'
             },
             {
                 cita: 'Brutal, explícita, desaforada, en seis monólogos y una confesión la nouvelle “Quisiera amarte menos” cierra una<br /> trilogía involuntaria; una tragedia a la vera del policial que interpela la definición de femicidio.',
-                medio: 'La Nación, Argentina.'
+                medio: 'La Nación'
             },
             {
                 cita: 'Tatiana Goransky explora con maestría los límites del deseo y las pasiones humanas.',
-                medio: 'Revista Quimera, España.'
+                medio: 'Revista Quimera, España'
             },
             {
                 cita: 'Goransky exprime las posibilidades del relato coral para ofrecer a los lectores todas las aristas del drama: la pasión,<br /> los deseos, la lujuria, la locura, el fracaso. El resultado es esta estupenda nouvelle, debajo de cuya superficie tersa<br /> se retrata un verdadero cúmulo de miserias humanas.',
@@ -449,15 +449,15 @@ const librosMock = [
             },
             {
                 cita: 'Siempre que leo un libro de Tatiana Goransky quedo maravillado de su sentido del ritmo, su capacidad por<br /> mantener la narración con habilidad y oficio. En poco más de cien páginas, construye un relato sobre el amor y sus<br /> complejas variaciones, creando un universo propio de personajes llenos de frustraciones,<br /> cansados de su destino y de naturaleza oscura.',
-                medio: 'Fondo de Lectura, España.'
+                medio: 'Fondo de Lectura, España'
             },
             {
                 cita: 'La textura de la narrativa de Goransky nos transporta a un mundo cruel, intenso y extremadamente nítido donde<br /> toda la maquinaria literaria está puesta para que el lector encuentre, en estas voces, un eco: tal vez el de la<br /> sociedad, tal vez el del mundo íntimo de muchas mujeres, parejas y amantes.',
-                medio: 'Somos Berlín, Alemania.'
+                medio: 'Somos Berlín, Alemania'
             },
             {
                 cita: 'Tatiana Goransky escribe descarnado, sin zonas de descanso y al ritmo que exigen los encuentros sexuales<br /> (clandestinos, quizás) de zaguán. Un tono duro, al hueso y sin preámbulos podría conformar el mapa de atributos<br /> de Quisiera amarte menos, en una fina línea entre lo políticamente incorrecto y la apuesta por un relato erótico que<br /> por momentos encuentra destellos en la intención de correrse de los marcos<br /> habituales para pensar los vínculos entre amor, sexo y violencia.',
-                medio: 'Página 12, Argentina.'
+                medio: 'Página 12'
             }
         ],
         sinopsis: 'Detrás de un deseo, un cuerpo; detrás del cuerpo, un relato. Detrás del amor, en ocasiones, el odio. ¿Se puede<br /> amar sin conocer? ¿Cómo construimos al otro? ¿Hay alguna fuerza más poderosa que la del deseo? Julia, Clara,<br /> Juan, la Turca, Vera y Ricardo narran sus propias historias y al hacerlo cuentan las de los demás. Seis personajes<br /> enredados en una trama polifónica, violenta, amorosa, sexual.<br /> Con humor ácido e irreverencia, Tatiana Goransky construye una novela brutal y polémica que rompe con<br /> cualquier estereotipo sobre la sexualidad, y que muestra cuán fácilmente ese territorio de placer que es el<br /> cuerpo puede convertirse en un campo de batalla.',
