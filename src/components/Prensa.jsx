@@ -68,21 +68,21 @@ function Prensa() {
                         <div style={{ marginBottom: "10vh" }}  >
                             <div className={styles.primera}>
                                 <div className={styles.primeraizq}>
-                                    <img src={galeria1} alt="" ref={elementoRef} className={`${styles["slide-in-right"]} ${isIntersecting ? styles.active : ''}`} />
+                                    <a href="/images/galeria1alta.jpg" download><img src={galeria1} alt="" ref={elementoRef} className={`${styles["slide-in-right"]} ${isIntersecting ? styles.active : ''}`} /></a>
                                 </div>
                                 <div className={styles.primeramedio}>
-                                    <img src={galeria2} alt="" ref={elementoRef3} className={`${styles["slide-in-top"]} ${isIntersecting3 ? styles.active : ''}`} />
-                                    <img src={galeria3} alt="" ref={elementoRef4} className={`${styles["slide-in-bottom"]} ${isIntersecting4 ? styles.active : ''}`} />
+                                    <a href="/images/galeria2alta.jpg" download><img src={galeria2} alt="" ref={elementoRef3} className={`${styles["slide-in-top"]} ${isIntersecting3 ? styles.active : ''}`} /></a>
+                                    <a href="/images/galeria3alta.jpg" download><img src={galeria3} alt="" ref={elementoRef4} className={`${styles["slide-in-bottom"]} ${isIntersecting4 ? styles.active : ''}`} /></a>
                                 </div>
                                 <div className={styles.primerader}>
-                                    <img src={galeria4} alt="" ref={elementoRef2} className={`${styles["slide-in-left"]} ${isIntersecting2 ? styles.active : ''}`} />
+                                    <a href="/images/galeria4alta.jpg" download><img src={galeria4} alt="" ref={elementoRef2} className={`${styles["slide-in-left"]} ${isIntersecting2 ? styles.active : ''}`} /></a>
                                 </div>
                             </div>
                             <h4>Fotos: Alejandro Meter</h4>
                         </div>
                         <div className={styles.segunda}>
                             <div>
-                                <img src={galeria5} alt="" ref={elementoRef5} className={`${styles["slide-in-right"]} ${isIntersecting5 ? styles.active : ''}`} />
+                                <a href="/images/galeria5alta.JPG" download><img src={galeria5} alt="" ref={elementoRef5} className={`${styles["slide-in-right"]} ${isIntersecting5 ? styles.active : ''}`} /></a>
                                 <h4>Foto: Mailen Albamonte Pizarro</h4>
                             </div>
                             <div>
