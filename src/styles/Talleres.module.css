@@ -60,7 +60,7 @@
 .input{
     background: transparent;
     border: 2px solid  #16726F;
-    /* border-radius: 8px; */
+    border-radius: 8px;
     color: #16726F;
     outline: none;
     padding: 20px 10px;

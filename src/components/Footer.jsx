@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
 import ig from '../assets/instagram.svg';
-import tw from '../assets/vector.svg';
+import tw from '../assets/twitterxwhite.svg';
 import styles from '../styles/Footer.module.css';
 
 function Footer() {
