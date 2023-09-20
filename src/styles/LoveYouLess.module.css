@@ -122,19 +122,31 @@
     justify-content: center;
 }
 
+.btncont a {
+    text-decoration: none;
+}
+
 .btncont span {
-    background-color: #16726F;
+    background-color: #F9F9F9;
     width: 8.9375rem;
     height: 3.375rem;
+    border: 1px solid #16726F;
     border-radius: 0.9375rem;
     font-family: Fira Sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: var(--intermedio, #FFF);
+    color: var(--intermedio, #16726F);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btncont span:hover {
+    background-color: #16726F;
+    color: #FFF;
 }

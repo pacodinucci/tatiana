@@ -82,36 +82,3 @@
     color: #FFF;
 }
 
-.footer{
-    background-color:#212121;
-    height: 18rem;
-    padding: 7rem 0;
-}
-
-.footer_container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.social_footer{
-    border-right: 2px solid #fff;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
-}
-
-.social_footer img{
-    width: 3.3125rem;
-}
-
-.textos_footer{
-    padding-left: 40px;
-    color: #fff;
-    font-family: Laila;
-    font-weight: 400;
-}
