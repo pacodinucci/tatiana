@@ -9,8 +9,8 @@ function Footer() {
         <footer className={styles.footer} id="footer">
             <div className={styles.footer_container}>
                 <div className={styles.social_footer}>
-                    <a href=""><img src={tw} alt="" /></a>
-                    <a href=""><img src={ig} alt="" /></a>
+                    <a href="https://twitter.com/TatianaGoransky" target="_blank" rel="noopener noreferrer"><img src={tw} alt="" /></a>
+                    <a href="https://www.instagram.com/tatianagoransky" target="_blank" rel="noopener noreferrer"><img src={ig} alt="" /></a>
                 </div>
                 <div className={styles.textos_footer}>
                     <h3>Tatiana Goransky</h3>

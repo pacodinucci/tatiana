@@ -45,7 +45,7 @@ function LoveYouLess() {
                 </div>
             </div>
             <div className={styles.btncont}>
-                <a href="/ToLoveYouLessFirstChapter.pdf"><span>FIRST CHAPTER</span></a>
+                <a href="/ToLoveYouLessFirstChapter.pdf" target="_blank" rel="noopener noreferrer"><span>FIRST CHAPTER</span></a>
             </div>
         </div>
         <Footer />
