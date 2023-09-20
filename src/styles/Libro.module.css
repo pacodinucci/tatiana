@@ -296,6 +296,10 @@
     line-height: normal;
 }
 
+.disponible a {
+    text-decoration: none;
+}
+
 .disponible span:hover {
     background: var(--primario-6, #16726F);
 }
@@ -306,7 +310,6 @@
 
 .descarga {
     display: flex;
-
 }
 
 .descarga img {

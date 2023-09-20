@@ -55,8 +55,20 @@ function Prensa() {
                     <div className={styles.titulo}>
                         <h2>OTRAS ENTREVISTAS</h2>
                     </div>
-                    <div style={{ height: "40vh" }}>
-
+                    <div className={styles.entrevistas}>
+                        <a href="https://www.youtube.com/watch?v=hE6FQKFE2kM" target="_blank" rel="noopener noreferrer">Casa América Catalunya, Barcelona</a>
+                        <a href="https://www.youtube.com/watch?v=_4Hvfn-1KDE" target="_blank" rel="noopener noreferrer">Leer es un placer, Con Natu Poblet, Sobre ¿Quién mató a la cantante de jazz?, 2015. RumboSur TV.</a>
+                        <a href="https://m.facebook.com/Leamos-903878669624494/videos/auditorioleamos-eugenia-zicavo-entrevista-a-tatiana-goransky-sobre-ball-boy-una-/2758145980925689/" target="_blank" rel="noopener noreferrer">Sobre Ball boy, Con Eugenia Zicavo. Leamos. 2019, Feria del libro de Buenos Aires.</a>
+                        <a href="https://kosmopolis.cccb.org/ca/noticies/literatura-en-xarxa-a-k19/" target="_blank" rel="noopener noreferrer">Barcelona/ Buenos Aires, Once mil kilómetros. Kosmópolis 2019. Barcelona.</a>
+                        <a href="https://www.periodistadigital.com/cultura/libros/20150211/tatiana-goransky-estuve-trabajando-mundo-porno-noticia-689400350426/" target="_blank" rel="noopener noreferrer">Periodista Digital, Sobre ¿Quién mató a la cantante de jazz”, cine, literatura. 2015.</a>
+                        <a href="https://www.zendalibros.com/entrevista-tatiana-goransky/" target="_blank" rel="noopener noreferrer">Zenda Libros</a>
+                        <a href="http://www.culturamas.es/blog/2015/09/09/cuestionario-literario-tatiana-goransky/" target="_blank" rel="noopener noreferrer">Culturamas</a>
+                        <a href="http://www.eternacadencia.com.ar/blog/libreria/nueve-preguntas/item/hay-metodo-en-mi-locura.html" target="_blank" rel="noopener noreferrer">Eterna Cadencia</a>
+                        <a href="https://www.fronterad.com/la-lectura-es-una-practica-que-enriquece-a-la-sociedad-y-muchas-veces-salva-al-individuo/" target="_blank" rel="noopener noreferrer">Frontera D</a>
+                        <a href="http://almaenlaspalabras.blogspot.com.ar/2016/11/que-todo-en-la-vida-es-cine-en-el-blog.html" target="_blank" rel="noopener noreferrer">Alma en las palabras</a>
+                        <a href="http://www.eternacadencia.com.ar/blog/libreria/imprescindibles/item/volumen-musical.html" target="_blank" rel="noopener noreferrer">Eterna Cadencia</a>
+                        <a href="http://paraencenderunfuego.blogspot.com.ar/2014/11/tatiana-goransky.html?m=0" target="_blank" rel="noopener noreferrer">Para encender un fuego</a>
+                        <a href="https://www.eternacadencia.com.ar/blog/contenidos-originales/entrevistas/item/los-escritores-fantasma.html" target="_blank" rel="noopener noreferrer">Eterna Cadencia</a>
                     </div>
                 </div>
                 <div className={styles.fotosprensa}>

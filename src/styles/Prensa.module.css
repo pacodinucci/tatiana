@@ -67,6 +67,25 @@
     line-height: normal;
 }
 
+.entrevistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh;
+    gap: 4vh;
+}
+
+.entrevistas a {
+    font-family: Fira Sans;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* text-decoration: none; */
+    color: #164948;
+}
+
 .galeria {
     margin-top: 10vh;
     display: flex;

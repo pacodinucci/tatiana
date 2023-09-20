@@ -87,7 +87,7 @@ function Libro() {
             <div className={styles.disponible}>
               {libro.disponible.papel ? (<span><p>DISPONIBLE EN PAPEL</p></span>) : null}
               {libro.disponible.ebook ? (<span><p>DISPONIBLE EN E-BOOK</p></span>) : null}
-              {libro.disponible.descarga ? (<span><p>DESCARGAR LIBRO GRATIS</p></span>) : null}
+              {libro.disponible.descarga ? (<a href="/ballboy.pdf" target="_blank" rel="noopener noreferrer"><span><p>DESCARGAR LIBRO GRATIS</p></span></a>) : null}
             </div>
           ) : null}
           {libro.nota ? (
