@@ -7,12 +7,24 @@
     box-sizing: border-box;
 }
 
+.landing {
+    background-image: url('../assets/rectangle-25.png');
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    font-family: Fira Sans;
+    font-size: 5vh;
+    font-weight: 300;
+    color: #34ABA7;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.63);
+    letter-spacing: .1vw;
+}
+
 .header {
-    background: url('../assets/fondofantasma.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     height: 85vh;
@@ -23,10 +35,10 @@
 
 .header span {
     width: 70%;
-    color: var(--primario-1, #E7F8F7);
+    color: #161616  ;
     text-align: center;
     font-family: Fira Mono;
-    font-size: 1.25rem;
+    font-size: 2.7vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -37,16 +49,17 @@
 
 .header h4 {
     width: 70%;
-    color: var(--primario-1, #E7F8F7);
+    color: #161616;
     text-align: center;
     font-family: Fira Mono;
-    font-size: 1.25rem;
+    font-size: 2.7vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
     gap: .6vw;
     justify-content: end;
+    margin-right: 4vw;
 }
 
 .negrita {
@@ -63,18 +76,29 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    margin: 15vh 30vh;
+    margin: 15vh 0;
+    padding: 10vh 15vw;
+    background: var(--primario-6, #4C9A97);
+    width: 100%;
 }
 
 .fantasma_content p {
-    color: var(--primario-1, #161616);
+    color: var(--primario-1, #F8F8F8);
     text-align: center;
     font-family: Fira Sans;
-    font-size: 1.25rem;
+    font-size: 2.9vh;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
+    letter-spacing: .1vw;
 }
+
+/* .fantasma_content span {
+    background: var(--primario-6, #4C9A97);
+    margin-top: 12vh;
+    width: 98.9vw;
+    padding: 10vh 0;
+} */
 
 .video {
     display: flex;
