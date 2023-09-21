@@ -92,6 +92,15 @@
     /* border: 2px solid red; */
 }
 
+.playlist a {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 .playlist img{
     width: 1.6875rem;
     height: 1.6875rem;

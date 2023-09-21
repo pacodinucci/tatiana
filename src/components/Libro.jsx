@@ -12,6 +12,7 @@ function Libro() {
   const { id } = useParams();
   const [libro, setLibro] = useState(null);
   console.log(id)
+  
   useEffect(() => {
     const libroSeleccionado = librosMock.find((libro) => libro.id === parseInt(id));
     setLibro(libroSeleccionado);
@@ -43,8 +44,10 @@ function Libro() {
         </div>
         {libro.spotify ? (
           <div className={styles.playlist}>
-            <img src={sp} alt="" />
-            <p>PLAYLIST</p>
+            <a href="https://open.spotify.com/playlist/0dghbERSKe4JsYAxkg8CrK?si=cRjYs_6tR5K7PO-yVhhROw" target="_blank" rel="noopener noreferrer">
+              <img src={sp} alt="" />
+              <p>PLAYLIST</p>
+            </a>
           </div>
         ) : libro.prologo ? (
           <>
