@@ -96,6 +96,7 @@
 .primera {
     display: flex;
     width: 50%;
+    gap: 1vw;
 }
 
 .primeraizq img {
@@ -105,16 +106,17 @@
 .primeramedio {
     display: flex;
     flex-direction: column;
-    margin-left: -.3vw;
+    gap: 1vh;
+    margin: 0 -.3vw;
 }
 
 .primeramedio img {
-    height: 24.7vh;
+    height: 24.2vh;
     width: 18vw;
 }
 
 .primerader img {
-    height: 48.5vh;
+    height: 50vh;
 }
 
 .galeria h4 {

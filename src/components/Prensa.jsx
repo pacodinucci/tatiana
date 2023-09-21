@@ -2,10 +2,10 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import useIntersection from '../hooks/useIntersection';
 import styles from '../styles/Prensa.module.css';
-import galeria1 from '../assets/galeria1.png';
-import galeria2 from '../assets/galeria2.png';
-import galeria3 from '../assets/galeria3.png';
-import galeria4 from '../assets/galeria4.png';
+import galeria1 from '../assets/galeria1alta.jpg';
+import galeria2 from '../assets/galeria2alta.jpg';
+import galeria3 from '../assets/galeria3alta.jpg';
+import galeria4 from '../assets/galeria4alta.jpg';
 import galeria5 from '../assets/galeria5.png';
 import galeria6 from '../assets/galeria6.png';
 
