@@ -29,9 +29,9 @@ function Footer() {
                         <li>|</li>
                         <li><a href="/fantasma">FANTASMA</a></li>
                         <li>|</li>
-                        <li><a href="taleres">TALLERES</a></li>
+                        <li><a href="/talleres">TALLERES</a></li>
                         <li>|</li>
-                        <li><a href="prensa">PRENSA</a></li>
+                        <li><a href="/prensa">PRENSA</a></li>
                         <li>|</li>
                         <li>
                             <HashLink smooth to="/#contacto">

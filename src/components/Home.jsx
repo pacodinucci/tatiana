@@ -81,15 +81,15 @@ function Home() {
       <section id="biografia">
         <div className={styles.bio_container}>
           <div className={styles.titulo_bio}>
-            <h2>BIOGRAFÍA</h2>
+            <h2>BIO</h2>
           </div>
           <div className={styles.biografia_container}>
             <div className={styles.biografia_content}>
               <img src={imagenBio} alt="" ref={elementoRef} className={`${styles["slide-in-right"]} ${isIntersecting ? styles.active : ''}`} />
               {/* <h2>BIOGRAFÍA</h2> */}
               <div ref={elementoRef2} className={`${styles.textosBio} ${styles["slide-in-left"]} ${isIntersecting ? styles.active : ''}`} >
-                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera Amarte <br /> Menos (2020) y La mujer poco probable (2021).<br />
-                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a <br /> 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la <br /> antología Barcelona / Buenos Aires, Once Mil kilómetros, un puente entre ambas <br /> ciudades.<br />
+                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera amarte <br /> menos (2020) y La mujer poco probable (2021).<br />
+                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a <br /> 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la <br /> antología Barcelona/ Buenos Aires, Once Mil kilómetros, un puente entre ambas <br /> ciudades.<br />
                   Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, <br /> Uruguay, España y los Estados Unidos.</p>
                 <a href="/english"><img src={bandera} alt="" /></a>
               </div>

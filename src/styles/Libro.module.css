@@ -102,15 +102,15 @@
 }
 
 .playlist img{
-    width: 1.6875rem;
-    height: 1.6875rem;
+    width: 2vw;
+    height: auto;
 }
 
 .playlist p{
-    width: 5.125rem;
-    height: 0.625rem;
+    width: 4vw;
+    height: auto;
     font-family: Fira Sans;
-    font-size: 1rem;
+    font-size: 2.1vh;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

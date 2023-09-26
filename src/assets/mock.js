@@ -23,7 +23,7 @@ import impecables from './libro5.png';
 const librosMock = [
     {
         id: 1,
-        titulo: 'Lulúpe María T.',
+        titulo: 'Lulúpe María T',
         imagen: [lulupe1],
         resenas: [
             {
@@ -47,7 +47,7 @@ const librosMock = [
                 medio: 'Suplemento Cultura, Diario Perfil'
             }
         ],
-        sinopsis: 'En el comienzo el planteo narrativo parece simple: el libro promete la vida de Lulú en cálidas viñetas y un humor<br /> ligero sin excluir alguna que otra cuota de violencia.<br /> Rápidamente, sin embargo, Tatiana Goransky enrarece forma y contenido haciéndolos dialogar y fusionarse.<br /> Lulú, después de un trágico inicio sexual y habiendo probado el mecanismo de la venganza, emprenderá un viaje<br /> arbitrario que se repetirá en paralelo con la persecución de Benito, su atípico pretendiente. Mientras tanto la<br /> promesa de un avance cronológico en la vida de Lulú empezara resquebrajarse para luego simplemente estallar.',
+        sinopsis: 'En el comienzo el planteo narrativo parece simple: el libro promete la vida de Lulú en cálidas viñetas y un humor<br /> ligero sin excluir alguna que otra cuota de violencia.<br /> Rápidamente, sin embargo, Tatiana Goransky enrarece forma y contenido haciéndolos dialogar y fusionarse.<br /> Lulú, después de un trágico inicio sexual y habiendo probado el mecanismo de la venganza, emprenderá un viaje<br /> arbitrario que se repetirá en paralelo con la persecución de Benito, su atípico pretendiente. Mientras tanto la<br /> promesa de un avance cronológico en la vida de Lulú empezará a resquebrajarse para luego simplemente estallar.',
         links: [
             {
                 titulo: 'Rayando los Confines',
@@ -55,10 +55,10 @@ const librosMock = [
             },
             {
                 titulo: 'Página 12',
-                link: 'https://www.pagina12.com.ar/diario/suplementos/libros/10-2017-2006-04- 04.html'
+                link: 'https://www.pagina12.com.ar/diario/suplementos/libros/10-2017-2006-04-04.html'
             },
             {
-                titulo: 'El remisero Absoluto',
+                titulo: 'El remisero Absoluto (Publicado en el suplemento Cultura del Diario Perfil)',
                 link: 'http://elremiseroabsoluto.blogspot.com.ar/2006/02/diferentes-matices-del-rojo.html'
             }
         ],
@@ -101,27 +101,15 @@ const librosMock = [
                 link: 'http://www.elmundo.es/cultura/2015/08/11/55c8d5af46163f0a688b458e.html'
             },
             {
-                titulo: 'Rumbo Sur TV',
-                link: 'https://www.youtube.com/watch?v=_4Hvfn-1KDE'
-            },
-            {
-                titulo: 'Periodista Digital',
-                link: 'https://www.youtube.com/watch?v=SgxdOixi_Xs'
-            },
-            {
                 titulo: 'Página 12',
                 link: 'https://www.pagina12.com.ar/diario/suplementos/las12/13-4261-2008-07-19.html'
-            },
-            {
-                titulo: 'Cierta Distancia Blog',
-                link: 'http://ciertadistancia.blogspot.com.ar/2015_10_01_archive.html'
             },
             {
                 titulo: 'Letralia',
                 link: 'https://letralia.com/lecturas/2016/04/16/quien-mato-a-la-cantante-de-jazz-de-tatiana-goransky/'
             },
             {
-                titulo: 'Cultura Más, España',
+                titulo: 'Culturamas, España',
                 link: 'http://www.culturamas.es/blog/2016/05/24/quien-mato-a-la-cantante-de-jazz-de-tatiana-goransky/'
             },
             {
@@ -133,12 +121,8 @@ const librosMock = [
                 link: 'http://properaparadacultura.blogspot.com.ar/2015/01/quien-mato-la-cantante-de-jazz-tatiana.html'
             },
             {
-                titulo: 'Jordi Valero Interrobang',
+                titulo: 'Interrobang',
                 link: 'http://jordivalerointerrobang.blogspot.com.ar/2015/04/quien-mato-la-cantante-de-jazz-de.html'
-            },
-            {
-                titulo: 'El Mono Lector',
-                link: 'http://elmonolector.blogspot.com.ar/2013/07/quien-mato-la-cantante-de- jazz.html#.WlZH1pQZNt0'
             },
             {
                 titulo: 'La Soledad del Corredor de Fondo Blog',
@@ -193,16 +177,12 @@ const librosMock = [
                 link: 'https://www.pagina12.com.ar/diario/suplementos/libros/10-4201-2011-03-13.html'
             },
             {
-                titulo: 'Golosina Canibal Blog',
-                link: 'http://golosinacanibal.blogspot.com.ar/2010/11/presentacion-don-del-agua-de- tatiana.html'
-            },
-            {
                 titulo: 'InfoBae',
-                link: 'https://www.infobae.com/grandes-libros/2018/08/23/una-novela-que-reflexiona-sobre- los-usos-del-agua/'
+                link: 'https://www.infobae.com/grandes-libros/2018/08/23/una-novela-que-reflexiona-sobre-los-usos-del-agua/'
             },
             {
                titulo: 'Revista Kundura',
-               link: 'https://revistakundra.wordpress.com/2018/09/13/resena-don-del-agua-de-tatiana- goransky/' 
+               link: 'https://revistakundra.wordpress.com/2018/09/13/resena-don-del-agua-de-tatiana-goransky/' 
             },
             {
                 titulo: 'Solo Tempestad',
@@ -244,12 +224,12 @@ const librosMock = [
                 link: 'http://suburbano.net/piensen-tenis-ball-boy-tragedia-en-polvo-de-ladrillo/'
             },
             {
-                titulo: 'Golosina Canibal Blog',
-                link: 'http://golosinacanibal.blogspot.com.ar/2013/12/polvo-de-estrellas-sobre-boy-de- tatiana.html'
-            },
-            {
                 titulo: 'Revista Kundra',
                 link: 'https://revistakundra.wordpress.com/2014/04/30/ball-boy-tg/'
+            },
+            {
+                titulo: 'Golosina Canibal',
+                link: 'http://golosinacanibal.blogspot.com/2013/12/polvo-de-estrellas-sobre-boy-de-tatiana.html'
             }
         ],
         disponible: {
@@ -264,19 +244,19 @@ const librosMock = [
         imagen: [fadeout1, fadeout2],
         resenas: [
             {
-                cita: '…el estilo de Goransky es delicado, meticuloso, pero a la vez se amolda a los distintos narradores y personajes<br /> construyendo situaciones que pueden llegar a ser desopilantes.<br /> Una vez más, la pluma de esta escritora atrapa al (la) lector(a) como una telaraña tejida con encanto y sutileza, y al<br /> terminar el libro él o ella sentirán un vacío, un silencio (un fade out) que perdurará por días.',
+                cita: 'El estilo de Goransky es delicado, meticuloso, pero a la vez se amolda a los distintos narradores y personajes<br /> construyendo situaciones que pueden llegar a ser desopilantes.<br /> Una vez más, la pluma de esta escritora atrapa al (la) lector(a) como una telaraña tejida con encanto y sutileza, y al<br /> terminar el libro él o ella sentirán un vacío, un silencio (un fade out) que perdurará por días.',
                 medio: 'El país de la bruma'
             },
             {
                 cita: 'Para Goransky el pudor es todo un tema, es complejo, hasta el punto de terminar el libro con una suerte de<br /> reflexiones sobre la traición que supone escribir, un acto en el que conjuramos toda nuestra memoria. Pero el pudor<br /> no es lo mismo que la confidencialidad. Y de esa línea difusa, permeable, incómoda y musical, trata esta bella<br /> novela que nos trae, una vez más, un descubrimiento desde el otro lado del Atlántico.',
-                medio: 'Cultura Más, España'
+                medio: 'Culturamas, España'
             },
             {
                 cita: 'En estos tiempos de música descartable y libros insensibles, la escritora y cantante de jazz Tatiana<br /> Goransky presenta Fade out, una novela que expone el universo femenino desde canciones que atraviesan a la<br /> protagonista, Kumiku, una mujer que nació con el don/maldición de emitir durante las 24 horas temas desde sus<br /> oídos. Las páginas de Fade out pasan con una sonoridad tan particular, uno agarra con dos dedos la hoja y la<br /> pasa, apurado para saber qué sucederá luego, pero disfrutando a la vez el momento, ese ritual tan particular que<br /> se genera con una novela que conmueve mientras uno en la mente procesa las palabras y busca en la banda de<br /> sonido de la vida las canciones que emite Kumiku, los tangos de Renata y ese fade out<br /> entre los temas, el silencio, que tanta falta nos hace a todos en estos días.',
                 medio: 'Dentro del Monolito, España'
             }
         ],
-        sinopsis: 'Desde su nacimiento los oídos de Kumiku emiten música. «Vino al mundo con el poder del sonido, con la<br /> habilidad de producir ondas melódicas y rítmicas. Kumiku nació cajita de música infinita.» También su hija<br /> Renata, y de distinta forma Ester, la nieta, en una línea genética que Tatiana Goransky narra a partir de diarios<br /> íntimos y de ambiguas observaciones de un negro literario. Temas de Caetano Veloso, Stevie Wonder o Charly<br /> García, entre otros, dan el tono a las páginas de Fade out, apasionante novela en que tres generaciones de<br /> mujeres trazan su vida a través de la música y la búsqueda del silencio.<br /> El amor es una constante también que las protagonistas habrán de resolver entre las ciudades de Buenos Aires,<br /> San Juan y Barcelona. Fade out estuvo nominada a la Mejor Novela Argentina del año 2016.',
+        sinopsis: 'Desde su nacimiento los oídos de Kumiku emiten música. “Vino al mundo con el poder del sonido, con la<br /> habilidad de producir ondas melódicas y rítmicas. Kumiku nació cajita de música infinita.” También su hija<br /> Renata, y de distinta forma Ester, la nieta, en una línea genética que Tatiana Goransky narra a partir de diarios<br /> íntimos y de ambiguas observaciones de un negro literario. Temas de Caetano Veloso, Stevie Wonder o Charly<br /> García, entre otros, dan el tono a las páginas de Fade out, apasionante novela en que tres generaciones de<br /> mujeres trazan su vida a través de la música y la búsqueda del silencio.<br /> El amor es una constante también que las protagonistas habrán de resolver entre las ciudades de Buenos Aires,<br /> San Juan y Barcelona.',
         links: [
             {
                 titulo: 'Literal Magazine',
@@ -316,18 +296,18 @@ const librosMock = [
             },
             {
                 titulo: 'Revista Kundra',
-                link: 'https://revistakundra.wordpress.com/2016/12/05/resena-fade-out-de-tatiana-goransky-por-luis-alexis-leiva/ http://quedigital.com.ar/cultura/fade-la-busqueda-de-ese-lujo-llamado-silencio/'
+                link: 'https://revistakundra.wordpress.com/2016/12/05/resena-fade-out-de-tatiana-goransky-por-luis-alexis-leiva/'
+            },
+            {
+                titulo: 'Que Digital',
+                link: 'http://quedigital.com.ar/cultura/fade-la-busqueda-de-ese-lujo-llamado-silencio/'
             },
             {
                 titulo: 'Revista Colofon',
-                link: 'http://revistacolofon.com.ar/tatiana-goransky-no-podria-posponer-la-escritura-hasta- encontrar-el-verdadero-silencio-sino-no-escribiria-casi-nunca/'
+                link: 'http://revistacolofon.com.ar/tatiana-goransky-no-podria-posponer-la-escritura-hasta-encontrar-el-verdadero-silencio-sino-no-escribiria-casi-nunca/'
             },
             {
-                titulo: 'El País de la Bruma',
-                link: 'https://elpaisdelabruma.blogspot.com/2018/06/fade-out.html'
-            },
-            {
-                titulo: 'La Fábrica',
+                titulo: 'Revista Eñe',
                 link: 'https://www.lafabrica.com/festivalene/actualidad/fade-out-de-tatiana-goransky-una-lectura-de-franco-chiaravalloti/'
             }
         ],
@@ -345,7 +325,7 @@ const librosMock = [
         imagen: [mujer, mujer2],
         resenas: [
             {
-                cita: 'Goransky consigue imprimir realidad a sus personajes con una narrativa reflexiva, serena y pausada, alejada de<br /> estridencias, demostrando que la sencillez y la sensibilidad son las mejores armas de la autora.<br /> Una novela breve, potente, que demuestra el talento de Goransky para conmovernos una vez más”.',
+                cita: 'Goransky consigue imprimir realidad a sus personajes con una narrativa reflexiva, serena y pausada, alejada de<br /> estridencias, demostrando que la sencillez y la sensibilidad son las mejores armas de la autora.<br /> Una novela breve, potente, que demuestra el talento de Goransky para conmovernos una vez más.',
                 medio: 'Moon Magazine, España'
             },
             {
@@ -376,14 +356,6 @@ const librosMock = [
         sinopsis: 'Martina y Leo celebran sus veinticinco años de casados con un viaje en busca de sus orígenes.<br /> Será un vuelo vertiginoso, crucial, que pondrá en peligro sus vidas y los empujará a examinar el pasado y el<br /> presente de su relación. Si estuviéramos a punto de morir, ¿cómo nos contaríamos nuestra propia historia?<br /> ¿Volveríamos a elegir a la persona que tenemos al lado? ¿Seríamos capaces de revelar nuestros secretos a los<br /> que más queremos? Y, sobre todo, ¿de qué nos arrepentiríamos? Una novela ágil y cautivadora que nos invita a<br /> reflexionar sobre las decisiones que construyen y condicionan nuestra vida.',
         links: [
             {
-                titulo: 'Radio Mitre',
-                link: 'https://www.youtube.com/watch?v=TMektL4sP5Y'
-            },
-            {
-                titulo: 'Editorial Ateneo',
-                link: 'https://www.instagram.com/tv/CDFKBCpF6-I/?igshid=1g29qe76p6q6d'
-            },
-            {
                 titulo: 'Télam',
                 link: 'https://www.telam.com.ar/notas/202010/529776-tatiana-goransky-libro.html'
             },
@@ -394,10 +366,6 @@ const librosMock = [
             {
                 titulo: 'La Nación',
                 link: 'https://www.lanacion.com.ar/opinion/resena-la-mujer-poco-probable-de-tatiana-goransky-nid20032021/'
-            },
-            {
-                titulo: 'El País de la Bruma',
-                link: 'https://elpaisdelabruma.blogspot.com/2021/04/la-mujer-poco-probable.html'
             },
             {
                 titulo: 'Panoptista',
@@ -412,7 +380,7 @@ const librosMock = [
                 link: 'https://www.moonmagazine.info/la-mujer-poco-probable-tatiana-goransky/'
             },
             {
-                titulo: 'Critico Estado, España',
+                titulo: 'Estado Crítico, España',
                 link: 'http://www.criticoestado.es/secretos-de-familia/'
             }
         ],
@@ -445,7 +413,7 @@ const librosMock = [
             },
             {
                 cita: 'La autora no usa eufemismos, llama a las cosas por su nombre, el sexo es explícito, el lenguaje directo, la única<br /> forma de que la escritura sea auténtica, emocione y nos haga reflexionar.',
-                medio: 'Moon Magazine'
+                medio: 'Moon Magazine, España'
             },
             {
                 cita: 'Siempre que leo un libro de Tatiana Goransky quedo maravillado de su sentido del ritmo, su capacidad por<br /> mantener la narración con habilidad y oficio. En poco más de cien páginas, construye un relato sobre el amor y sus<br /> complejas variaciones, creando un universo propio de personajes llenos de frustraciones,<br /> cansados de su destino y de naturaleza oscura.',
@@ -463,7 +431,7 @@ const librosMock = [
         sinopsis: 'Detrás de un deseo, un cuerpo; detrás del cuerpo, un relato. Detrás del amor, en ocasiones, el odio. ¿Se puede<br /> amar sin conocer? ¿Cómo construimos al otro? ¿Hay alguna fuerza más poderosa que la del deseo? Julia, Clara,<br /> Juan, la Turca, Vera y Ricardo narran sus propias historias y al hacerlo cuentan las de los demás. Seis personajes<br /> enredados en una trama polifónica, violenta, amorosa, sexual.<br /> Con humor ácido e irreverencia, Tatiana Goransky construye una novela brutal y polémica que rompe con<br /> cualquier estereotipo sobre la sexualidad, y que muestra cuán fácilmente ese territorio de placer que es el<br /> cuerpo puede convertirse en un campo de batalla.',
         links: [
             {
-                titulo: 'Ril Editores',
+                titulo: 'Revista Quimera',
                 link: 'https://rileditores.com/quisiera-amarte-menos-resena-de-martin-lombardo-para-revista-quimera/'
             },
             {
@@ -492,15 +460,7 @@ const librosMock = [
             },
             {
                 titulo: 'Moon Magazine',
-                link: 'https://www.moonmagazine.info/quisiera-amarte-menos-tatiana-goransky-mil-caras- del-amor/'
-            },
-            {
-                titulo: 'Rumiar La Bibloteca Blog',
-                link: 'http://rumiarlabiblioteca.blogspot.com/2020/06/tatiana-goransky-o-como-amarte- menos.html https://revistadeletras.net/goransky-el-cuerpo-ajeno-territorio-de-guerra-o-de-deseo/'
-            },
-            {
-                titulo: 'Viceversa Noticias',
-                link: 'http://viceversanoticias.com/2020/09/12/grafografxs-en-vcv-5/'
+                link: 'https://www.moonmagazine.info/quisiera-amarte-menos-tatiana-goransky-mil-caras-del-amor/'
             },
             {
                 titulo: 'Fondo de Lectura',
@@ -519,11 +479,11 @@ const librosMock = [
                 link: 'https://librosnocturnidadyalevosia.com/tatiana-goransky-no-quiero-que-me-citen-para-ha'
             },
             {
-                titulo: 'Grafografxs',
+                titulo: 'Grafógrafxs',
                 link: 'http://grafografxs.uaemex.mx/?p=e_tatiana',
             },
             {
-                titulo: 'Grafógrafxs',
+                titulo: 'Revista Grafógrafxs',
                 link: 'http://grafografxs.uaemex.mx/vista/numeros/pdf/Grafografxs_5.pdf',
             }
         ],
@@ -561,14 +521,6 @@ const librosMock = [
                 titulo: 'Pliego Suelto',
                 link: ' http://www.pliegosuelto.com/?p=27303'
             },
-            {
-                titulo: 'Somos Berlin',
-                link: 'https://somos.berlin/2020/01/06/barcelona-buenosaires/'
-            },
-            {
-                titulo: 'Grafógrafxs',
-                link: 'http://grafografxs.uaemex.mx/vista/numeros/pdf/Grafografxs_5.pdf'
-            }
         ],
         disponible: {
             papel: true,
@@ -599,17 +551,13 @@ const librosMock = [
                 titulo: 'Somos Berlin',
                 link: 'https://somos.berlin/2019/05/07/los-barbaros/'
             },
-            {
-                titulo: 'El país de la bruma',
-                link: 'https://elpaisdelabruma.blogspot.com/2018/10/los-barbaros-noir.html'
-            }
         ]
     },
     {
         id: 10,
         titulo: 'Los impecables',
         imagen: [impecables],
-        sinopsis: 'Un ball boy de veinte años que sueña con Roger Federer y dos hermanos con un extraño don buscando tesoros en<br /> alta mar, Los impecables se construye sobre la intriga en torno a sus protagonistas. El joven Manuel, encerrado en<br /> una rutina segura y reconfortante, se ve amenazado por una compañera más joven con la que rivaliza para ir al<br /> Roland Garros, mientras Juan y Abel, dos hermanos a la caza de tesoros perdidos, experimentan frente a su<br /> tripulación la peligrosidad de las aguas, sin que los meses traigan la ansiada recompensa. «Esta historia<br /> no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale del discurso de investigación,<br /> de la magia difusa de las fábulas o de la precisión antropológica», destaca Martín Kohan. Un libro «atravesado no<br /> sólo por la tragedia, sino por una serie de lenguajes y discursos que lo agrandan y lo convierten en una historia<br /> emocionante», en palabras de Ezequiel Acuña. Ya sea en el agua o sobre polvo de ladrillo, el terreno en que se mueve<br /> los impecables es uno minado de obsesiones y rivalidades que dan lugar una y otra vez a situaciones límite.',
+        sinopsis: 'Un ball boy de veinte años que sueña con Roger Federer y dos hermanos con un extraño don buscando tesoros en<br /> alta mar, Los impecables se construye sobre la intriga en torno a sus protagonistas. El joven Manuel, encerrado en<br /> una rutina segura y reconfortante, se ve amenazado por una compañera más joven con la que rivaliza para ir al<br /> Roland Garros, mientras Juan y Abel, dos hermanos a la caza de tesoros perdidos, experimentan frente a su<br /> tripulación la peligrosidad de las aguas, sin que los meses traigan la ansiada recompensa. “Esta historia<br /> no puede escribirse con un solo registro, de una sola manera. Tatiana Goransky se vale del discurso de investigación,<br /> de la magia difusa de las fábulas o de la precisión antropológica”, destaca Martín Kohan. Un libro «atravesado no<br /> sólo por la tragedia, sino por una serie de lenguajes y discursos que lo agrandan y lo convierten en una historia<br /> emocionante», en palabras de Ezequiel Acuña. Ya sea en el agua o sobre polvo de ladrillo, el terreno en que se mueve<br /> los impecables es uno minado de obsesiones y rivalidades que dan lugar una y otra vez a situaciones límite.',
         links: [
             {
                 titulo: 'El Mundo',
@@ -620,13 +568,9 @@ const librosMock = [
                 link: 'https://www.diariodecultura.com.ar/columnas/bajo-el-karma-de-la-perfeccion/'
             },
             {
-                titulo: 'Editorial Comba',
+                titulo: 'La Vanguardia',
                 link: ' https://www.editorialcomba.com/wp-content/uploads/2020/07/Los-imopecables-por-Flavia-.jpeg'
             },
-            {
-                titulo: 'Rumiar, La biblioteca',
-                link: 'http://rumiarlabiblioteca.blogspot.com/2016/06/tatiana-goransky-y-el-relato-como.html'
-            }
         ],
         disponible: {
             papel: true,

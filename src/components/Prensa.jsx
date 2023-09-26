@@ -53,7 +53,7 @@ function Prensa() {
                 </div>
                 <div className={styles.entrevista}>
                     <div className={styles.titulo}>
-                        <h2>OTRAS ENTREVISTAS</h2>
+                        <h2>ALGUNAS OTRAS ENTREVISTAS</h2>
                     </div>
                     <div className={styles.entrevistas}>
                         <a href="https://www.youtube.com/watch?v=hE6FQKFE2kM" target="_blank" rel="noopener noreferrer">Casa América Catalunya, Barcelona</a>

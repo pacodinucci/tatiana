@@ -20,7 +20,7 @@ function Lecturas() {
                 <div className={styles.video}>
                     {/* <h3 className={styles.titulovideo}>Quisiera Amarte Menos. Novela. Primera parte</h3> */}
                     <iframe width="800" height="450" src="https://www.youtube.com/embed/NhGjEcoJkUk?si=DgKSwZkRk7N9ag1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
-                    <a className={styles.btn}>
+                    <a className={styles.btn} href="https://www.youtube.com/@tatianagoransky" target="_blank" rel="noopener noreferrer">
                         <img src={yt} alt="" />
                         <h4>VER MÁS</h4>
                     </a>

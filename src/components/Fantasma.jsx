@@ -8,7 +8,7 @@ function Fantasma() {
   return (
     <>
         <NavBar/>
-        <section>
+        <section style={{ background: '#000'}}>
             <div className={styles.landing}>
                 <h1>ESCRITORA FANTASMA</h1>
             </div>
