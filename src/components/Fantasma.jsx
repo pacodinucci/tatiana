@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/Fantasma.module.css';
 import NavBar from './NavBar';
 import yt from '../assets/youtube.svg';
+import imagen from '../assets/imagen-fantasma.png';
 import Footer from './Footer';
 
 function Fantasma() {
@@ -27,8 +28,8 @@ function Fantasma() {
                     <p>La escritora y ghostwriter Tatiana Goransky responsponde a estas preguntas en la<br/> siguiente entrevista:</p>
                 </span>
                 <div className={styles.video} style={{marginTop: "-10vh", marginBottom: "10vh"}}>
-                    <iframe width="800" height="450" src="https://www.youtube.com/embed/hE6FQKFE2kM?si=jkexdS6ZNfHLEWrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
-                    <a className={styles.btn} href="https://www.youtube.com/@tatianagoransky" target="_blank">
+                    <img className={styles.imagen} src={imagen} alt="" />
+                    <a className={styles.btn} href="https://www.youtube.com/watch?v=hE6FQKFE2kM&t=531s" target="_blank">
                         <img src={yt} alt="" />
                         <h4>VER MÁS</h4>
                     </a>
