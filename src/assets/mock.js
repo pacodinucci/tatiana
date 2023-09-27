@@ -145,7 +145,7 @@ const librosMock = [
         },
         nominada: 'Seleccionada por la CONABIP para ser distribuida en más de mil bibliotecas populares.',
         link_papel_AR: 'https://la-periferica.com.ar/libro/qui%C3%A9n-mat%C3%B3-a-la-cantante-de-jazz-978-987-45435-0-9/',
-        link_papel_MX: 'http://nitro-press.com/?quienmatoalacantantedejazz',
+        link_papel_MX: 'https://nitro-press.com/?quienmatoalacantantedejazz',
         link_papel_US: 'https://shopescritoras.com/products/quien-mato-a-la-cantante-de-jazz'
     },
     {

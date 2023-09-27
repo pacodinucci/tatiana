@@ -26,9 +26,13 @@ function Libro() {
       if (codigoPais === 'ES' || codigoPais === 'CL') {
         urlRedireccion = libro.link_papel_ES;
       } else if (codigoPais === 'MX') {
+        console.log('entro con MX')
         urlRedireccion = libro.link_papel_MX;
       } else if (codigoPais === 'US') {
         urlRedireccion = libro.link_papel_US;
+      } else if (codigoPais === 'AR') {
+        console.log('Entro con AR')
+        urlRedireccion = libro.link_papel_AR;
       } else {
         urlRedireccion = libro.link_papel_AR;
       }
