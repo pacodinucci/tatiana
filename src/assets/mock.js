@@ -452,7 +452,7 @@ const librosMock = [
             },
             {
                 titulo: 'Revista Kundra',
-                link: ' https://revistakundra.com/2020/06/15/resena-goransky-vazquez/'
+                link: 'https://revistakundra.wordpress.com/2020/06/15/resena-goransky-vazquez/'
             },
             {
                 titulo: 'Dentro del Monolito',

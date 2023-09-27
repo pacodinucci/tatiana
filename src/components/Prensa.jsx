@@ -4,7 +4,7 @@ import useIntersection from '../hooks/useIntersection';
 import styles from '../styles/Prensa.module.css';
 import galeria1 from '../assets/galeria1alta.jpg';
 import galeria2 from '../assets/galeria2alta.jpg';
-import galeria3 from '../assets/galeria3alta.jpg';
+import galeria3 from '../assets/1.png';
 import galeria4 from '../assets/galeria4alta.jpg';
 import galeria5 from '../assets/galeria5.png';
 import galeria6 from '../assets/galeria6.png';
@@ -69,6 +69,8 @@ function Prensa() {
                         <a href="http://www.eternacadencia.com.ar/blog/libreria/imprescindibles/item/volumen-musical.html" target="_blank" rel="noopener noreferrer">Eterna Cadencia</a>
                         <a href="http://paraencenderunfuego.blogspot.com.ar/2014/11/tatiana-goransky.html?m=0" target="_blank" rel="noopener noreferrer">Para encender un fuego</a>
                         <a href="https://www.eternacadencia.com.ar/blog/contenidos-originales/entrevistas/item/los-escritores-fantasma.html" target="_blank" rel="noopener noreferrer">Eterna Cadencia</a>
+                        <a href="https://www.youtube.com/watch?v=TMektL4sP5Y" target="_blank" rel="noopener noreferrer">Radio Mitre</a>
+                        <a href="https://www.instagram.com/tv/CDFKBCpF6-I/?igshid=1g29qe76p6q6d" target="_blank" rel="noopener noreferrer">Editorial Ateneo</a>
                     </div>
                 </div>
                 <div className={styles.fotosprensa}>
@@ -98,7 +100,7 @@ function Prensa() {
                                 <h4>Foto: Mailen Albamonte Pizarro</h4>
                             </div>
                             <div>
-                                <img src={galeria6} alt="" ref={elementoRef6} className={`${styles["slide-in-left"]} ${isIntersecting6 ? styles.active : ''}`} />
+                                <a href="/images/galeria6alta.JPG" download><img src={galeria6} alt="" ref={elementoRef6} className={`${styles["slide-in-left"]} ${isIntersecting6 ? styles.active : ''}`} /></a>
                                 <h4>Sin crédito</h4>
                             </div>
                         </div>

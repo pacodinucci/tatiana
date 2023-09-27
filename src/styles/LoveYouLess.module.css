@@ -40,8 +40,12 @@
     align-items: center;
 }
 
-.press img {
+.press a {
     width: 50%;
+}
+
+.press img {
+    width: 100%;
 }
 
 .reviews {

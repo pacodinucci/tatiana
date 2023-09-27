@@ -113,8 +113,7 @@
 .primeramedio img {
     height: 24.2vh;
     width: 18vw;
-    object-fit: cover;
-    /* filter: brightness(0.8); */
+    object-fit: fill;
 }
 
 .primerader img {

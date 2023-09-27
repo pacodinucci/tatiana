@@ -22,7 +22,7 @@ function LoveYouLess() {
                 </div>
             </div>
             <div className={styles.press}>
-                <img src={press} alt="" />
+                <a href="https://www.screendaily.com/news/chiles-clara-films-options-argentinian-author-tatiana-goranskys-novel-to-love-you-less-exclusive/5183048.article" target="_blank" rel="noopener noreferrer"><img src={press} alt="" /></a>
             </div>
             <div className={styles.reviews}>
                 <div className={styles.review}>

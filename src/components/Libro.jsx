@@ -95,7 +95,7 @@ function Libro() {
           ) : null}
           {libro.nota ? (
             <div className={styles.nota}>
-              <img src={libro.nota.imagen[0]} alt="" />
+              <a href=" https://www.lanacion.com.ar/cultura/una-novela-erotico-policial-se-convertira-en-miniserie-la-unica-puesta-en-escena-es-la-de-los-nid25082023/" target="_blank" rel="noopener noreferrer"><img src={libro.nota.imagen[0]} alt="" /></a>
             </div>
           ) : null}
           <div className={styles.links}>
