@@ -31,7 +31,7 @@ function Fantasma() {
                     <img className={styles.imagen} src={imagen} alt="" />
                     <a className={styles.btn} href="https://www.youtube.com/watch?v=hE6FQKFE2kM&t=531s" target="_blank">
                         <img src={yt} alt="" />
-                        <h4>VER MÁS</h4>
+                        <h4>VER VIDEO</h4>
                     </a>
                 </div>
             </div>

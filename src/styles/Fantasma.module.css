@@ -134,6 +134,9 @@
     margin-top: 5vh;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
 }
 
 .btn h4 {

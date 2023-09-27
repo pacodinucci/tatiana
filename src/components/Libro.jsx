@@ -12,6 +12,36 @@ function Libro() {
   const { id } = useParams();
   const [libro, setLibro] = useState(null);
   console.log(id)
+
+  async function obtenerUbicacionPorIP() {
+    try {
+      const response = await fetch('http://ip-api.com/json');
+      const data = await response.json();
+      
+      // Extraer el código de país
+      const codigoPais = data.countryCode;
+      
+      // Obtener el URL correspondiente al código de país
+      let urlRedireccion = null;
+      if (codigoPais === 'ES' || codigoPais === 'CL') {
+        urlRedireccion = libro.link_papel_ES;
+      } else if (codigoPais === 'MX') {
+        urlRedireccion = libro.link_papel_MX;
+      } else if (codigoPais === 'US') {
+        urlRedireccion = libro.link_papel_US;
+      } else {
+        urlRedireccion = libro.link_papel_AR;
+      }
+      
+      // Verificar si se obtuvo un URL de redirección
+      if (urlRedireccion) {
+        // Redirigir al URL correspondiente
+        window.open(urlRedireccion, '_blank');
+      }
+    } catch (error) {
+      console.error('Error al obtener la ubicación por IP:', error);
+    }
+  }
   
   useEffect(() => {
     const libroSeleccionado = librosMock.find((libro) => libro.id === parseInt(id));
@@ -88,8 +118,8 @@ function Libro() {
           ) : null}
           {libro.disponible ? (
             <div className={styles.disponible}>
-              {libro.disponible.papel ? (<span><p>DISPONIBLE EN PAPEL</p></span>) : null}
-              {libro.disponible.ebook ? (<span><p>DISPONIBLE EN E-BOOK</p></span>) : null}
+              {libro.disponible.papel ? (<span onClick={obtenerUbicacionPorIP}><p>DISPONIBLE EN PAPEL</p></span>) : null}
+              {libro.disponible.ebook ? (<a href=""><span><p>DISPONIBLE EN E-BOOK</p></span></a>) : null}
               {libro.disponible.descarga ? (<a href="/ballboy.pdf" target="_blank" rel="noopener noreferrer"><span><p>DESCARGAR LIBRO GRATIS</p></span></a>) : null}
             </div>
           ) : null}
