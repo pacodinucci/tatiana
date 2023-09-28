@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
@@ -12,6 +12,12 @@ function NavBar() {
 
     const toggleMobileVisible = () => {
         setMobileVisible(!mobileVisible)
+
+        if (!mobileVisible) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
     }
 
     const handleClick = (event, target) => {
@@ -24,6 +30,14 @@ function NavBar() {
             });
         }
     };
+
+    useEffect(() => {
+        if (mobileVisible) {
+          document.body.classList.add('mobileMenuOpen');
+        } else {
+          document.body.classList.remove('mobileMenuOpen');
+        }
+    }, [mobileVisible]);
 
 
     return (
@@ -50,8 +64,10 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.hamburger} onClick={toggleMobileVisible}>
-                        {mobileVisible ? (<p style={{ color: "#FFF", zIndex: "1000" }}><AiOutlineClose /></p>) : (<p style={{ color: "#16726F" }}><AiOutlineMenu /></p>)}
+                    <div className={styles.hamburgerContainer}>
+                        <div className={styles.hamburger} onClick={toggleMobileVisible}>
+                            {mobileVisible ? (<p style={{ color: "#FFF", zIndex: "1000" }}><AiOutlineClose /></p>) : (<p style={{ color: "#16726F" }}><AiOutlineMenu /></p>)}
+                        </div>
                     </div>
                     {mobileVisible && (
                         <div className={styles.mobileMenu} style={{ zIndex: "999" }}>
