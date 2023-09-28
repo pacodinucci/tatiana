@@ -1,5 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import styles from '../styles/Talleres.module.css';
@@ -23,7 +25,9 @@ function Talleres() {
                 setMensaje('');
                 // setFormularioEnviado(true);
             })
+            toast.success("¡Mensaje enviado con éxito!")
             .catch((error) => {
+                toast.error("Error al mandar el mensaje.")
                 console.log(error.text);
             });
     };

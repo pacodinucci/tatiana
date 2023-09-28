@@ -238,9 +238,9 @@ const librosMock = [
             }
         ],
         disponible: {
-            papel: true,
-            ebook: true,
-            descarga: false
+            papel: false,
+            ebook: false,
+            descarga: true
         },
         link_papel_ES: 'https://editorialcomba.com/libros/narrativa/los-impecables/',
         link_ebook: 'https://www.bajalibros.com/AR/Ball-boy-Tatiana-Goransky-eBook-1714023'

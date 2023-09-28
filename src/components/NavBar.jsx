@@ -4,6 +4,7 @@ import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
 import tw from '../assets/twitterx.svg';
 import menu from '../assets/menu.svg';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 function NavBar() {
 
@@ -50,13 +51,33 @@ function NavBar() {
                         </div>
                     </div>
                     <div className={styles.hamburger} onClick={toggleMobileVisible}>
-                        <img src={menu} alt="" />
+                        {mobileVisible ? (<p style={{ color: "#FFF", zIndex: "1000" }}><AiOutlineClose /></p>) : (<p style={{ color: "#16726F" }}><AiOutlineMenu /></p>)}
                     </div>
                     {mobileVisible && (
-                        <div className={styles.mobileMenu}>
-                            <button onClick={toggleMobileVisible} className="cerrarMenuButton">
-                                X
-                            </button>
+                        <div className={styles.mobileMenu} style={{ zIndex: "999" }}>
+                            <ul className={styles.mobileOptions}>
+                                <li>
+                                    <a href="">BIO</a>
+                                </li>
+                                <li>
+                                    <a href="">LIBROS</a>
+                                </li>
+                                <li>
+                                    <a href="">OTRAS COSAS</a>
+                                    <ul className={styles.mobileCascade}>
+                                        <li><a href="/musica">Música</a></li>
+                                        <li><a href="/lecturas">Lecturas</a></li>
+                                        <li><a href="/fantasma">Fantasma</a></li>
+                                        <li><a href="/talleres">Talleres</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">PRENSA</a>
+                                </li>
+                                <li>
+                                    <a href="">CONTACTO</a>
+                                </li>
+                            </ul>
                         </div>
                     )}
                 </div>
