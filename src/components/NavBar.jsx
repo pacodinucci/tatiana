@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
@@ -6,6 +6,12 @@ import tw from '../assets/twitterx.svg';
 import menu from '../assets/menu.svg';
 
 function NavBar() {
+
+    const [mobileVisible, setMobileVisible] = useState(false);
+
+    const toggleMobileVisible = () => {
+        setMobileVisible(!mobileVisible)
+    }
 
     const handleClick = (event, target) => {
         event.preventDefault();
@@ -43,9 +49,14 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.hamburger}>
+                    <div className={styles.hamburger} onClick={toggleMobileVisible}>
                         <img src={menu} alt="" />
                     </div>
+                    {mobileVisible && (
+                        <div className={styles.mobileMenu}>
+                            <h1>ESTE ES EL MENU</h1>
+                        </div>
+                    )}
                 </div>
                 <div className={styles.menu_container}>
                     <ul className={styles.menu_horizontal}>
