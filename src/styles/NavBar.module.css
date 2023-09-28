@@ -174,6 +174,20 @@ nav {
     color: #fff;
 }
 
+.mobileOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    list-style: none;
+}
+
+.mobileOptions a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-size: 5vh;
+}
+
 .mobileCascade {
     display: none;
 }
