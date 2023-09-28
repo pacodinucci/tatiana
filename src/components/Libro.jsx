@@ -15,12 +15,14 @@ function Libro() {
 
   async function obtenerUbicacionPorIP() {
     try {
-      const response = await fetch('https://ip-api.com/json');
+
+
+      const response = await fetch('https://ipinfo.io?token=9e12f8f9c05d0d');
       const data = await response.json();
-      
-      // Extraer el código de país
-      const codigoPais = data.countryCode;
-      
+      const codigoPais = data.country; 
+      console.log(codigoPais);
+
+
       // Obtener el URL correspondiente al código de país
       let urlRedireccion = null;
       if (codigoPais === 'ES' || codigoPais === 'CL') {
@@ -36,17 +38,17 @@ function Libro() {
       } else {
         urlRedireccion = libro.link_papel_AR;
       }
-      
+
       // Verificar si se obtuvo un URL de redirección
       if (urlRedireccion) {
-        // Redirigir al URL correspondiente
-        window.open(urlRedireccion, '_blank');
-      }
+      // Redirigir al URL correspondiente
+      window.open(urlRedireccion, '_blank');
+        }
     } catch (error) {
       console.error('Error al obtener la ubicación por IP:', error);
     }
   }
-  
+
   useEffect(() => {
     const libroSeleccionado = librosMock.find((libro) => libro.id === parseInt(id));
     setLibro(libroSeleccionado);
