@@ -158,12 +158,20 @@ nav {
 }
 
 .mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1e605e;
+    z-index: 1000;
+}
+
+.mobileMenu button {
+    color: #fff;
 }
 
 @media (max-width: 721px) {

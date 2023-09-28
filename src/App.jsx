@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Home from './components/Home';
 import Libro from './components/Libro';
 import Musica from './components/Musica';
@@ -18,6 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/prensa' element={<Prensa/>} />

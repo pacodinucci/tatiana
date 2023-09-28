@@ -31,7 +31,7 @@ function NavBar() {
                 <div className={styles.menu}>
                     <div className={styles.menu_content}>
                         <div className={styles.name}>
-                            <h1 translate='no' style={{ marginBottom: '-2vh'}}>TATIANA</h1>
+                            <h1 translate='no' style={{ marginBottom: '-2vh' }}>TATIANA</h1>
                             <h1 translate='no'>GORANSKY</h1>
                         </div>
                         <div>
@@ -54,7 +54,9 @@ function NavBar() {
                     </div>
                     {mobileVisible && (
                         <div className={styles.mobileMenu}>
-                            <h1>ESTE ES EL MENU</h1>
+                            <button onClick={toggleMobileVisible} className="cerrarMenuButton">
+                                X
+                            </button>
                         </div>
                     )}
                 </div>
