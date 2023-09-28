@@ -36,7 +36,13 @@ function Libro() {
         console.log('Entro con AR')
         urlRedireccion = libro.link_papel_AR;
       } else {
-        urlRedireccion = libro.link_papel_AR;
+        if (libro.link_papel_AR) {
+          urlRedireccion = libro.link_papel_AR;
+        } else if (libro.link_papel_ES) {
+          urlRedireccion = libro.link_papel_ES;
+        } else if (libro.link_papel_MX) {
+          urlRedireccion = libro.link_papel_MX;
+        }
       }
 
       // Verificar si se obtuvo un URL de redirección
