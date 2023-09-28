@@ -3,6 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
 import tw from '../assets/twitterx.svg';
+import menu from '../assets/menu.svg';
 
 function NavBar() {
 
@@ -21,6 +22,31 @@ function NavBar() {
     return (
         <nav>
             <div className={styles.nav_container}>
+                <div className={styles.menu}>
+                    <div className={styles.menu_content}>
+                        <div className={styles.name}>
+                            <h1 translate='no' style={{ marginBottom: '-2vh'}}>TATIANA</h1>
+                            <h1 translate='no'>GORANSKY</h1>
+                        </div>
+                        <div>
+                            <div className={styles.social}>
+                                <li>
+                                    <a href="https://twitter.com/TatianaGoransky" target="_blank" rel="noopener noreferrer">
+                                        <img src={tw} alt="Twitter" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/tatianagoransky/" target="_blank" rel="noopener noreferrer">
+                                        <img src={ig} alt="Instagram" />
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.hamburger}>
+                        <img src={menu} alt="" />
+                    </div>
+                </div>
                 <div className={styles.menu_container}>
                     <ul className={styles.menu_horizontal}>
                         <li className={styles.menu_item}>
@@ -53,7 +79,7 @@ function NavBar() {
                     <div className={styles.social}>
                         <li>
                             <a href="https://twitter.com/TatianaGoransky" target="_blank" rel="noopener noreferrer">
-                                <img src={tw} alt="Twitter" style={{ width: "3vw"}} />
+                                <img src={tw} alt="Twitter" style={{ width: "3vw" }} />
                             </a>
                         </li>
                         <li>

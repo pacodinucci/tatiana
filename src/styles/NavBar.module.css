@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +16,7 @@
     src: url(../fonts/FivoSans-Regular.otf);
 }
 
-nav{
+nav {
     position: relative;
     width: 100%;
     height: 15vh;
@@ -24,7 +25,7 @@ nav{
     left: 0;
 }
 
-.nav_container{
+.nav_container {
     display: flex;
     justify-content: space-around;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -33,7 +34,7 @@ nav{
     align-items: center;
 }
 
-.menu_container{
+.menu_container {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -41,16 +42,16 @@ nav{
 }
 
 
-.menu_horizontal{
+.menu_horizontal {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     width: 60%;
     margin-left: 15vh;
 }
 
-.menu_horizontal a{
+.menu_horizontal a {
     text-decoration: none;
     font-family: 'Fira Code';
     font-size: 2.7vh;
@@ -58,7 +59,7 @@ nav{
     position: relative;
 }
 
-.menu_horizontal a::after{
+.menu_horizontal a::after {
     content: '';
     height: 2px;
     width: 100%;
@@ -73,39 +74,39 @@ nav{
 }
 
 .menu_horizontal a:hover::after,
-.menu_horizontal a:focus::after{
+.menu_horizontal a:focus::after {
     opacity: 1;
-    
+
 }
 
 .menu_vertical a:hover::after,
-.menu_vertical a:focus::after{
+.menu_vertical a:focus::after {
     opacity: 0;
 }
 
-.menu_item{
+.menu_item {
     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
     --cliph: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
 
-.menu_item:hover > .menu_vertical{
+.menu_item:hover>.menu_vertical {
     --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     --cliph: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.menu_vertical{
+.menu_vertical {
     transition: clip-path .3s;
     clip-path: var(--clip);
     position: absolute;
     list-style: none;
     width: 18%;
     padding: 15px;
-    background-color: rgba(255,255,255, .9);
+    background-color: rgba(255, 255, 255, .9);
     margin-left: -16px;
-    box-shadow: -1px -1px 5px -4px rgba(144,138,138,0.55) inset;
+    box-shadow: -1px -1px 5px -4px rgba(144, 138, 138, 0.55) inset;
 }
 
-.menu_vertical li{
+.menu_vertical li {
     padding: 2px;
 }
 
@@ -113,7 +114,7 @@ nav{
     color: #1e605e;
 }
 
-.social{
+.social {
     display: flex;
     list-style: none;
     justify-content: flex-end;
@@ -122,7 +123,7 @@ nav{
     /* border: 2px solid blue; */
 }
 
-.social img{
+.social img {
     width: 2.8vw;
     cursor: pointer;
     transition: .8s ease;
@@ -132,5 +133,72 @@ nav{
     transform: scale(1.1);
 }
 
+.menu_content {
+    display: none;
+}
 
+.name {
+    display: none;
+}
 
+.name h1 {
+    color: #16726F;
+    font-size: 3vh;
+    font-family: 'Noto Music';
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 3.75rem; */
+    /* padding: .5vh; */
+    margin-left: 5vw;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+}
+
+@media (max-width: 391px) {
+    .nav_container {
+        justify-content: space-between;
+    }
+
+    .menu_container {
+        display: none;
+    }
+
+    .menu_horizontal {
+        display: none;
+    }
+
+    .menu_content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5vw;
+    }
+
+    .social img {
+        width: 8vw;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        width: 8vw;
+        display: flex;
+        align-items: center;
+        margin-right: 5vw;
+    }
+}

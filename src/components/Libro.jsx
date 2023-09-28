@@ -26,15 +26,41 @@ function Libro() {
       // Obtener el URL correspondiente al código de país
       let urlRedireccion = null;
       if (codigoPais === 'ES' || codigoPais === 'CL') {
-        urlRedireccion = libro.link_papel_ES;
+        if(libro.link_papel_ES) {
+          urlRedireccion = libro.link_papel_ES;
+        } else if(libro.link_papel_AR) {
+          urlRedireccion = libro.link_papel_AR;
+        } else {
+          urlRedireccion = libro.link_papel_MX;
+        }
       } else if (codigoPais === 'MX') {
         console.log('entro con MX')
-        urlRedireccion = libro.link_papel_MX;
+        if(libro.link_papel_MX) {
+          urlRedireccion = libro.link_papel_MX;
+        } else if(libro.link_papel_AR) {
+          urlRedireccion = libro.link_papel_AR;
+        } else {
+          urlRedireccion = libro.link_papel_ES;
+        }
       } else if (codigoPais === 'US') {
-        urlRedireccion = libro.link_papel_US;
+        if(libro.link_papel_US) {
+          urlRedireccion = libro.link_papel_US;
+        } else if(libro.link_papel_MX) {
+          urlRedireccion = libro.link_papel_MX;
+        } else if(libro.link_papel_ES) {
+          urlRedireccion = libro.link_papel_ES;
+        } else {
+          urlRedireccion = libro.link_papel_AR;
+        }
       } else if (codigoPais === 'AR') {
         console.log('Entro con AR')
-        urlRedireccion = libro.link_papel_AR;
+        if(libro.link_papel_AR){
+          urlRedireccion = libro.link_papel_AR;
+        } else if(libro.link_papel_ES) {
+          urlRedireccion = libro.link_papel_ES;
+        } else {
+          urlRedireccion = libro.link_papel_MX;
+        }
       } else {
         if (libro.link_papel_AR) {
           urlRedireccion = libro.link_papel_AR;

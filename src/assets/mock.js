@@ -140,7 +140,7 @@ const librosMock = [
         ],
         disponible: {
             papel: true,
-            ebook: true,
+            ebook: false,
             descarga: false
         },
         nominada: 'Seleccionada por la CONABIP para ser distribuida en más de mil bibliotecas populares.',
@@ -195,7 +195,7 @@ const librosMock = [
         ],
         disponible: {
             papel: true,
-            ebook: true,
+            ebook: false,
             descarga: false
         },
         link_papel_AR: 'https://www.mediopanyunlibro.com.ar/productos/don-del-agua-tatiana-goransky-evaristo/',
@@ -238,11 +238,12 @@ const librosMock = [
             }
         ],
         disponible: {
-            papel: false,
-            ebook: false,
-            descarga: true
+            papel: true,
+            ebook: true,
+            descarga: false
         },
         link_papel_ES: 'https://editorialcomba.com/libros/narrativa/los-impecables/',
+        link_ebook: 'https://www.bajalibros.com/AR/Ball-boy-Tatiana-Goransky-eBook-1714023'
     },
     {
         id: 5,
@@ -324,6 +325,7 @@ const librosMock = [
         },
         link_papel_AR: 'https://www.galernaweb.com/productos/fade-out-tatiana-goransky/',
         link_papel_ES: 'https://editorialcomba.com/libros/narrativa/fade-out/',
+        link_ebook: 'https://play.google.com/store/info/name/Tatiana_Goransky?id=11mvwlgtx',
         spotify: true,
         nominada: 'Fade Out estuvo nominada a Mejor Novela Argentina del año 2016.'
     },
@@ -398,7 +400,8 @@ const librosMock = [
             descarga: false
         },
         link_papel_AR: 'https://editorialelateneo.com.ar/detalle-libro.php?id_lib=904&amp;libro=La%20mujer%20poco%20probable',
-        link_papel_ES: 'https://treshermanaslibros.com/libro/la-mujer-poco-probable/'
+        link_papel_ES: 'https://treshermanaslibros.com/libro/la-mujer-poco-probable/',
+        link_ebook: 'https://play.google.com/store/info/name/Tatiana_Goransky?id=11mvwlgtx'
     },
     {
         id: 7,
@@ -507,6 +510,7 @@ const librosMock = [
         },
         link_papel_AR: 'https://www.galernaweb.com/productos/quisiera-amarte-menos-tatiana-goransky/',
         link_papel_ES: 'https://www.casadellibro.com/libro-quisiera-amarte-menos/9788418065101/11580502',
+        link_ebook: 'https://play.google.com/store/info/name/Tatiana_Goransky?id=11mvwlgtx',
         english: true
     },
     {
@@ -536,7 +540,7 @@ const librosMock = [
         ],
         disponible: {
             papel: true,
-            ebook: true,
+            ebook: false,
             descarga: false
         },
         link_papel_AR: 'https://listado.mercadolibre.com.ar/libros-revistas-comics/libros-fisicos/libros-goransky_NoIndex_True',
@@ -588,9 +592,10 @@ const librosMock = [
         ],
         disponible: {
             papel: true,
-            ebook: true,
+            ebook: false,
             descarga: false
         },
+        link_papel_ES: 'https://editorialcomba.com/libros/narrativa/los-impecables/',
         prologo: true,
     }
 ]
