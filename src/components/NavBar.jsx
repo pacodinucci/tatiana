@@ -3,8 +3,8 @@ import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
 import tw from '../assets/twitterx.svg';
-import MobileNavigation from '../NavComponents/MobileNavigation';
-import Navigation from '../NavComponents/Navigation';
+import MobileNavigation from '../navComponents/MobileNavigation';
+import Navigation from '../navComponents/Navigation';
 
 function NavBar() {
 
