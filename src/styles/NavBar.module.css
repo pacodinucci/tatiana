@@ -199,7 +199,23 @@ nav {
 }
 
 .mobileCascade {
-    display: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+    margin-left: 8vw;
+    max-height: 0; /* Comienza con altura cero para ocultar la lista */
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+}
+
+.mobileCascade.active {
+    max-height: 200px; /* Cambia la altura máxima para mostrar la lista */
+}
+
+.mobileCascade a {
+    font-size: 3vh;
 }
 
 .mobileMenuOpen {

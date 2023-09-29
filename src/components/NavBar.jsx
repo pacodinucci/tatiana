@@ -3,21 +3,20 @@ import { HashLink } from 'react-router-hash-link';
 import styles from '../styles/NavBar.module.css';
 import ig from '../assets/igverde.svg';
 import tw from '../assets/twitterx.svg';
-import menu from '../assets/menu.svg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 function NavBar() {
 
     const [mobileVisible, setMobileVisible] = useState(false);
+    const [otrasCosasVisible, setOtrasCosasVisible] = useState(false);
 
     const toggleMobileVisible = () => {
         setMobileVisible(!mobileVisible)
+    }
 
-        if (!mobileVisible) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto';
-        }
+    const toggleOtrasCosasVisible = (e) => {
+        e.preventDefault()
+        setOtrasCosasVisible(!otrasCosasVisible);
     }
 
     const handleClick = (event, target) => {
@@ -31,11 +30,12 @@ function NavBar() {
         }
     };
 
+
     useEffect(() => {
         if (mobileVisible) {
-          document.body.classList.add('mobileMenuOpen');
+            document.body.classList.add('mobileMenuOpen');
         } else {
-          document.body.classList.remove('mobileMenuOpen');
+            document.body.classList.remove('mobileMenuOpen');
         }
     }, [mobileVisible]);
 
@@ -79,13 +79,15 @@ function NavBar() {
                                     <a href="">LIBROS</a>
                                 </li>
                                 <li>
-                                    <a href="">OTRAS COSAS</a>
-                                    <ul className={styles.mobileCascade}>
-                                        <li><a href="/musica">Música</a></li>
-                                        <li><a href="/lecturas">Lecturas</a></li>
-                                        <li><a href="/fantasma">Fantasma</a></li>
-                                        <li><a href="/talleres">Talleres</a></li>
-                                    </ul>
+                                    <a href="" onClick={toggleOtrasCosasVisible}>OTRAS COSAS</a>
+                                    {otrasCosasVisible ? (
+                                        <ul className={`${styles.mobileCascade} ${otrasCosasVisible ? styles.active : ''}`}>
+                                            <li><a href="/musica">MÚSICA</a></li>
+                                            <li><a href="/lecturas">LECTURAS</a></li>
+                                            <li><a href="/fantasma">FANTASMA</a></li>
+                                            <li><a href="/talleres">TALLERES</a></li>
+                                        </ul>
+                                    ) : null}
                                 </li>
                                 <li>
                                     <a href="">PRENSA</a>
