@@ -27,7 +27,7 @@ nav {
 
 .nav_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
@@ -38,7 +38,8 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 10vh;
+    align-items: center;
+    /* gap: 10vh; */
 }
 
 
@@ -76,7 +77,6 @@ nav {
 .menu_horizontal a:hover::after,
 .menu_horizontal a:focus::after {
     opacity: 1;
-
 }
 
 .menu_vertical a:hover::after,
@@ -120,6 +120,7 @@ nav {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+    margin-right: 8vw;
     /* border: 2px solid blue; */
 }
 
@@ -133,105 +134,19 @@ nav {
     transform: scale(1.1);
 }
 
-.menu_content {
+.mobileNavigation {
     display: none;
 }
 
-.name {
-    display: none;
-}
-
-.name h1 {
-    color: #16726F;
-    font-size: 3vh;
-    font-family: 'Noto Music';
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 3.75rem; */
-    /* padding: .5vh; */
-    margin-left: 5vw;
-}
-
-.menu {
-    display: none;
-    width: 100%;
-}
-
-.mobileMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+.navigation {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #1e605e;
-    z-index: 1000;
+    align-content: center;
 }
 
-.mobileMenu button {
-    color: #fff;
-}
+@media (max-width: 990px) {
 
-.hamburgerContainer {
-    position: relative;
-    width: 8vw;
-    display: flex;
-    align-items: center;
-    margin-right: 5vw;
-}
-
-
-
-.mobileOptions {
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    list-style: none;
-}
-
-.mobileOptions a {
-    color: #FFF;
-    text-decoration: none;
-    font-family: Fira Sans;
-    font-size: 5vh;
-}
-
-.mobileCascade {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1vh;
-    margin-left: 8vw;
-    max-height: 0; /* Comienza con altura cero para ocultar la lista */
-    overflow: hidden;
-    transition: max-height 0.2s ease;
-}
-
-.mobileCascade.active {
-    max-height: 200px; /* Cambia la altura máxima para mostrar la lista */
-}
-
-.mobileCascade a {
-    font-size: 3vh;
-}
-
-.mobileMenuOpen {
-    overflow: hidden;
-}
-
-@media (max-width: 721px) {
-    .nav_container {
-        justify-content: space-between;
-    }
-
-    .menu_container {
-        display: none;
-    }
-
-    .menu_horizontal {
+    .social {
         display: none;
     }
 
@@ -240,19 +155,30 @@ nav {
         flex-direction: column-reverse;
     }
 
-    .social {
+    .redes {
         display: flex;
         justify-content: flex-start;
+        gap: 2vw;
         margin-left: 5vw;
+        list-style: none;
     }
 
-    .social img {
+    .redes img {
         width: 8vw;
     }
 
-    .menu {
+    .navigation {
+        display: none;
+    }
+
+    .mobileNavigation {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobileNavigation .hamburger {
+        position: absolute;
+        right: 5%;
     }
 
     .name {
@@ -260,14 +186,41 @@ nav {
         flex-direction: column;
     }
 
-    .hamburger {
-        width: 8vw;
-        display: flex;
-        align-items: center;
-        margin-right: 5vw;
+    .name h1 {
+        color: #16726F;
+        font-size: 3vh;
+        font-family: 'Noto Music';
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 5vw;
     }
 
-    .hamburger p {
-        font-size: 4vh;
+    .menu_horizontal {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        position: absolute;
+        margin-left: 0;
+        top: 15vh;
+        width: 100%;
+        padding: 2vh 0;
+        background-color: #fff;
+        border-top: 3px solid #257A77;
+    }
+
+    .menu_horizontal a::after {
+        display: none;
+    }
+
+    .liColapsed {
+        align-self: center;
+    }
+
+    .colapsed {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
