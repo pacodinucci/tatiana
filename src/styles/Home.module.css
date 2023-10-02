@@ -416,6 +416,10 @@ input[type="submit"]:hover {
         transition: none;
     }
 
+    .biografia_content img {
+        width: 70vw;
+    }
+
     .textosBio {
         display: flex;
         flex-direction: column;
