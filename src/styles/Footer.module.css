@@ -42,3 +42,19 @@
     color: white;
     font-family: Fira Sans;
 }
+
+@media (max-width: 990px) {
+    .footer {
+        height: 50vh;
+    }
+
+    .social_footer {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .links {
+        margin-top: 2vh;
+        flex-direction: column;
+    }
+}
