@@ -86,12 +86,12 @@ nav {
 
 .menu_item {
     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
-    --cliph: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    /* --cliph: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */
 }
 
 .menu_item:hover>.menu_vertical {
     --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    --cliph: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    /* --cliph: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
 }
 
 .menu_vertical {
@@ -146,6 +146,10 @@ nav {
 
 @media (max-width: 990px) {
 
+    nav {
+        height: 25vh;
+    }
+
     .social {
         display: none;
     }
@@ -153,6 +157,8 @@ nav {
     .menu_content {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 80%;
     }
 
     .redes {
@@ -173,12 +179,13 @@ nav {
 
     .mobileNavigation {
         display: flex;
-        align-items: center;
+        align-items: end;
     }
 
     .mobileNavigation .hamburger {
         position: absolute;
         right: 5%;
+        margin-bottom: 2vh;
     }
 
     .name {
@@ -198,14 +205,17 @@ nav {
     .menu_horizontal {
         display: flex;
         flex-direction: column;
+        align-items: start;
         gap: 1vh;
         position: absolute;
         margin-left: 0;
+        margin-top: 10vh;
         top: 15vh;
         width: 100%;
-        padding: 2vh 0;
+        padding: 2vh 5vw;
         background-color: #fff;
-        border-top: 3px solid #257A77;
+        /* border-top: 3px solid #257A77; */
+        transform-origin: top;
     }
 
     .menu_horizontal a::after {
@@ -213,14 +223,31 @@ nav {
     }
 
     .liColapsed {
-        align-self: center;
+        align-self: start;
     }
 
     .colapsed {
         list-style: none;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: start;
+        padding-left: 5vw;
+        transform-origin: top;
+    }
+
+    /* En tus estilos CSS */
+    .mobileNavLinks {
+        --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+        /* Estado inicial */
+        clip-path: var(--clip);
+        /* Aplicar clip-path */
+        transition: clip-path 0.3s ease;
+        /* Agregar una transición suave */
+    }
+
+    .mobileNavigation.active .mobileNavLinks {
+        --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        /* Estado activo */
     }
 }
