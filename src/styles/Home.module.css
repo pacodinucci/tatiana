@@ -185,14 +185,9 @@ html {
 }
 
 .biografia_container {
-    /* min-height: 85vh; */
-    /* padding-top: 7.81rem; */
-    /* background: url('../assets/moodboard-final-celeste-2.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* overflow-x: hidden; */
-    /* overflow-y: visible; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +199,6 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
-    /* border: 2px solid red; */
     height: 50vh;
     width: auto;
 }
@@ -213,7 +207,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: 2px solid black; */
     height: 100%;
 }
 
@@ -378,5 +371,28 @@ input[type="submit"]:hover {
         background-size: 200%;
         background-position: 42% 100%;
         height: 75vh;
+    }
+
+    .libros {
+        height: 180vh;
+    }
+
+    .galeria_container {
+        gap: 4vh;
+        margin-top: 6vh;
+    }
+
+    .ultimos h2 {
+        font-size: 3vh;
+    }
+
+    .galeria {
+        flex-direction: column;
+        gap: 4vh;
+        margin-top: 2vh;
+    }
+
+    .vermasbtn { 
+        margin-top: 4vh;
     }
 }
