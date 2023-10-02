@@ -45,7 +45,7 @@
 
 @media (max-width: 990px) {
     .footer {
-        height: 50vh;
+        height: 70vh;
     }
 
     .social_footer {
@@ -56,5 +56,9 @@
     .links {
         margin-top: 2vh;
         flex-direction: column;
-    }
+    }   
+
+    .links li:nth-child(even) {
+        display: none; /* Ocultar elementos impares (los que contienen "|") */
+      }
 }
