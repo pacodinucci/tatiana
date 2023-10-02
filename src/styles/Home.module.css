@@ -427,9 +427,10 @@ input[type="submit"]:hover {
     }
 
     .textosBio p {
-        width: 70%;
+        width: 70vw;
         line-height: 3vh;
         font-size: 1.8vh;
+        white-space: normal;
     }
 
     .textosBio img {
