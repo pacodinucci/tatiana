@@ -185,7 +185,7 @@ nav {
     .mobileNavigation .hamburger {
         position: absolute;
         right: 5%;
-        margin-bottom: 2vh;
+        margin-bottom: 4vh;
     }
 
     .name {

@@ -363,6 +363,7 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 990px) {
+
     .name {
         display: none;
     }
@@ -370,7 +371,7 @@ input[type="submit"]:hover {
     .landing_container {
         background-size: 200%;
         background-position: 42% 100%;
-        height: 75vh;
+        height: 70vh;
     }
 
     .libros {
@@ -392,7 +393,56 @@ input[type="submit"]:hover {
         margin-top: 2vh;
     }
 
-    .vermasbtn { 
+    .vermasbtn {
         margin-top: 4vh;
     }
+
+    .bio_container {
+        height: 110vh;
+    }
+
+    .titulo_bio {
+        margin-bottom: 8vh;
+    }
+
+    .biografia_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biografia_content .slide-in-right,
+    .biografia_content .slide-in-left {
+        transform: none;
+        transition: none;
+    }
+
+    .textosBio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textosBio p {
+        width: 70%;
+        line-height: 3vh;
+        font-size: 1.8vh;
+    }
+
+    .textosBio img {
+        margin-right: 15vw;
+        width: 3vh;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .form input[type="text"],
+    .form input[type="email"],
+    .form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        /* Asegura que el ancho incluye el relleno y el borde */
+    }
+
 }
