@@ -6,6 +6,7 @@ import styles from '../styles/LeLectura.module.css';
 function LeLectura() {
   return (
     <>
+        
         <NavBar />
         <div className={styles.content}>
             <div className={styles.lecture}>

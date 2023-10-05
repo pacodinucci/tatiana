@@ -37,8 +37,20 @@ function Prensa() {
 
     return (
         <>
-            <NavBar />
+            <div className={styles.modal}>
+                <div className={styles.name}>
+                    <h1>TATIANA GORANSKY</h1>
+                </div>
+                <div className={styles.sign}>
+                    <h2>VERSIÓN MÓVIL EN DESARROLLO</h2>
+                    <h2>PUEDES ENTRAR DESDE UNA PC</h2>
+                </div>
+                <div className={styles.btnvolver}>
+                    <a href="/">VOLVER</a>
+                </div>
+            </div>
             <div className={styles.content}>
+                <NavBar />
                 <div className={styles.entrevista}>
                     <div className={styles.titulo}>
                         <h2>ENTREVISTA</h2>
@@ -106,8 +118,8 @@ function Prensa() {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
         </>
     )
 }

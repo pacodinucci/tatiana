@@ -7,8 +7,20 @@ import Footer from './Footer';
 function EnglishBio() {
   return (
     <>
-      <NavBar />
-      <section id="biografia">
+      <div className={styles.modal}>
+        <div className={styles.name}>
+          <h1>TATIANA GORANSKY</h1>
+        </div>
+        <div className={styles.sign}>
+          <h2>VERSIÓN MÓVIL EN DESARROLLO</h2>
+          <h2>PUEDES ENTRAR DESDE UNA PC</h2>
+        </div>
+        <div className={styles.btnvolver}>
+          <a href="/">VOLVER</a>
+        </div>
+      </div>
+      <section id="biografia" className={styles.biografia}>
+        <NavBar />
         <div className={styles.bio_container}>
           <div className={styles.titulo_bio}>
             <h2>THE AUTHOR</h2>
@@ -42,8 +54,8 @@ function EnglishBio() {
               </div>
             </div>
         </div>
-      </section>
       <Footer />
+      </section>
     </>
   )
 }

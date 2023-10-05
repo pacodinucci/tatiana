@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.detalles_container{
+.detalles_container {
     background: #F9F9F9;
     height: auto;
 }
 
-.detalles_content{
+.detalles_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.detalles_principal{
+.detalles_principal {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,21 +31,21 @@
     /* border: 2px solid blue; */
 }
 
-.detalles_principal .detalles_titulo{
+.detalles_principal .detalles_titulo {
     /* text-align: center; */
     /* line-height: normal; */
     /* margin-top: 3vh */
     /* border: 2px solid blue; */
 }
 
-.detalles_principal .detalles_titulo h2{
+.detalles_principal .detalles_titulo h2 {
     font-weight: 300;
     font-family: Fira Sans;
     font-size: 5.5vh;
     color: var(--primario-6, #257A77);
 }
 
-.detalles_principal .detalles_imagen{
+.detalles_principal .detalles_imagen {
     width: 40vw;
     padding-bottom: 4vh;
     display: flex;
@@ -58,9 +59,9 @@
 .detalles_principal .detalles_imagen img {
     width: 18vw;
     height: auto;
-    box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -webkit-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -moz-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
 }
 
 .detalles_principal .detalles_masdetres {
@@ -75,12 +76,12 @@
 .detalles_principal .detalles_masdetres img {
     width: 10vw;
     height: auto;
-    box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -webkit-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
-    -moz-box-shadow: 1px 5px 5px 0px rgba(109,104,104,0.75);
+    box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(109, 104, 104, 0.75);
 }
 
-.playlist{
+.playlist {
     height: 2vh;
     display: flex;
     flex-direction: column;
@@ -101,12 +102,12 @@
     text-decoration: none;
 }
 
-.playlist img{
+.playlist img {
     width: 2vw;
     height: auto;
 }
 
-.playlist p{
+.playlist p {
     width: 4vw;
     height: auto;
     font-family: Fira Sans;
@@ -118,7 +119,7 @@
     text-align: center;
 }
 
-.english{
+.english {
     display: flex;
     align-items: center;
     gap: 3vw;
@@ -151,7 +152,7 @@
     text-decoration: none;
 }
 
-.btnprologo{
+.btnprologo {
     background: var(--primario-principal-4, #F9F9F9);
     padding: .6vh 1.2vw;
     border: 1px solid #54CBC7;
@@ -161,7 +162,7 @@
     cursor: pointer;
 }
 
-.btnprologo a{
+.btnprologo a {
     text-decoration: none;
     color: #54CBC7;
     text-align: center;
@@ -180,21 +181,21 @@
     color: #FFF;
 }
 
-.detalles_resenas{
+.detalles_resenas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.detalles_resenas .detalles_textos{
+.detalles_resenas .detalles_textos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4vh;
 }
 
-.detalles_textos .resena{
+.detalles_textos .resena {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +203,7 @@
     width: 75vw;
 }
 
-.detalles_textos .resena p{
+.detalles_textos .resena p {
     color: #000;
     text-align: center;
     font-family: Fira Sans;
@@ -212,7 +213,7 @@
     line-height: normal;
 }
 
-.detalles_textos .resena h3{
+.detalles_textos .resena h3 {
     color: #000;
     text-align: center;
     font-family: Fira Sans;
@@ -221,7 +222,7 @@
     line-height: normal;
 }
 
-.sinopsis_container{
+.sinopsis_container {
     background: var(--primario-6, #4C9A97);
     margin-top: 12vh;
     width: 98.9vw;
@@ -229,7 +230,7 @@
     /* border: 2px solid blue; */
 }
 
-.sinopsis{
+.sinopsis {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -240,7 +241,7 @@
     /* border: 2px solid red; */
 }
 
-.sinopsis h2{
+.sinopsis h2 {
     font-family: Fira Sans;
     font-size: 5vh;
     font-style: normal;
@@ -248,7 +249,7 @@
     line-height: normal;
 }
 
-.sinopsis p{
+.sinopsis p {
     text-align: center;
     font-family: Fira Sans;
     font-size: 2.5vh;
@@ -259,14 +260,14 @@
     line-height: 1.2;
 }
 
-.sinopsis .nominada{
+.sinopsis .nominada {
     font-size: 3vh;
     display: flex;
     gap: 0.5vw;
     font-family: Fira Sans;
 }
 
-.sinopsis .nominada{
+.sinopsis .nominada {
     font-size: 3vh;
     display: flex;
     gap: 0.5vw;
@@ -274,14 +275,14 @@
     font-weight: 400;
 }
 
-.disponible{
+.disponible {
     display: flex;
     justify-content: center;
     gap: 8vh;
     margin-top: 10vh;
 }
 
-.disponible span{
+.disponible span {
     width: 8.5vw;
     height: 6vh;
     border: 1px solid #16726F;
@@ -294,7 +295,7 @@
     cursor: pointer;
 }
 
-.disponible p{
+.disponible p {
     width: 70%;
     color: var(--intermedio, #16726F);
     text-align: center;
@@ -325,14 +326,14 @@
     width: 2vw;
 }
 
-.nota{
+.nota {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
 }
 
-.links{
+.links {
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
@@ -340,7 +341,7 @@
     gap: 2vh;
 }
 
-.links h2{
+.links h2 {
     font-family: Fira Sans;
     font-size: 5vh;
     font-style: normal;
@@ -348,7 +349,7 @@
     line-height: normal;
 }
 
-.links_container{
+.links_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,7 +358,7 @@
     gap: 4vh;
 }
 
-.links a{
+.links a {
     font-family: Fira Sans;
     font-size: 3vh;
     font-style: normal;
@@ -369,13 +370,13 @@
 
 
 
-footer{
-    background-color:#5C5D66;
+footer {
+    background-color: #5C5D66;
     height: 18rem;
     padding: 7rem 0;
 }
 
-.footer_container{
+.footer_container {
     height: 100%;
     width: 100%;
     display: flex;
@@ -384,7 +385,7 @@ footer{
 
 }
 
-.social_footer{
+.social_footer {
     border-right: 2px solid #fff;
     padding-right: 40px;
     display: flex;
@@ -392,13 +393,77 @@ footer{
     width: 20%;
 }
 
-.social_footer img{
+.social_footer img {
     width: 3.3125rem;
 }
 
-.textos_footer{
+.textos_footer {
     padding-left: 40px;
     color: #fff;
     font-family: Laila;
     font-weight: 400;
+}
+
+.modal {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: #16726F;
+}
+
+
+
+@media (max-width: 990px) {
+
+    .detalles_container {
+        display: none;
+    }
+
+    .modal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;margin-top: 20vh;
+    }
+
+    .name h1 {
+        font-size: 3.6vh;
+        color: #fff;
+        font-family: Laila;
+        font-weight: 400;
+    }
+
+    .modal .sign {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25vh;
+    }
+
+    .modal .sign h2 {
+        font-family: Fira Sans;
+        font-weight: 300;
+        font-size: 3vh;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .btnvolver {
+        font-family: Fira Sans;
+        font-weight: 300;
+        font-size: 3vh;
+        color: #FFF;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .btnvolver a {
+        text-decoration: none;
+        color: #FFF;
+    }
 }

@@ -6,6 +6,7 @@ import styles from '../styles/PrologoImpecables.module.css';
 function PrologoImpecables() {
   return (
     <>
+        
         <NavBar />
         <div className={styles.content}>
             <div className={styles.prologo}>

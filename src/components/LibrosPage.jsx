@@ -14,32 +14,43 @@ import impecables from '../assets/libro5.png';
 import Footer from './Footer';
 
 function LibrosPage() {
-  return (
-    <>
-        <NavBar/>
-        <section>
-            <div className={styles.novelas}>
-                <div className={styles.titulo}>
-                    <h2>NOVELAS</h2>
+    return (
+        <>
+            <div className={styles.modal}>
+                <div className={styles.name}>
+                    <h1>TATIANA GORANSKY</h1>
                 </div>
-                <div className={styles.galeria_container}>
-                    <div className={styles.galeria}>
-                        <a href="/libros/7"><img src={libro7} alt="" /></a>
-                        <a href="/libros/6"><img src={libro6} alt="" /></a>
-                        <a href="/libros/5"><img src={libro5} alt="" /></a>
-                        <a href="/libros/3"><img src={libro4} alt="" /></a>
-                    </div>
-                    <div className={styles.galeria}>
-                        <a href="/libros/4"><img src={libro3} alt="" /></a>
-                        <a href="/libros/2"><img src={libro2} alt="" /></a>
-                        <a href="/libros/1"><img src={libro1} alt="" /></a>
-                    </div>
+                <div className={styles.sign}>
+                    <h2>VERSIÓN MÓVIL EN DESARROLLO</h2>
+                    <h2>PUEDES ENTRAR DESDE UNA PC</h2>
+                </div>
+                <div className={styles.btnvolver}>
+                    <a href="/">VOLVER</a>
                 </div>
             </div>
-        </section>
-        <section>
-            <div className={styles.novelas}>
-                
+            <section className={styles.libroshdp}>
+                <NavBar />
+                <div className={styles.novelas}>
+                    <div className={styles.titulo}>
+                        <h2>NOVELAS</h2>
+                    </div>
+                    <div className={styles.galeria_container}>
+                        <div className={styles.galeria}>
+                            <a href="/libros/7"><img src={libro7} alt="" /></a>
+                            <a href="/libros/6"><img src={libro6} alt="" /></a>
+                            <a href="/libros/5"><img src={libro5} alt="" /></a>
+                            <a href="/libros/3"><img src={libro4} alt="" /></a>
+                        </div>
+                        <div className={styles.galeria}>
+                            <a href="/libros/4"><img src={libro3} alt="" /></a>
+                            <a href="/libros/2"><img src={libro2} alt="" /></a>
+                            <a href="/libros/1"><img src={libro1} alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.novelas}>
+
                     <div className={styles.titulo}>
                         <h2>ANTOLOGÍAS</h2>
                     </div>
@@ -48,15 +59,14 @@ function LibrosPage() {
                             <a href="/libros/8"><img src={barcelona} alt="" /></a>
                             <a href="/libros/9"><img src={barbaros} alt="" /></a>
                         </div>
-                        <div className={styles.vermasbtn} style={{ padding: "1.1vh 1.2vw"}}>
+                        <div className={styles.vermasbtn} style={{ padding: "1.1vh 1.2vw" }}>
                             <a href="/otrasant">VER MÁS</a>
                         </div>
                     </div>
-                
-            </div>
-        </section>
-        <section style={{margin: '20vh 0'}}>
-            <div className={styles.novelas}>
+
+                </div>
+
+                <div className={styles.novelas} style={{ margin: '20vh 0' }}>
                     <div className={styles.titulo}>
                         <h2>OTROS</h2>
                     </div>
@@ -64,18 +74,18 @@ function LibrosPage() {
                         <div className={styles.galeria}>
                             <a href="/libros/10"><img src={impecables} alt="" /></a>
                         </div>
-                        <div className={styles.vermasbtn} style={{ padding: ".6vh 1.2vw"}}>
+                        <div className={styles.vermasbtn} style={{ padding: ".6vh 1.2vw" }}>
                             <a href="/prologoimp">
                                 <p>LEER</p>
                                 <p>PRÓLOGO</p>
                             </a>
                         </div>
                     </div>
-            </div>
-        </section>
-        <Footer />
-    </>
-  )
+                </div>
+                <Footer />
+            </section>
+        </>
+    )
 }
 
 export default LibrosPage

@@ -7,13 +7,23 @@ import Footer from "./Footer";
 function Lecturas() {
     return (
         <>
-            <NavBar />
-            <section>
+            <div className={styles.modal}>
+                <div className={styles.name}>
+                    <h1>TATIANA GORANSKY</h1>
+                </div>
+                <div className={styles.sign}>
+                    <h2>VERSIÓN MÓVIL EN DESARROLLO</h2>
+                    <h2>PUEDES ENTRAR DESDE UNA PC</h2>
+                </div>
+                <div className={styles.btnvolver}>
+                    <a href="/">VOLVER</a>
+                </div>
+            </div>
+            <section className={styles.lecturashdp}>
+                <NavBar />
                 <div className={styles.header}>
                     <h2>LECTURAS</h2>
                 </div>
-            </section>
-            <section>
                 <div className={styles.titulo_lecturas}>
                     <h2>Fade Out</h2>
                 </div>
@@ -25,8 +35,8 @@ function Lecturas() {
                         <h4>VER MÁS</h4>
                     </a>
                 </div>
+                <Footer />
             </section>
-            <Footer />
         </>
     )
 }

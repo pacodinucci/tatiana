@@ -25,7 +25,7 @@ function Talleres() {
                 setMensaje('');
                 // setFormularioEnviado(true);
             })
-            toast.success("¡Mensaje enviado con éxito!")
+        toast.success("¡Mensaje enviado con éxito!")
             .catch((error) => {
                 toast.error("Error al mandar el mensaje.")
                 console.log(error.text);
@@ -34,8 +34,20 @@ function Talleres() {
 
     return (
         <>
-            <NavBar />
+            <div className={styles.modal}>
+                <div className={styles.name}>
+                    <h1>TATIANA GORANSKY</h1>
+                </div>
+                <div className={styles.sign}>
+                    <h2>VERSIÓN MÓVIL EN DESARROLLO</h2>
+                    <h2>PUEDES ENTRAR DESDE UNA PC</h2>
+                </div>
+                <div className={styles.btnvolver}>
+                    <a href="/">VOLVER</a>
+                </div>
+            </div>
             <div className={styles.form_container}>
+                <NavBar />
                 <div className={styles.header}>
                     <h2>TALLERES Y CLÍNICA DE OBRA</h2>
                 </div>
@@ -50,8 +62,8 @@ function Talleres() {
                         <input className={styles.input} type="submit" value="Enviar" />
                     </form>
                 </div>
+                <Footer />
             </div>
-            <Footer />
         </>
     )
 }

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -430,12 +431,12 @@ input[type="submit"]:hover {
         width: 70vw;
         line-height: 3vh;
         font-size: 1.8vh;
-        white-space: normal;
+        text-align: center;
     }
 
     .textosBio img {
-        margin-right: 15vw;
         width: 3vh;
+        margin-top: 2vh;
     }
 
     form {

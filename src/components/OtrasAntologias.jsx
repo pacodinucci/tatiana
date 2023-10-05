@@ -10,6 +10,7 @@ import Footer from './Footer';
 function OtrasAntologias() {
   return (
     <>
+        
         <NavBar />
         <div>
             <div className={styles.titulo}>
