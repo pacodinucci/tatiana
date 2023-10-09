@@ -92,7 +92,7 @@ function Libro() {
 
   return (
     <>
-      <div className={styles.modal}>
+      {/* <div className={styles.modal}>
         <div className={styles.name}>
           <h1>TATIANA GORANSKY</h1>
         </div>
@@ -103,7 +103,7 @@ function Libro() {
         <div className={styles.btnvolver}>
           <a href="/">VOLVER</a>
         </div>
-      </div>
+      </div> */}
       <div className={styles.detalles_container}>
         <NavBar />
         <div className={styles.detalles_content}>

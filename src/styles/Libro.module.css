@@ -415,5 +415,28 @@ footer {
 
 @media (max-width: 990px) {
 
-   
+.english img {
+    border-radius: 40%;
+}
+
+.english span {
+    width: 18vw;
+    border-radius: 40%;
+}
+
+.detalles_principal {
+    gap: 4vh;
+    justify-content: flex-start;
+}
+
+.detalles_principal .detalles_imagen {
+    height: auto;
+    width: 90vw;
+}
+
+.detalles_principal .detalles_imagen img {
+    width: 45vw;
+    height: auto;
+}
+
 }
