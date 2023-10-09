@@ -47,7 +47,7 @@
     line-height: normal;
 }
 
-.form{
+.form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,43 +57,43 @@
     /* border: 2px solid red; */
 }
 
-.input{
+.input {
     background: transparent;
-    border: 2px solid  #16726F;
+    border: 2px solid #16726F;
     border-radius: 8px;
     color: #16726F;
     outline: none;
     padding: 20px 10px;
 }
 
-.input::placeholder{
+.input::placeholder {
     color: #16726F;
     font-family: 'Fira Sans';
 }
 
 input[type="text"],
-input[type="email"]{
+input[type="email"] {
     display: inline-block;
     width: 49%;
     margin-bottom: 30px;
 }
 
-.form textarea{
+.form textarea {
     width: 100%;
     margin-bottom: 15px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     width: 120px;
     text-align: center;
     padding: 14px 0;
     font-family: 'Fira Sans';
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     cursor: pointer;
     color: #fff;
-    background:#16726F;
+    background: #16726F;
 }
 
 .modal {
@@ -107,57 +107,24 @@ input[type="submit"]:hover{
 
 @media (max-width: 990px) {
 
-    .form_container {
-        display: none;
+    .header h2 {
+        width: 90%;
+        text-align: center;
     }
 
-    .modal {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .name {
-        display: flex;
-        justify-content: center;margin-top: 20vh;
-    }
-
-    .name h1 {
-        font-size: 3.6vh;
-        color: #fff;
-        font-family: Laila;
-        font-weight: 400;
-    }
-
-    .modal .sign {
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
+    .contacto {
         justify-content: center;
-        align-items: center;
-        margin-top: 25vh;
     }
 
-    .modal .sign h2 {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
+    form {
+        flex-direction: column;
     }
 
-    .btnvolver {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-        margin-top: 15vh;
-    }
-
-    .btnvolver a {
-        text-decoration: none;
-        color: #FFF;
+    .form input[type="text"],
+    .form input[type="email"],
+    .form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        /* Asegura que el ancho incluye el relleno y el borde */
     }
 }
-
-

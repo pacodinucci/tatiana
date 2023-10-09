@@ -34,7 +34,7 @@ function Talleres() {
 
     return (
         <>
-            <div className={styles.modal}>
+            {/* <div className={styles.modal}>
                 <div className={styles.name}>
                     <h1>TATIANA GORANSKY</h1>
                 </div>
@@ -45,9 +45,9 @@ function Talleres() {
                 <div className={styles.btnvolver}>
                     <a href="/">VOLVER</a>
                 </div>
-            </div>
+            </div> */}
+            <NavBar />
             <div className={styles.form_container}>
-                <NavBar />
                 <div className={styles.header}>
                     <h2>TALLERES Y CLÍNICA DE OBRA</h2>
                 </div>
@@ -62,8 +62,8 @@ function Talleres() {
                         <input className={styles.input} type="submit" value="Enviar" />
                     </form>
                 </div>
-                <Footer />
             </div>
+            <Footer />
         </>
     )
 }
