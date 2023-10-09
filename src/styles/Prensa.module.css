@@ -193,6 +193,11 @@
 
 @media (max-width: 990px) {
 
+    .video {
+        width: 90vw;
+        height: auto;
+    }
+
     .entrevistas {
         align-items: flex-start;
     }
