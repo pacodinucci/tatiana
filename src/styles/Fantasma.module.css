@@ -42,9 +42,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* position: sticky;
-    top: 0;
-    background-color: transparent; */
 }
 
 .header h4 {
@@ -160,58 +157,24 @@
 
 @media (max-width: 990px) {
 
-    .fantasmahdp {
-        display: none;
+    .header {
+        height: 200vh;
     }
 
-    .modal {
-        display: flex;
+    .header span {
+        width: 90%;
+    }
+
+    .header h4 {
         flex-direction: column;
-        position: fixed;
-        top: 0;
-        left: 0;
     }
 
-    .name {
-        display: flex;
-        justify-content: center;margin-top: 20vh;
+    .texto {
+        padding: 10vh 5vw;
     }
 
-    .name h1 {
-        font-size: 3.6vh;
-        color: #fff;
-        font-family: Laila;
-        font-weight: 400;
-    }
-
-    .modal .sign {
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        justify-content: center;
-        align-items: center;
-        margin-top: 25vh;
-    }
-
-    .modal .sign h2 {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-    }
-
-    .btnvolver {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-        margin-top: 15vh;
-    }
-
-    .btnvolver a {
-        text-decoration: none;
-        color: #FFF;
+    .video {
+        height: 60vh;
     }
 }
+
