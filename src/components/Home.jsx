@@ -21,23 +21,23 @@ function Home() {
   const [mensaje, setMensaje] = useState('');
 
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     emailjs.sendForm('service_n1cun6u', 'template_lns2nal', form.current, '-ab8SURfwZoUdHMj-')
-    .then((result) => {
-      console.log(result.text);
-      setNombre('');
-      setEmail('');
-      setMensaje('');
-      // setFormularioEnviado(true);
-    })
+      .then((result) => {
+        console.log(result.text);
+        setNombre('');
+        setEmail('');
+        setMensaje('');
+        // setFormularioEnviado(true);
+      })
     toast.success("¡Mensaje enviado con éxito!")
-    .catch((error) => {
-      toast.error("Error al mandar el mensaje.")
-      console.log(error.text);
-    });
+      .catch((error) => {
+        toast.error("Error al mandar el mensaje.")
+        console.log(error.text);
+      });
   };
 
   const [elementoRef, isIntersecting] = useIntersection({
@@ -92,9 +92,12 @@ function Home() {
               <img src={imagenBio} alt="" ref={elementoRef} className={`${styles["slide-in-right"]} ${isIntersecting ? styles.active : ''}`} />
               {/* <h2>BIOGRAFÍA</h2> */}
               <div ref={elementoRef2} className={`${styles.textosBio} ${styles["slide-in-left"]} ${isIntersecting ? styles.active : ''}`} >
-                <p>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera amarte <br /> menos (2020) y La mujer poco probable (2021).<br />
+                <p className={styles.textopc}>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante <br /> de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de <br /> jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera amarte <br /> menos (2020) y La mujer poco probable (2021).<br />
                   En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a <br /> 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la <br /> antología Barcelona/ Buenos Aires, Once Mil kilómetros, un puente entre ambas <br /> ciudades.<br />
                   Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, <br /> Uruguay, España y los Estados Unidos.</p>
+                <p className={styles.textomobile}>Tatiana Goransky nació en Buenos Aires en 1977, es escritora, dramaturga y cantante de jazz. Autora de las novelas Lulúpe María T (2005), ¿Quién mató a la cantante de jazz? (2008), Don del agua (2010), Ball boy (2013), Fade Out (2016), Quisiera amarte menos (2020) y La mujer poco probable (2021).<br />
+                  En 2018 editó un número doble de la revista neoyorquina Los Bárbaros, que reúne a 43 autores de ocho países diferentes. En 2019, en Argentina y España, compiló la antología Barcelona/ Buenos Aires, Once Mil kilómetros, un puente entre ambas ciudades.<br />
+                  Su trabajo ha sido publicado en Argentina, Chile, México, Bolivia, Ecuador, Alemania, Uruguay, España y los Estados Unidos.</p>
                 <a href="/english"><img src={bandera} alt="" /></a>
               </div>
             </div>
@@ -107,8 +110,8 @@ function Home() {
             <h2>CONTACTO</h2>
           </div>
           <form action="" className={styles.form} ref={form} onSubmit={sendEmail}>
-            <input className={styles.input} type="text" name="user_name" id="" placeholder="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
-            <input className={styles.input} type="email" name="user_email" id="" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+            <input className={styles.input} type="text" name="user_name" id="" placeholder="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} />
+            <input className={styles.input} type="email" name="user_email" id="" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <textarea className={styles.input} name="message" id="" cols="30" rows="10" placeholder="Mensaje" value={mensaje} onChange={(e) => setMensaje(e.target.value)} ></textarea>
             <input className={styles.input} type="submit" value="Enviar" />
           </form>

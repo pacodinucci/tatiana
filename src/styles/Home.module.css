@@ -226,7 +226,7 @@ html {
     height: 100%;
 }
 
-.textosBio p {
+.textosBio .textopc {
     display: flex;
     /* width: 38vw; */
     height: auto;
@@ -363,6 +363,10 @@ input[type="submit"]:hover {
     opacity: 1;
 }
 
+.textomobile {
+    display: none;
+}
+
 @media (max-width: 990px) {
 
     .name {
@@ -427,11 +431,19 @@ input[type="submit"]:hover {
         align-items: center;
     }
 
-    .textosBio p {
+    .textosBio .textopc {
+        display: none;
+    }
+
+    .textosBio .textomobile {
+        display: flex;
         width: 70vw;
+        max-width: 100%;
         line-height: 3vh;
         font-size: 1.8vh;
-        text-align: center;
+        color: var(--neutro-7, #1f1f1f);
+        font-family: fira sans;
+        font-weight: 400;
     }
 
     .textosBio img {
