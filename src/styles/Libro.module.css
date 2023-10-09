@@ -425,6 +425,7 @@ footer {
 }
 
 .detalles_principal {
+    height: 60vh;
     gap: 4vh;
     justify-content: flex-start;
 }
