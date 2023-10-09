@@ -463,6 +463,10 @@ footer {
     gap: 2vh;
 }
 
+.sinopsis { 
+    width: 80vw;
+}
+
 .disponible span {
     width: 30vw;
 }
