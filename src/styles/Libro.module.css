@@ -454,6 +454,14 @@ footer {
     height: auto;
 }
 
+.playlist img {
+    width: 5vw;
+}
+
+.playlist p {
+    width: 25vw;
+}
+
 .nota img {
     width: 80vw;
     height: auto;
