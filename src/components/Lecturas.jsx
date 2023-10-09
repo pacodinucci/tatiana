@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function Lecturas() {
     return (
         <>
-            <div className={styles.modal}>
+            {/* <div className={styles.modal}>
                 <div className={styles.name}>
                     <h1>TATIANA GORANSKY</h1>
                 </div>
@@ -18,7 +18,7 @@ function Lecturas() {
                 <div className={styles.btnvolver}>
                     <a href="/">VOLVER</a>
                 </div>
-            </div>
+            </div> */}
             <section className={styles.lecturashdp}>
                 <NavBar />
                 <div className={styles.header}>
