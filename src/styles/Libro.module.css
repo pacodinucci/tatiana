@@ -415,6 +415,10 @@ footer {
 
 @media (max-width: 990px) {
 
+.english {
+    width: 90vw;
+}
+
 .english img {
     border-radius: 40%;
 }
@@ -426,8 +430,18 @@ footer {
 
 .detalles_principal {
     height: 60vh;
+    width: 90vw;
     gap: 4vh;
     justify-content: flex-start;
+}
+
+.detalles_principal .detalles_titulo {
+    width: 70vw;
+    align-self: flex-start;
+}
+
+.detalles_principal .detalles_titulo h2 {
+    font-size: 5vh;
 }
 
 .detalles_principal .detalles_imagen {
@@ -443,6 +457,18 @@ footer {
 .nota img {
     width: 80vw;
     height: auto;
+}
+
+.resena {
+    gap: 2vh;
+}
+
+.disponible span {
+    width: 30vw;
+}
+
+.links h2 {
+    font-size: 4vh;
 }
 
 }
