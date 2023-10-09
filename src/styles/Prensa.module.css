@@ -193,56 +193,37 @@
 
 @media (max-width: 990px) {
 
-    .content {
-        display: none;
+    .entrevistas {
+        align-items: flex-start;
     }
 
-    .modal {
-        display: flex;
+    .galeria .primera {
         flex-direction: column;
-    }
-
-    .name {
-        display: flex;
-        justify-content: center;margin-top: 20vh;
-    }
-
-    .name h1 {
-        font-size: 3.6vh;
-        color: #fff;
-        font-family: Laila;
-        font-weight: 400;
-    }
-
-    .modal .sign {
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        justify-content: center;
+        margin: 0 auto;
         align-items: center;
-        margin-top: 25vh;
     }
 
-    .modal .sign h2 {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
+    .slide-in-left,
+    .slide-in-right,
+    .slide-in-top,
+    .slide-in-bottom {
+        transform: none;
+        transition: none;
     }
 
-    .btnvolver {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-        margin-top: 15vh;
+    .galeria .primera .primeramedio img {
+        width: 60vw;
+        height: auto;
     }
 
-    .btnvolver a {
-        text-decoration: none;
-        color: #FFF;
+    .segunda {
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .segunda img {
+        width: 60vw;
+        height: auto;
     }
 }
 
