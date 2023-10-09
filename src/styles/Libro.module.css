@@ -454,6 +454,10 @@ footer {
     height: auto;
 }
 
+.playlist {
+    margin-top: 0;
+}
+
 .playlist img {
     width: 5vw;
 }
