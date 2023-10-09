@@ -56,7 +56,7 @@ function Prensa() {
                         <h2>ENTREVISTA</h2>
                     </div>
                     <div className={styles.video} style={{ marginBottom: "-10vh", marginTop: "-10vh" }}>
-                        <iframe width="90vw" height="450" src="https://www.youtube.com/embed/0IFLkbQFUKg?si=PsxxsZsEwKevmkKB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
+                        <iframe src="https://www.youtube.com/embed/0IFLkbQFUKg?si=PsxxsZsEwKevmkKB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
                         {/* <a className={styles.btn}>
                         <img src={yt} alt="" />
                         <h4>VER MÁS</h4>
