@@ -21,3 +21,17 @@
     letter-spacing: .03vw;
 }
 
+@media (max-width: 990px) {
+    .prologo {
+        padding: 15vh 5vw;
+    }
+
+    .titulo p {
+        font-size: xx-large;
+    }
+
+    .texto p {
+        font-size: x-large;
+    }
+}
+
