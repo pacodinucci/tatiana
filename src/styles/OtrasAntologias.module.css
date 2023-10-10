@@ -48,3 +48,24 @@
     font-family: Fira Sans;
 }
 
+@media (max-width: 990px) {
+    .content {
+        height: 190vh;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        gap: 6vh;
+    }
+
+    .antologia img {
+        width: 45vw;
+        height: auto;
+    }
+
+    .antologia p {
+        font-size: x-large;
+    }
+}
+
