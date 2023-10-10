@@ -154,3 +154,53 @@
     background-color: #16726F;
     color: #FFF;
 }
+
+@media (max-width: 990px) {
+
+
+    .principal .title {
+        align-self: flex-start;
+        margin-left: 5vw;
+        width: 50%;
+    }
+
+    .principal .images {
+        width: 100vw;
+        margin-top: 0;
+    }
+
+    .principal .images img {
+        width: 45vw;
+        height: auto;
+    }
+
+    .press a {
+        width: 80%;
+    }
+
+    .reviews {
+        width: 90%;
+    }
+
+    .review {
+        gap: 1vh;
+    }
+    
+    .review p {
+        font-size: 2vh;
+    }
+
+    .review h4 {
+        font-size: 2vh;
+    }
+
+    .synopsis {
+        width: 90%;
+    }
+
+    .btncont span {
+        font-size: 2vh;
+        width: 20vw;
+        height: 5vh;
+    }
+}
