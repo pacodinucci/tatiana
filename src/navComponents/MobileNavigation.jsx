@@ -19,8 +19,10 @@ const MobileNavigation = () => {
         <nav className={styles.mobileNavigation}>
             <div className={styles.menu_content}>
                 <div className={styles.name}>
-                    <h1 translate='no' style={{ marginBottom: '-2vh' }}>TATIANA</h1>
-                    <h1 translate='no'>GORANSKY</h1>
+                    <a href="/">
+                        <h1 translate='no' style={{ marginBottom: '-2vh' }}>TATIANA</h1>
+                        <h1 translate='no'>GORANSKY</h1>
+                    </a>
                 </div>
                 <div>
                     <div className={styles.redes}>

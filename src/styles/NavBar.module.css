@@ -193,6 +193,10 @@ nav {
         flex-direction: column;
     }
 
+    .name a {
+        text-decoration: none;
+    }
+
     .name h1 {
         color: #16726F;
         font-size: 3vh;
