@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,7 +29,7 @@
     background: var(--primario-principal-5, #34ABA7);
 }
 
-.titulo h2{
+.titulo h2 {
     color: #FFF;
     font-size: 3vh;
     font-family: Fira Sans;
@@ -90,55 +90,17 @@
 
 @media (max-width: 990px) {
 
-    .musicahdp {
-        display: none;
+    .titulo {
+        width: 85%;
+        margin-top: 4vh;
     }
 
-    .modal {
-        display: flex;
-        flex-direction: column;
+    .titulo h2 {
+        font-size: 2.5vh;
+        margin-left: 1vw;
     }
 
-    .name {
-        display: flex;
-        justify-content: center;margin-top: 20vh;
-    }
-
-    .name h1 {
-        font-size: 3.6vh;
-        color: #fff;
-        font-family: Laila;
-        font-weight: 400;
-    }
-
-    .modal .sign {
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        justify-content: center;
-        align-items: center;
-        margin-top: 25vh;
-    }
-
-    .modal .sign h2 {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-    }
-
-    .btnvolver {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-        margin-top: 15vh;
-    }
-
-    .btnvolver a {
-        text-decoration: none;
-        color: #FFF;
+    .video {
+        height: 75vh;
     }
 }
