@@ -32,7 +32,7 @@ function Musica() {
                     </div>
                     <div className={styles.video}>
                         {/* <h3 className={styles.titulovideo}>The man I love, Tatiana Goransky</h3> */}
-                        <iframe width="800" height="450" src="https://www.youtube.com/embed/C1X-4o4TQ1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
+                        <iframe src="https://www.youtube.com/embed/C1X-4o4TQ1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className={styles.reproductor}></iframe>
                         <a className={styles.btn} href="https://www.youtube.com/@tatianagoransky" target="_blank">
                             <img src={yt} alt="" />
                             <h4>VER MÁS</h4>

@@ -61,6 +61,8 @@
 
 .reproductor {
     border-radius: 24px;
+    width: 800px;
+    height: 450px;
 }
 
 .btn {
@@ -102,5 +104,11 @@
 
     .video {
         height: 75vh;
+        width: 90vw;
+    }
+
+    .reproductor {
+        width: 90vw;
+        height: 30vh;
     }
 }
