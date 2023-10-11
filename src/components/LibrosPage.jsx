@@ -70,7 +70,7 @@ function LibrosPage() {
                     <div className={styles.titulo}>
                         <h2>OTROS</h2>
                     </div>
-                    <div className={styles.galeria_container_b}>
+                    <div className={styles.galeria_container_c}>
                         <div className={styles.galeria}>
                             <a href="/libros/10"><img src={impecables} alt="" /></a>
                         </div>

@@ -36,6 +36,16 @@
     margin-top: 10vh;
 }
 
+.galeria_container_c{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
 .galeria{
     display: flex;
     gap: 2rem;
@@ -104,6 +114,7 @@
 
     .galeria_container_b {
         height: 100vh;
+        margin-top: 22vh;
     }
 
     .vermasbtn a {
