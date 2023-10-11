@@ -1,8 +1,8 @@
-.bio_container{
+.bio_container {
     height: 150vh;
 }
 
-.titulo_bio{
+.titulo_bio {
     display: flex;
     height: 15vh;
     padding: 4.875rem 0rem 4.8125rem 0rem;
@@ -12,7 +12,7 @@
     background: var(--primario-principal-5, #34ABA7);
 }
 
-.titulo_bio h2{
+.titulo_bio h2 {
     color: #FFF;
     font-size: 2.44125rem;
     font-family: Fira Sans;
@@ -21,14 +21,14 @@
     line-height: normal;
 }
 
-.biografia_content{
+.biografia_content {
     display: flex;
     justify-content: center;
     margin-top: 16vh;
     gap: 2.31rem;
 }
 
-.biografia_content img{
+.biografia_content img {
     width: 23.75rem;
     height: 24.0625rem;
     /* height: 50%; */
@@ -45,7 +45,7 @@
     line-height: 2.1875rem; 
 } */
 
-.biografia_content p{
+.biografia_content .textopc {
     display: inline;
     /* width: 38vw; */
     height: auto;
@@ -58,13 +58,13 @@
     font-size: 2vh;
     font-family: Fira Sans;
     font-style: normal;
-    font-weight: 400;   
+    font-weight: 400;
     line-height: 4.5vh;
     justify-content: center;
     /* border: 2px solid yellow; */
 }
 
-.footer{
+/* .footer{
     background-color:#212121;
     height: 18rem;
     padding: 7rem 0;
@@ -97,7 +97,7 @@
     color: #fff;
     font-family: Laila;
     font-weight: 400;
-}
+} */
 
 .modal {
     display: none;
@@ -106,63 +106,49 @@
     background-color: #16726F;
 }
 
+.textomobile {
+    display: none;
+}
+
 
 
 @media (max-width: 990px) {
 
-    .biografia {
-        display: none;
-    }
-
-    .detalles_container {
-        display: none;
-    }
-
-    .modal {
-        display: flex;
+    .biografia_content {
         flex-direction: column;
-    }
-
-    .name {
-        display: flex;
-        justify-content: center;margin-top: 20vh;
-    }
-
-    .name h1 {
-        font-size: 3.6vh;
-        color: #fff;
-        font-family: Laila;
-        font-weight: 400;
-    }
-
-    .modal .sign {
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        justify-content: center;
         align-items: center;
-        margin-top: 25vh;
+        margin-top: 4vh;
     }
 
-    .modal .sign h2 {
+    .biografia_content img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .biografia_content .textopc {
+        display: none;
+    }
+
+    .biografia_content .textomobile {
+        display: inline;
+        /* width: 38vw; */
+        height: auto;
+        /* max-height: 100vh; */
+        flex-direction: column;
+        flex-shrink: 0;
+        /* overflow: auto; */
+        color: var(--neutro-7, #1f1f1f);
+        /* text-overflow: ellipsis; */
+        font-size: 2vh;
         font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 4.5vh;
+        justify-content: center;
     }
 
-    .btnvolver {
-        font-family: Fira Sans;
-        font-weight: 300;
-        font-size: 3vh;
-        color: #FFF;
-        text-align: center;
-        margin-top: 15vh;
-    }
-
-    .btnvolver a {
-        text-decoration: none;
-        color: #FFF;
+    .biografia_content .textosBio {
+        width: 90vw;
+        margin-bottom: 12vh;
     }
 }
