@@ -496,6 +496,10 @@ footer {
     width: 30vw;
 }
 
+.disponible .download {
+    height: 10vh;
+}
+
 .links h2 {
     font-size: 4vh;
 }

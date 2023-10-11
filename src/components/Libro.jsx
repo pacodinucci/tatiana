@@ -171,7 +171,7 @@ function Libro() {
               <div className={styles.disponible}>
                 {libro.disponible.papel ? (<span onClick={obtenerUbicacionPorIP}><p>DISPONIBLE EN PAPEL</p></span>) : null}
                 {libro.disponible.ebook ? (<a href={libro.link_ebook} target="_blank" rel="noopener noreferrer"><span><p>DISPONIBLE EN E-BOOK</p></span></a>) : null}
-                {libro.disponible.descarga ? (<a href="/ballboy.pdf" target="_blank" rel="noopener noreferrer"><span><p>DESCARGAR LIBRO GRATIS</p></span></a>) : null}
+                {libro.disponible.descarga ? (<a href="/ballboy.pdf" target="_blank" rel="noopener noreferrer"><span className={styles.download}><p>DESCARGAR LIBRO GRATIS</p></span></a>) : null}
               </div>
             ) : null}
             {libro.nota ? (
